@@ -1,2 +1,1 @@
-# SiYuan-User-Guide-zh_CN
-# SiYuan-User-Guide-zh_CN
+# 思源笔记用户指南
