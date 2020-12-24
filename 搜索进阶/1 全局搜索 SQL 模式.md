@@ -29,7 +29,6 @@ SELECT * FROM blocks WHERE content LIKE '%内容块%'
 ## 默认查询条件
 {: id="20201224120447-lezmdb3"}
 
-* {: id="20201224120447-9zi5d3s"}如果不指定 `type` 列，则默认会加上 `type = p`，即只查询段落块
 * {: id="20201224120447-u4tbyb3"}如果不指定 `LIMIT`，则最多只返回前 32 条结果
 {: id="20201224120447-ij3ivd5"}
 
