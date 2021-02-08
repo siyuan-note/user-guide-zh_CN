@@ -1,9 +1,6 @@
 在服务器上伺服思源笔记最简单的方案是通过 Docker 部署，镜像名称是 `b3log/siyuan`，目前没有版本标签，只有最新版。
 {: id="20201227173504-opkavin"}
 
-搭建若遇到问题请到[思源笔记 Issues](https://github.com/siyuan-note/siyuan/issues) 上反馈，谢谢。
-{: id="20201227200109-1swwwt1"}
-
 ## 文件结构
 {: id="20201227174700-39dg7ur"}
 
