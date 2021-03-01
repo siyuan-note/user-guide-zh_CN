@@ -20,23 +20,22 @@
 ## 启动入口
 {: id="20201227174908-s19h988"}
 
-构建 Docker 镜像时已经设置了入口：`ENTRYPOINT [ "/opt/siyuan/kernel" ]`，所以使用 `docker run b3log/siyuan` 即可启动，但这样是不能正常使用的，还需要设置一些参数，具体请参考((20201225172241-ifgc4hm "这里"))。
-{: id="20201227180709-rglrztt"}
+构建 Docker 镜像时设置了入口：`ENTRYPOINT [ "/opt/siyuan/kernel" ]`，使用 `docker run b3log/siyuan` 并带参即可启动：
+{: id="20201227180709-rglrztt" updated="20210301202239"}
 
-必传的参数有：
-{: id="20201227181257-ewvzfu0"}
-
-* {: id="20201227201514-c7brkss"}`--conf` 指定配置文件夹路径，配置文件夹在宿主机上通过 `-v` 挂载到到容器中
-  {: id="20210208145140-7f45i9c"}
+* {: id="20201227201514-c7brkss"}`--conf` 指定配置文件夹路径，配置文件夹在宿主机上通过 `-v` 挂载到容器中
+  {: id="20210208145140-7f45i9c" updated="20210301202448"}
+* {: id="20210301202244-4sel9pe"}`--data` 指定数据文件夹路径，数据文件夹在宿主机上通过 `-v` 挂载到容器中
+  {: id="20210301202244-umqom3o" updated="20210301202457"}
 * {: id="20201227201521-fs7hlwf"}`--resident` 指定为 true 常驻内存
   {: id="20210208145140-tgabyhf"}
 {: id="20201227201453-yh75kqd"}
 
-下面是一条启动命令示例：
-{: id="20201227181436-2o8ssj3"}
+更多的参数可参考((20201225172241-ifgc4hm "这里"))。下面是一条启动命令示例：
+{: id="20210301201353-sffb1m7" updated="20210301202520"}
 
-`docker run -v conf_dir_host:conf_dir_container -v data_dir_host:data_dir_container -p 6806:6806 b3log/siyuan --resident=true --conf=conf_dir_container`
-{: id="20201227181459-iml8ebp"}
+`docker run -v conf_dir_host:conf_dir_container -v data_dir_host:data_dir_container -p 6806:6806 b3log/siyuan --resident=true --conf=conf_dir_container --data=data_dir_container`
+{: id="20201227181459-iml8ebp" updated="20210301202408"}
 
 * {: id="20201227193950-dp2hioi"}`conf_dir_host`：宿主机上的配置文件夹路径
   {: id="20210208145140-w9i02jr"}
@@ -45,9 +44,7 @@
 * {: id="20201227194227-k2r2xan"}`data_dir_host`：宿主机数据文件夹路径
   {: id="20210208145140-eyz02oy"}
 * {: id="20201227194257-5idyo8v"}`data_dir_container`：容器内数据文件夹路径
-  {: id="20210208145140-p17fze7"}
-* {: id="20201227194126-ys9bhgh"}配置文件 conf.json 内 box path 字段需要在 `data_dir_container` 路径下
-  {: id="20210208145140-6wezfs3"}
+  {: id="20210208145140-p17fze7" updated="20210301202534"}
 {: id="20201227174657-0k1ruhd"}
 
 为了简化，建议将 conf、data 文件夹路径在宿主机和容器上分别配置为一致的，比如：
@@ -62,26 +59,8 @@
 对应的启动命令示例：
 {: id="20201227194830-86gbz55"}
 
-`docker run -v /siyuan/conf:/siyuan/conf -v /siyuan/data:/siyuan/data -p 6806:6806 b3log/siyuan --resident=true --conf=/siyuan/conf`
-{: id="20201227194658-m3auzob"}
-
-对应的 conf.json 中 box 配置示例：
-{: id="20201227194736-2jetrvt"}
-
-```json
-{
-   "url": "http://127.0.0.1:6806/siyuan/siyuan/思源笔记用户指南/",
-   "name": "思源笔记用户指南",
-   "auth": "",
-   "user": "",
-   "password": "",
-   "path": "/siyuan/data/思源笔记用户指南"
-}
-```
-{: id="20201227194842-2bfxv59"}
-
-除了手动准备 conf.json，也可以通过调用内核 API 来打开/关闭文件夹。
-{: id="20201227195523-uipfd0v"}
+`docker run -v /siyuan/conf:/siyuan/conf -v /siyuan/data:/siyuan/data -p 6806:6806 b3log/siyuan --resident=true --conf=/siyuan/conf/ --data=/siyuan/data/`
+{: id="20201227194658-m3auzob" updated="20210301202637"}
 
 ## 内核 API
 {: id="20201227194925-7ipoiv6"}
