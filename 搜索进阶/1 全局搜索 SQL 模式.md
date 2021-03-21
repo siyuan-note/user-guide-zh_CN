@@ -16,13 +16,14 @@
 |      memo | 内容块备注                                   |
 |   content | 去除了 Markdown 标记符的文本                 |
 |  markdown | 包含完整 Markdown 标记符的文本               |
+|    length | Markdown 文本长度                            |
 |      type | 内容块类型，参考((20210210103523-ombf290 "这里"))   |
 |   subtype | 内容块子类型，参考((20210210103411-tcbcjja "这里")) |
 |       ial | 内联属性列表，形如 `{: name="value"}`        |
 |      sort | 排序用，数值越小排序越靠前                   |
 |   created | 创建时间                                     |
 |   updated | 更新时间                                     |
-{: id="20201224120447-cs6ur9x"}
+{: id="20201224120447-cs6ur9x" updated="20210321225614"}
 
 ## 默认值
 {: id="20201224120447-lezmdb3"}
