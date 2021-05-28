@@ -1,0 +1,490 @@
+{
+	"ID": "20200813125307-pxsjela",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20200813125307-pxsjela",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20201229120428-dgzkno8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20201229120428-dgzkno8"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "导入"
+				}
+			]
+		},
+		{
+			"ID": "20210120161018-1mdw4fy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210120161018-1mdw4fy"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在文档树上选择文件夹后右键选择“导入”，二级菜单可选择导入文件夹或者导入单个文件。"
+				}
+			]
+		},
+		{
+			"ID": "20210120153405-vzgduc3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210120153405-vzgduc3",
+				"updated": "20210302223616"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "导入过程主要完成如下转换处理："
+				}
+			]
+		},
+		{
+			"ID": "20210120153519-rld70zm",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20210120153519-rld70zm"
+			},
+			"Children": [
+				{
+					"ID": "20210120153519-8ge83a5",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210120153519-8ge83a5"
+					},
+					"Children": [
+						{
+							"ID": "20210302223614-c5lcift",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223614-c5lcift"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解析并生成内容块"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210120153519-k5hgpvy",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210120153519-k5hgpvy"
+					},
+					"Children": [
+						{
+							"ID": "20210302223614-0pmcoee",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223614-0pmcoee"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "[[link|text]]"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 转换为内容块引用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210120153519-zf0asi8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210120153519-zf0asi8"
+					},
+					"Children": [
+						{
+							"ID": "20210302223614-29zn3z6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223614-29zn3z6",
+								"updated": "20210417113254"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "#tag "
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 转换为 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "#tag#"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20201229120428-9k34lga",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20201229120428-9k34lga"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "导出"
+				}
+			]
+		},
+		{
+			"ID": "20210120154937-u6g9q4l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20210120154937-u6g9q4l"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "编辑内容复制"
+				}
+			]
+		},
+		{
+			"ID": "20201229120428-uk4lxtt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20201229120428-uk4lxtt",
+				"updated": "20210512155937"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选择内容后使用复制快捷键 "
+				},
+				{
+					"Type": "NodeKbd",
+					"Children": [
+						{
+							"Type": "NodeKbdOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Ctrl+C"
+						},
+						{
+							"Type": "NodeKbdCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 即可。"
+				}
+			]
+		},
+		{
+			"ID": "20210120154948-gl0hxz6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20210120154948-gl0hxz6"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "全文导出"
+				}
+			]
+		},
+		{
+			"ID": "20201229120428-ysyvyt4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20201229120428-ysyvyt4"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在文档树上选择文档后右键选择“导出”："
+				}
+			]
+		},
+		{
+			"ID": "20201229120428-sokahme",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20201229120428-sokahme"
+			},
+			"Children": [
+				{
+					"ID": "20201229120428-3zal4fw",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20201229120428-3zal4fw"
+					},
+					"Children": [
+						{
+							"ID": "20210302223614-aj1pupk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223614-aj1pupk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Markdown：遵循 GFM/CommonMark 标准的 Markdown 文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20201229120428-rbzugkm",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20201229120428-rbzugkm"
+					},
+					"Children": [
+						{
+							"ID": "20210302223614-6mzkgcu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223614-6mzkgcu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "PDF"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210120155702-mhp0c0s",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210120155702-mhp0c0s"
+					},
+					"Children": [
+						{
+							"ID": "20210302223614-zc7v8ds",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223614-zc7v8ds"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTML"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20201229120428-gjqhua5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20201229120428-gjqhua5"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果需要导出更多格式，请通过 "
+				},
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Pandoc"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://pandoc.org"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 完成。"
+				}
+			]
+		},
+		{
+			"ID": "20210117224547-1m32ykj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210117224547-1m32ykj",
+				"updated": "20210512160039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在文档树上选择文件夹后右键选择“导出”是批量导出操作，导出的是带资源文件的标准 Markdown 文件压缩包。"
+				}
+			]
+		}
+	]
+}

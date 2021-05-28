@@ -1,0 +1,514 @@
+{
+	"ID": "20210117211155-56n4odu",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20210117211155-56n4odu",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20210117212652-vpmkfab",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210117212652-vpmkfab"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "概述"
+				}
+			]
+		},
+		{
+			"ID": "20210117212533-b9xm7h6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210117212533-b9xm7h6",
+				"updated": "20210302223432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据安全主要分为两方面："
+				}
+			]
+		},
+		{
+			"ID": "20210302223430-kskwppo",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20210302223430-kskwppo",
+				"updated": "20210525220618"
+			},
+			"Children": [
+				{
+					"ID": "20210525220618-mb42ynt",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210525220618-mb42ynt"
+					},
+					"Children": [
+						{
+							"ID": "20210525220618-ctad9jk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220618-ctad9jk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可用性：数据不丢失、不冲突，保持数据的完整和一致"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210525220623-i1o11y5",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210525220623-i1o11y5"
+					},
+					"Children": [
+						{
+							"ID": "20210525220623-f3ugyow",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220623-f3ugyow",
+								"updated": "20210525220623"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "机密性：数据不被泄漏、不被篡改"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20210117213032-48sgu29",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210117213032-48sgu29",
+				"updated": "20210525214350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思源对这两方面都进行了一定支持，下面是关于数据安全方面的说明。"
+				}
+			]
+		},
+		{
+			"ID": "20210117213252-rjh6iu2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210117213252-rjh6iu2"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "明文存储"
+				}
+			]
+		},
+		{
+			"ID": "20210525214530-69ml3fo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210525214530-69ml3fo",
+				"updated": "20210525214719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思源使用明文方式将数据存储在本地文件系统上，这意味着："
+				}
+			]
+		},
+		{
+			"ID": "20210117213258-m2gevi3",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20210117213258-m2gevi3"
+			},
+			"Children": [
+				{
+					"ID": "20210117213526-cy3oj8v",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210117213526-cy3oj8v"
+					},
+					"Children": [
+						{
+							"ID": "20210302223430-44dbhvt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223430-44dbhvt",
+								"updated": "20210525214730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "任何能够使用操作系统的人或软件都读取其中的数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210117213528-fp23mvh",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210117213528-fp23mvh"
+					},
+					"Children": [
+						{
+							"ID": "20210302223430-1hpa148",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223430-1hpa148",
+								"updated": "20210501163203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据的可用性依赖于硬件磁盘和操作系统的可用性"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20210117211513-nelhsjf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210117211513-nelhsjf",
+				"updated": "20210525214952"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "端到端加密备份"
+				}
+			]
+		},
+		{
+			"ID": "20210525215124-ifljpao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210525215124-ifljpao",
+				"updated": "20210525215811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思源对工作空间生成备份时会进行加密，备份数据可以放心地进行网络传输和托管。"
+				}
+			]
+		},
+		{
+			"ID": "20210525215316-438zsvu",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20210525215316-438zsvu",
+				"updated": "20210525220029"
+			},
+			"Children": [
+				{
+					"ID": "20210525220029-7myvzw8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210525220029-7myvzw8"
+					},
+					"Children": [
+						{
+							"ID": "20210525220029-c9i66lb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220029-c9i66lb",
+								"updated": "20210525220334"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "端到端加密，加解密完全在本地进行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210525220320-a9li63c",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210525220320-a9li63c"
+					},
+					"Children": [
+						{
+							"ID": "20210525220320-h0rm7h0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220320-h0rm7h0",
+								"updated": "20210525220426"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加密算法为业界公认安全的 AES GCM"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210525220037-h0i8gm5",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210525220037-h0i8gm5"
+					},
+					"Children": [
+						{
+							"ID": "20210525220037-5vclp4i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220037-5vclp4i",
+								"updated": "20210525220458"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "除非知道密码或者暴力破解，否则不可能被解密（开发者也无法解密）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210525220057-l8oobjx",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210525220057-l8oobjx"
+					},
+					"Children": [
+						{
+							"ID": "20210525220057-j32ssb4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220057-j32ssb4",
+								"updated": "20210525220127"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "密码不进行存储，加密解密时需要使用者输入"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20210117212440-bkk6f95",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210117212440-bkk6f95"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "建议"
+				}
+			]
+		},
+		{
+			"ID": "20210117214728-szj3mg9",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20210117214728-szj3mg9"
+			},
+			"Children": [
+				{
+					"ID": "20210117215237-1mbl2ly",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210117215237-1mbl2ly"
+					},
+					"Children": [
+						{
+							"ID": "20210302223430-wz2k547",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223430-wz2k547",
+								"updated": "20210525221031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "定期将数据同时备份到云端和离线设备上"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210117214814-lm8tmiq",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20210117214814-lm8tmiq"
+					},
+					"Children": [
+						{
+							"ID": "20210302223430-u4v0huy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210302223430-u4v0huy",
+								"updated": "20210524220935"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重要密码、密钥或者核心机密等建议使用专用软件、设备或者离线保存"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
