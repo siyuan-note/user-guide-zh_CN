@@ -3,7 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20200922101913-d5yitmq",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210531222206"
 	},
 	"Children": [
 		{
@@ -344,7 +345,8 @@
 				"Num": 1
 			},
 			"Properties": {
-				"id": "20210104091325-n2kixht"
+				"id": "20210104091325-n2kixht",
+				"updated": "20210531222206"
 			},
 			"Children": [
 				{
@@ -510,7 +512,8 @@
 						"Num": 3
 					},
 					"Properties": {
-						"id": "20210104091325-fkdgqym"
+						"id": "20210104091325-fkdgqym",
+						"updated": "20210531222206"
 					},
 					"Children": [
 						{
@@ -640,19 +643,14 @@
 							"ID": "20210104091325-rz9r9hz",
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
-							"CodeBlockFenceChar": 96,
-							"CodeBlockFenceLen": 3,
-							"CodeBlockOpenFence": "YGBg",
-							"CodeBlockInfo": "anNvbg==",
-							"CodeBlockCloseFence": "YGBg",
 							"Properties": {
-								"id": "20210104091325-rz9r9hz"
+								"id": "20210104091325-rz9r9hz",
+								"updated": "20210531222206"
 							},
 							"Children": [
 								{
 									"Type": "NodeCodeBlockFenceOpenMarker",
-									"Data": "```",
-									"CodeBlockFenceLen": 3
+									"Data": "```"
 								},
 								{
 									"Type": "NodeCodeBlockFenceInfoMarker",
@@ -660,12 +658,11 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "{\n  \"author\": \"Vanessa\",\n  \"url\": \"https://github.com/Vanessa219\",\n  \"version\": \"1.0.0\"\n}\n"
+									"Data": "{\n  \"name\": \"alice\",\n  \"author\": \"Vanessa\",\n  \"url\": \"https://github.com/Vanessa219\",\n  \"version\": \"1.0.0\"\n}\n"
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",
-									"Data": "```",
-									"CodeBlockFenceLen": 3
+									"Data": "```"
 								}
 							]
 						}
