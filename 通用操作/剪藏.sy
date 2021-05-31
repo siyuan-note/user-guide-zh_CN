@@ -3,7 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20210505163537-oo97zov",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210505164913"
 	},
 	"Children": [
 		{
@@ -70,7 +71,7 @@
 			},
 			"Properties": {
 				"id": "20210505164024-uwvunwm",
-				"updated": "20210505164206"
+				"updated": "20210505164913"
 			},
 			"Children": [
 				{
@@ -116,7 +117,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20210505164209-g9651e2"
+						"id": "20210505164209-g9651e2",
+						"updated": "20210505164913"
 					},
 					"Children": [
 						{
@@ -133,30 +135,27 @@
 								},
 								{
 									"Type": "NodeLink",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
-											"Data": "思源浏览器插件"
+											"Data": "思源 Crhome 扩展"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "https://github.com/siyuan-note/siyuan-chrome"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
@@ -166,24 +165,254 @@
 								},
 								{
 									"Type": "NodeTag",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeTagOpenMarker",
-											"Data": "#"
+											"Type": "NodeTagOpenMarker"
 										},
 										{
 											"Type": "NodeText",
 											"Data": "注意"
 										},
 										{
-											"Type": "NodeTagCloseMarker",
-											"Data": "#"
+											"Type": "NodeTagCloseMarker"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
 									"Data": "：拉取图片到本地是付费订阅特性"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20210531180555-mcz0ihc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20210531180555-mcz0ihc",
+				"updated": "20210531180635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思源浏览器扩展"
+				}
+			]
+		},
+		{
+			"ID": "20210531180643-1k4xc58",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20210531180643-1k4xc58",
+				"updated": "20210531180817"
+			},
+			"Children": [
+				{
+					"ID": "20210531180705-wwnl9ro",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210531180705-wwnl9ro",
+						"updated": "20210531180814"
+					},
+					"Children": [
+						{
+							"ID": "20210531180705-akpkgpa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210531180705-akpkgpa",
+								"updated": "20210531180814"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "稳定版"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://chrome.google.com/webstore/detail/siyuan/hkcgjbeblifaincobbcfiffbpgoafepk"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "已经上架 Chrome Web Store"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210531180723-g5savmu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210531180723-g5savmu",
+						"updated": "20210531180817"
+					},
+					"Children": [
+						{
+							"ID": "20210531180723-l8yjyit",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210531180723-l8yjyit",
+								"updated": "20210531180817"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "开发版"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/siyuan-note/siyuan-chrome"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20210531180907-u4jeq2k",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20210531180907-u4jeq2k",
+				"updated": "20210531180941"
+			},
+			"Children": [
+				{
+					"ID": "20210531180907-mtgh0eb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20210531180907-mtgh0eb",
+						"updated": "20210531180923"
+					},
+					"Children": [
+						{
+							"ID": "20210531180907-1c5dnnd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210531180907-1c5dnnd",
+								"updated": "20210531180923"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "运行思源"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210531180907-oidarsc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20210531180907-oidarsc"
+					},
+					"Children": [
+						{
+							"ID": "20210531180907-61e9zd1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210531180907-61e9zd1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 Web 页面上选择需要剪藏的内容，然后在右键菜单中选择 “Copy to SiYuan”"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210531180916-9agoxnr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20210531180916-9agoxnr",
+						"updated": "20210531180941"
+					},
+					"Children": [
+						{
+							"ID": "20210531180916-pa8wha1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210531180916-pa8wha1",
+								"updated": "20210531180941"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在思源中粘贴"
 								}
 							]
 						}
