@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200813004551-gm0pbn1",
 		"type": "doc",
-		"updated": "20210601100409"
+		"updated": "20210601110133"
 	},
 	"Children": [
 		{
@@ -1214,7 +1214,7 @@
 			],
 			"Properties": {
 				"id": "20201227133317-vopotjc",
-				"updated": "20210601100409"
+				"updated": "20210601110133"
 			},
 			"Children": [
 				{
@@ -3618,8 +3618,8 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "TODO"
+									"Type": "NodeBr",
+									"Data": "br"
 								}
 							]
 						}
@@ -3666,8 +3666,8 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "TODO"
+									"Type": "NodeBr",
+									"Data": "br"
 								}
 							]
 						}
@@ -3734,8 +3734,8 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "TODO"
+									"Type": "NodeBr",
+									"Data": "br"
 								}
 							]
 						}
@@ -3802,8 +3802,8 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "TODO"
+									"Type": "NodeBr",
+									"Data": "br"
 								}
 							]
 						}
@@ -3850,8 +3850,8 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "TODO"
+									"Type": "NodeBr",
+									"Data": "br"
 								}
 							]
 						}
@@ -3898,8 +3898,8 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "TODO"
+									"Type": "NodeBr",
+									"Data": "br"
 								}
 							]
 						}
