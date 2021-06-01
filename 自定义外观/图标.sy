@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200922101913-d5yitmq",
 		"type": "doc",
-		"updated": "20210531222206"
+		"updated": "20210601103721"
 	},
 	"Children": [
 		{
@@ -834,25 +834,18 @@
 		{
 			"ID": "20210104091325-fc6zzjm",
 			"Type": "NodeList",
-			"ListData": {
-				"BulletChar": 42,
-				"Padding": 2,
-				"Marker": "Kg==",
-				"Num": -1
-			},
+			"ListData": {},
 			"Properties": {
-				"id": "20210104091325-fc6zzjm"
+				"id": "20210104091325-fc6zzjm",
+				"updated": "20210104091325"
 			},
 			"Children": [
 				{
 					"ID": "20210104091325-gt0s4ir",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20210104091325-gt0s4ir"
@@ -871,19 +864,20 @@
 								},
 								{
 									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Data": "code",
 									"Children": [
 										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`"
+											"Type": "NodeCodeSpanOpenMarker"
 										},
 										{
-											"Type": "NodeCodeSpanContent",
+											"Type": "NodeCodeSpanContent"
+										},
+										{
+											"Type": "NodeText",
 											"Data": "index.html"
 										},
 										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`"
+											"Type": "NodeCodeSpanCloseMarker"
 										}
 									]
 								},
@@ -898,13 +892,9 @@
 				{
 					"ID": "20210104091325-2gica5i",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20210104091325-2gica5i"
@@ -926,13 +916,7 @@
 						{
 							"ID": "20210104091325-er4m3zk",
 							"Type": "NodeList",
-							"ListData": {
-								"Tight": true,
-								"BulletChar": 42,
-								"Padding": 2,
-								"Marker": "Kg==",
-								"Num": -1
-							},
+							"ListData": {},
 							"Properties": {
 								"id": "20210104091325-er4m3zk"
 							},
@@ -940,13 +924,9 @@
 								{
 									"ID": "20210104091325-0opxom8",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-0opxom8"
@@ -965,30 +945,27 @@
 												},
 												{
 													"Type": "NodeLink",
+													"Data": "span",
 													"Children": [
 														{
-															"Type": "NodeOpenBracket",
-															"Data": "["
+															"Type": "NodeOpenBracket"
 														},
 														{
 															"Type": "NodeLinkText",
 															"Data": "Iconfont"
 														},
 														{
-															"Type": "NodeCloseBracket",
-															"Data": "]"
+															"Type": "NodeCloseBracket"
 														},
 														{
-															"Type": "NodeOpenParen",
-															"Data": "("
+															"Type": "NodeOpenParen"
 														},
 														{
 															"Type": "NodeLinkDest",
 															"Data": "https://www.iconfont.cn"
 														},
 														{
-															"Type": "NodeCloseParen",
-															"Data": ")"
+															"Type": "NodeCloseParen"
 														}
 													]
 												},
@@ -1003,13 +980,9 @@
 								{
 									"ID": "20210104091325-8ftdn7r",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-8ftdn7r"
@@ -1033,13 +1006,9 @@
 								{
 									"ID": "20210104091325-ow6r5s3",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-ow6r5s3"
@@ -1058,30 +1027,27 @@
 												},
 												{
 													"Type": "NodeLink",
+													"Data": "span",
 													"Children": [
 														{
-															"Type": "NodeOpenBracket",
-															"Data": "["
+															"Type": "NodeOpenBracket"
 														},
 														{
 															"Type": "NodeLinkText",
 															"Data": "pngtosvg"
 														},
 														{
-															"Type": "NodeCloseBracket",
-															"Data": "]"
+															"Type": "NodeCloseBracket"
 														},
 														{
-															"Type": "NodeOpenParen",
-															"Data": "("
+															"Type": "NodeOpenParen"
 														},
 														{
 															"Type": "NodeLinkDest",
 															"Data": "https://www.pngtosvg.com/"
 														},
 														{
-															"Type": "NodeCloseParen",
-															"Data": ")"
+															"Type": "NodeCloseParen"
 														}
 													]
 												},
@@ -1100,13 +1066,9 @@
 				{
 					"ID": "20210104091325-yutcfaf",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20210104091325-yutcfaf"
@@ -1125,30 +1087,27 @@
 								},
 								{
 									"Type": "NodeLink",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "IcoMoon App"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "https://icomoon.io/app/#/select"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
@@ -1158,19 +1117,20 @@
 								},
 								{
 									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Data": "code",
 									"Children": [
 										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`"
+											"Type": "NodeCodeSpanOpenMarker"
 										},
 										{
-											"Type": "NodeCodeSpanContent",
+											"Type": "NodeCodeSpanContent"
+										},
+										{
+											"Type": "NodeText",
 											"Data": "icon.js"
 										},
 										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`"
+											"Type": "NodeCodeSpanCloseMarker"
 										}
 									]
 								}
@@ -1179,13 +1139,7 @@
 						{
 							"ID": "20210104091325-2fa1wel",
 							"Type": "NodeList",
-							"ListData": {
-								"Tight": true,
-								"BulletChar": 42,
-								"Padding": 2,
-								"Marker": "Kg==",
-								"Num": -1
-							},
+							"ListData": {},
 							"Properties": {
 								"id": "20210104091325-2fa1wel"
 							},
@@ -1193,13 +1147,9 @@
 								{
 									"ID": "20210104091325-0fb0hhd",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-0fb0hhd"
@@ -1218,19 +1168,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "Import Icons"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												},
@@ -1245,13 +1196,9 @@
 								{
 									"ID": "20210104091325-k1nw1d4",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-k1nw1d4"
@@ -1267,44 +1214,40 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "选中图标并生成 SVG"
-												},
-												{
-													"Type": "NodeSoftBreak",
-													"Data": "\n"
+													"Data": "选中图标并生成 SVG\n"
 												},
 												{
 													"Type": "NodeImage",
+													"Data": "span",
 													"Children": [
 														{
-															"Type": "NodeBang",
-															"Data": "!"
+															"Type": "NodeBang"
 														},
 														{
-															"Type": "NodeOpenBracket",
-															"Data": "["
+															"Type": "NodeOpenBracket"
 														},
 														{
 															"Type": "NodeLinkText",
 															"Data": "custom-icon1.png"
 														},
 														{
-															"Type": "NodeCloseBracket",
-															"Data": "]"
+															"Type": "NodeCloseBracket"
 														},
 														{
-															"Type": "NodeOpenParen",
-															"Data": "("
+															"Type": "NodeOpenParen"
 														},
 														{
 															"Type": "NodeLinkDest",
 															"Data": "assets/custom-icon1-20210512172117-vn3htl4.png"
 														},
 														{
-															"Type": "NodeCloseParen",
-															"Data": ")"
+															"Type": "NodeCloseParen"
 														}
 													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
 												}
 											]
 										}
@@ -1313,13 +1256,9 @@
 								{
 									"ID": "20210104091325-04o4l5q",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-04o4l5q"
@@ -1335,44 +1274,40 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "修改大小并下载"
-												},
-												{
-													"Type": "NodeSoftBreak",
-													"Data": "\n"
+													"Data": "修改大小并下载\n"
 												},
 												{
 													"Type": "NodeImage",
+													"Data": "span",
 													"Children": [
 														{
-															"Type": "NodeBang",
-															"Data": "!"
+															"Type": "NodeBang"
 														},
 														{
-															"Type": "NodeOpenBracket",
-															"Data": "["
+															"Type": "NodeOpenBracket"
 														},
 														{
 															"Type": "NodeLinkText",
 															"Data": "custom-icon2.png"
 														},
 														{
-															"Type": "NodeCloseBracket",
-															"Data": "]"
+															"Type": "NodeCloseBracket"
 														},
 														{
-															"Type": "NodeOpenParen",
-															"Data": "("
+															"Type": "NodeOpenParen"
 														},
 														{
 															"Type": "NodeLinkDest",
 															"Data": "assets/custom-icon2-20210512172130-tsbpd4f.png"
 														},
 														{
-															"Type": "NodeCloseParen",
-															"Data": ")"
+															"Type": "NodeCloseParen"
 														}
 													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
 												}
 											]
 										}
@@ -1381,13 +1316,9 @@
 								{
 									"ID": "20210104091325-3a5giw4",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-3a5giw4"
@@ -1406,19 +1337,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "\u003csymbol id=\"icon-markdown\" viewBox=\"0 0 32 32\"\u003e"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												},
@@ -1428,19 +1360,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "id"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												},
@@ -1450,19 +1383,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "index.html"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												},
@@ -1477,13 +1411,9 @@
 								{
 									"ID": "20210104091325-welbdbd",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-welbdbd"
@@ -1502,19 +1432,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "\u003cdefs\u003e...\u003c/defs\u003e"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												},
@@ -1524,19 +1455,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "icon.js"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												},
@@ -1555,13 +1487,9 @@
 				{
 					"ID": "20210104091325-j3nfwg0",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20210104091325-j3nfwg0"
@@ -1583,12 +1511,7 @@
 						{
 							"ID": "20210104091325-ser1zxy",
 							"Type": "NodeList",
-							"ListData": {
-								"BulletChar": 42,
-								"Padding": 2,
-								"Marker": "Kg==",
-								"Num": -1
-							},
+							"ListData": {},
 							"Properties": {
 								"id": "20210104091325-ser1zxy"
 							},
@@ -1596,12 +1519,9 @@
 								{
 									"ID": "20210104091325-7chws27",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-7chws27"
@@ -1620,19 +1540,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "index.html"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												},
@@ -1642,19 +1563,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "material"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												},
@@ -1664,19 +1586,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "alice"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												}
@@ -1686,19 +1609,13 @@
 											"ID": "20210104091325-2asq60v",
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
-											"CodeBlockFenceChar": 96,
-											"CodeBlockFenceLen": 3,
-											"CodeBlockOpenFence": "YGBg",
-											"CodeBlockInfo": "aHRtbA==",
-											"CodeBlockCloseFence": "YGBg",
 											"Properties": {
 												"id": "20210104091325-2asq60v"
 											},
 											"Children": [
 												{
 													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```",
-													"CodeBlockFenceLen": 3
+													"Data": "```"
 												},
 												{
 													"Type": "NodeCodeBlockFenceInfoMarker",
@@ -1710,8 +1627,7 @@
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```",
-													"CodeBlockFenceLen": 3
+													"Data": "```"
 												}
 											]
 										}
@@ -1720,13 +1636,9 @@
 								{
 									"ID": "20210104091325-23t441o",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-23t441o"
@@ -1745,19 +1657,20 @@
 												},
 												{
 													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Data": "code",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeCodeSpanContent"
+														},
+														{
+															"Type": "NodeText",
 															"Data": "index.html"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`"
+															"Type": "NodeCodeSpanCloseMarker"
 														}
 													]
 												},
@@ -1772,13 +1685,9 @@
 								{
 									"ID": "20210104091325-barx14h",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20210104091325-barx14h"
@@ -1797,6 +1706,7 @@
 												},
 												{
 													"Type": "NodeKbd",
+													"Data": "kbd",
 													"Children": [
 														{
 															"Type": "NodeKbdOpenMarker"
@@ -1816,6 +1726,7 @@
 												},
 												{
 													"Type": "NodeKbd",
+													"Data": "kbd",
 													"Children": [
 														{
 															"Type": "NodeKbdOpenMarker"
@@ -1835,6 +1746,7 @@
 												},
 												{
 													"Type": "NodeKbd",
+													"Data": "kbd",
 													"Children": [
 														{
 															"Type": "NodeKbdOpenMarker"
@@ -1859,32 +1771,356 @@
 							]
 						}
 					]
-				},
+				}
+			]
+		},
+		{
+			"ID": "20210601103242-euz4eih",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20210601103242-euz4eih",
+				"updated": "20210601103308"
+			},
+			"Children": [
 				{
-					"ID": "20210104091325-x0l851c",
+					"Type": "NodeText",
+					"Data": "上架图标集市"
+				}
+			]
+		},
+		{
+			"ID": "20210601103342-7d4iljw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210601103342-7d4iljw",
+				"updated": "20210601103721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上架前请确认你的图标仓库根路径下至少包含这三个文件："
+				}
+			]
+		},
+		{
+			"ID": "20210601103342-zdcsuht",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20210601103342-zdcsuht",
+				"updated": "20210601103413"
+			},
+			"Children": [
+				{
+					"ID": "20210601103342-b6pepqi",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20210104091325-x0l851c"
+						"id": "20210601103342-b6pepqi",
+						"updated": "20210601103411"
 					},
 					"Children": [
 						{
-							"ID": "20210104091325-0qu05v2",
+							"ID": "20210601103342-c9u1p65",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210104091325-0qu05v2"
+								"id": "20210601103342-c9u1p65",
+								"updated": "20210601103411"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "上架发布（联系 QQ：84588990）"
+									"Data": "icon.js"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210601103342-k9u1i4j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210601103342-k9u1i4j",
+						"updated": "20210601103413"
+					},
+					"Children": [
+						{
+							"ID": "20210601103342-e6sy0et",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210601103342-e6sy0et",
+								"updated": "20210601103413"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "icon.json（请确保 JSON 格式正确）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210601103342-j8l50u8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210601103342-j8l50u8"
+					},
+					"Children": [
+						{
+							"ID": "20210601103342-fy1vkos",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210601103342-fy1vkos"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "preview.png（请压缩图片大小在 128 KB 以内）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20210601103342-ofwo40j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210601103342-ofwo40j",
+				"updated": "20210601103424"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "确认无误以后请通过对"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "社区集市"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/siyuan-note/bazaar"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "仓库"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "发起 pull request"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://docs.github.com/cn/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，修改 icons.json 文件。该文件是所有社区图标仓库的索引，格式为："
+				}
+			]
+		},
+		{
+			"ID": "20210601103342-y9jviqs",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20210601103342-y9jviqs",
+				"updated": "20210601103342"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"repos\": [\n    \"username/reponame@commithash\"\n  ]\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20210601103342-8v2aw40",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210601103342-8v2aw40",
+				"updated": "20210601103434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "commithash"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 请填写你的图标仓库上最近一次发布版本的 Git 提交哈希值，请使用完整哈希值，不要使用 7 位短值。"
+				}
+			]
+		},
+		{
+			"ID": "20210601103342-f0gpdf8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20210601103342-f0gpdf8",
+				"updated": "20210601103342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更新"
+				}
+			]
+		},
+		{
+			"ID": "20210601103342-mb8nrzs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210601103342-mb8nrzs",
+				"updated": "20210601103439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果你开发的图标更新了版本，请记得："
+				}
+			]
+		},
+		{
+			"ID": "20210601103342-nxqq68c",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20210601103342-nxqq68c",
+				"updated": "20210601103447"
+			},
+			"Children": [
+				{
+					"ID": "20210601103342-bkcvtof",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210601103342-bkcvtof",
+						"updated": "20210601103447"
+					},
+					"Children": [
+						{
+							"ID": "20210601103342-6v8o66i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210601103342-6v8o66i",
+								"updated": "20210601103447"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "更新你的图标配置 icon.json 中的 version 字段"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210601103342-9zc6y3q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210601103342-9zc6y3q"
+					},
+					"Children": [
+						{
+							"ID": "20210601103342-2sautq0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210601103342-2sautq0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "再次对社区集市发起 Pull Request"
 								}
 							]
 						}
