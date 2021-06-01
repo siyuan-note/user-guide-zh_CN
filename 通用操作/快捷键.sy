@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200813004551-gm0pbn1",
 		"type": "doc",
-		"updated": "20210601185617"
+		"updated": "20210601202747"
 	},
 	"Children": [
 		{
@@ -1214,7 +1214,7 @@
 			],
 			"Properties": {
 				"id": "20201227133317-vopotjc",
-				"updated": "20210601185402"
+				"updated": "20210601202747"
 			},
 			"Children": [
 				{
@@ -4082,12 +4082,100 @@
 											"Type": "NodeKbdCloseMarker"
 										}
 									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " / "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "、"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
 								}
 							]
 						},
 						{
 							"Type": "NodeTableCell",
 							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "唤起块级菜单"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Ctrl+/"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " / "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "⌘/"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TODO"
+								}
+							]
 						}
 					]
 				}
