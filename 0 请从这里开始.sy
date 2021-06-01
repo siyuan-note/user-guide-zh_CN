@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200812220555-lj3enxa",
 		"type": "doc",
-		"updated": "20210528115747"
+		"updated": "20210528115249"
 	},
 	"Children": [
 		{
@@ -12,16 +12,13 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20210428212840-859h45j"
+				"id": "20210428212840-859h45j",
+				"updated": "20210601233917"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
-				},
-				{
 					"Type": "NodeText",
-					"Data": "🧱 内容块"
+					"Data": "🍫 内容块"
 				}
 			]
 		},
@@ -76,7 +73,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210528115012-vst5lwt",
-				"updated": "20210528115558"
+				"updated": "20210601233622"
 			},
 			"Children": [
 				{
@@ -91,7 +88,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210528115021-oj6gzg7",
-						"updated": "20210528115558"
+						"updated": "20210601233041"
 					},
 					"Children": [
 						{
@@ -106,12 +103,13 @@
 							"Type": "NodeHeading",
 							"HeadingLevel": 2,
 							"Properties": {
-								"id": "20201225220955-f8lsff2"
+								"id": "20201225220955-f8lsff2",
+								"updated": "20210601233041"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "🔮 快速上手"
+									"Data": "🍔 开始食用"
 								}
 							]
 						},
@@ -327,7 +325,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210528115016-kgyy5mm",
-						"updated": "20210528115049"
+						"updated": "20210601233622"
 					},
 					"Children": [
 						{
@@ -343,12 +341,12 @@
 							"HeadingLevel": 2,
 							"Properties": {
 								"id": "20201225220955-tkjiv18",
-								"updated": "20210428231131"
+								"updated": "20210601233622"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "💡 建议阅读"
+									"Data": "🍹 饮品推荐"
 								}
 							]
 						},
@@ -579,7 +577,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210528115259-ifi35e9",
-				"updated": "20210528115747"
+				"updated": "20210528115249"
 			},
 			"Children": [
 				{
@@ -594,7 +592,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210528115306-kftajae",
-						"updated": "20210528115525"
+						"updated": "20210428232015"
 					},
 					"Children": [
 						{
@@ -610,12 +608,12 @@
 							"HeadingLevel": 2,
 							"Properties": {
 								"id": "20201225220955-g2fx196",
-								"updated": "20201225220955"
+								"updated": "20210601233355"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "🏘️ 社区"
+									"Data": "🏘️ 我们的家"
 								}
 							]
 						},
@@ -625,7 +623,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20210428231856-0ej7uyw",
-								"updated": "20210528115525"
+								"updated": "20210428232015"
 							},
 							"Children": [
 								{
@@ -644,7 +642,106 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20210428231846-id285ea",
-												"updated": "20210428232051"
+												"updated": "20210601234211"
+											},
+											"Children": [
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "链滴（中文讨论区）"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://ld246.com/domain/siyuan"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20210601234215-jivxrj4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20210601234215-jivxrj4"
+									},
+									"Children": [
+										{
+											"ID": "20210601234215-3e80nbr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20210601234215-3e80nbr",
+												"updated": "20210601234215"
+											},
+											"Children": [
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "语雀（自来水群组）"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://www.yuque.com/siyuannote"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20210601234224-2pnkiwm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20210601234224-2pnkiwm",
+										"updated": "20210601234224"
+									},
+									"Children": [
+										{
+											"ID": "20210601234224-vpcifmk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20210601234224-vpcifmk",
+												"updated": "20210601234224"
 											},
 											"Children": [
 												{
@@ -685,7 +782,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20210428231846-czvayxd"
+										"id": "20210428231846-czvayxd",
+										"updated": "20210428232015"
 									},
 									"Children": [
 										{
@@ -725,105 +823,6 @@
 											]
 										}
 									]
-								},
-								{
-									"ID": "20210428231846-a9ldeqp",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20210428231846-a9ldeqp"
-									},
-									"Children": [
-										{
-											"ID": "20210428231846-p6kvcli",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20210428231846-p6kvcli",
-												"updated": "20210501193259"
-											},
-											"Children": [
-												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "链滴（中文讨论区）"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://ld246.com/domain/siyuan"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20210528115415-whlhggi",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20210528115415-whlhggi",
-										"updated": "20210528115525"
-									},
-									"Children": [
-										{
-											"ID": "20210528115415-tgwne6c",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20210528115415-tgwne6c",
-												"updated": "20210528115525"
-											},
-											"Children": [
-												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "语雀（自来水群组）"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://www.yuque.com/siyuannote"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												}
-											]
-										}
-									]
 								}
 							]
 						},
@@ -837,7 +836,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210528115302-oa09t9p",
-						"updated": "20210528115747"
+						"updated": "20210528115249"
 					},
 					"Children": [
 						{
@@ -853,7 +852,7 @@
 							"HeadingLevel": 2,
 							"Properties": {
 								"id": "20210501165231-lp7skso",
-								"updated": "20210502233857"
+								"updated": "20210601233420"
 							},
 							"Children": [
 								{
@@ -868,7 +867,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20210131160231-t1cr21p",
-								"updated": "20210528115747"
+								"updated": "20210528115249"
 							},
 							"Children": [
 								{
@@ -1030,14 +1029,16 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20210528115249-ew4v4on"
+										"id": "20210528115249-ew4v4on",
+										"updated": "20210528115249"
 									},
 									"Children": [
 										{
 											"ID": "20210528115249-bt789cl",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20210528115249-bt789cl"
+												"id": "20210528115249-bt789cl",
+												"updated": "20210528115249"
 											},
 											"Children": [
 												{
@@ -1084,14 +1085,6 @@
 					"Type": "NodeSuperBlockCloseMarker"
 				}
 			]
-		},
-		{
-			"ID": "20210528115159-lxjh7la",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210528115159-lxjh7la",
-				"updated": "20210528115159"
-			}
 		}
 	]
 }
