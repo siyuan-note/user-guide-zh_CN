@@ -3,7 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20210127214334-8pw3tq9",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210604224139"
 	},
 	"Children": [
 		{
@@ -330,6 +331,14 @@
 					"Data": "。"
 				}
 			]
+		},
+		{
+			"ID": "20210604224139-q1mkl1u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210604224139-q1mkl1u",
+				"updated": "20210604224139"
+			}
 		}
 	]
 }
