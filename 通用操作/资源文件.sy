@@ -3,7 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20200915214115-42b8zma",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210604092212"
 	},
 	"Children": [
 		{
@@ -90,56 +91,51 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210512171633-u3iy2xx",
-				"updated": "20210512171702"
+				"updated": "20210604092212"
 			},
 			"Children": [
 				{
 					"Type": "NodeImage",
+					"Data": "span",
 					"Properties": {
-						"parent-style": "display: block; text-align: center; white-space: initial;"
+						"parent-style": "display: block;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang",
-							"Data": "!"
+							"Type": "NodeBang"
 						},
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "["
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "SiYuan.png"
+							"Data": "siyuan-128.png"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]"
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "("
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/SiYuan-20210512171648-wi7njix.png"
+							"Data": "assets/siyuan-128-20210604092205-djd749a.png"
 						},
 						{
-							"Type": "NodeLinkSpace",
-							"Data": " "
+							"Type": "NodeLinkSpace"
 						},
 						{
 							"Type": "NodeLinkTitle",
 							"Data": "源于思考，饮水思源"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": "){: parent-style=\"display: block; text-align: center; white-space: initial;\"}"
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
 				{
-					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: parent-style=\"display: block; text-align: center; white-space: initial;\"}"
+					"Type": "NodeText",
+					"Data": "\n"
 				}
 			]
 		},
