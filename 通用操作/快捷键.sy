@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200813004551-gm0pbn1",
 		"type": "doc",
-		"updated": "20210601202747"
+		"updated": "20210604094611"
 	},
 	"Children": [
 		{
@@ -1214,7 +1214,7 @@
 			],
 			"Properties": {
 				"id": "20201227133317-vopotjc",
-				"updated": "20210601202747"
+				"updated": "20210604094611"
 			},
 			"Children": [
 				{
@@ -2271,7 +2271,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "使用选中内容作为新建文档的内容"
+									"Data": "使用选中内容/块作为新建文档的内容"
 								}
 							]
 						},
@@ -2871,7 +2871,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "光标所在块前插入空块"
+									"Data": "块前插入空块"
 								}
 							]
 						},
@@ -2933,7 +2933,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "光标所在块后插入空块"
+									"Data": "块后插入空块"
 								}
 							]
 						},
@@ -2995,7 +2995,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "光标所在块向上移动"
+									"Data": "块向上移动"
 								}
 							]
 						},
@@ -3057,7 +3057,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "光标所在块向下移动"
+									"Data": "块向下移动"
 								}
 							]
 						},
