@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200813004551-gm0pbn1",
 		"type": "doc",
-		"updated": "20210604112212"
+		"updated": "20210604162625"
 	},
 	"Children": [
 		{
@@ -1214,7 +1214,7 @@
 			],
 			"Properties": {
 				"id": "20201227133317-vopotjc",
-				"updated": "20210604111857"
+				"updated": "20210604162625"
 			},
 			"Children": [
 				{
@@ -3447,7 +3447,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "扩大块级范围"
+									"Data": "调整块级范围"
 								}
 							]
 						},
@@ -3485,74 +3485,6 @@
 										{
 											"Type": "NodeText",
 											"Data": "⇧↑"
-										},
-										{
-											"Type": "NodeKbdCloseMarker"
-										}
-									]
-								}
-							]
-						},
-						{
-							"Type": "NodeTableCell",
-							"Data": "td",
-							"Children": [
-								{
-									"Type": "NodeBr",
-									"Data": "br"
-								}
-							]
-						}
-					]
-				},
-				{
-					"Type": "NodeTableRow",
-					"Data": "tr",
-					"Children": [
-						{
-							"Type": "NodeTableCell",
-							"Data": "td",
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "缩小块级范围"
-								}
-							]
-						},
-						{
-							"Type": "NodeTableCell",
-							"Data": "td",
-							"Children": [
-								{
-									"Type": "NodeKbd",
-									"Data": "kbd",
-									"Children": [
-										{
-											"Type": "NodeKbdOpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Shift+↓"
-										},
-										{
-											"Type": "NodeKbdCloseMarker"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": " / "
-								},
-								{
-									"Type": "NodeKbd",
-									"Data": "kbd",
-									"Children": [
-										{
-											"Type": "NodeKbdOpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "⇧↓"
 										},
 										{
 											"Type": "NodeKbdCloseMarker"
