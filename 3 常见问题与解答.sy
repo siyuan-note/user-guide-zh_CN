@@ -3,7 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20200813093015-u6bopdt",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210605222458"
 	},
 	"Children": [
 		{
@@ -456,6 +457,7 @@
 				},
 				{
 					"Type": "NodeKbd",
+					"Data": "kbd",
 					"Children": [
 						{
 							"Type": "NodeKbdOpenMarker"
@@ -472,6 +474,35 @@
 				{
 					"Type": "NodeText",
 					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20210605222431-03gsadg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210605222431-03gsadg",
+				"updated": "20210605222458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何在中文段首缩进？"
+				}
+			]
+		},
+		{
+			"ID": "20210605222439-98s2lbe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210605222439-98s2lbe",
+				"updated": "20210605222443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "请使用全角空格。"
 				}
 			]
 		},
@@ -498,31 +529,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210512152759-k9i5m4t",
-				"updated": "20210512152907"
+				"updated": "20210605222411"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "表格块右上角的 "
-				},
-				{
-					"Type": "NodeKbd",
-					"Children": [
-						{
-							"Type": "NodeKbdOpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "..."
-						},
-						{
-							"Type": "NodeKbdCloseMarker"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": " 菜单中有操作入口。"
+					"Data": "表格块的块标菜单中有操作入口。"
 				}
 			]
 		},
