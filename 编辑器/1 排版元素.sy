@@ -2950,7 +2950,7 @@
 		{
 			"ID": "20210607224119-98broui",
 			"Type": "NodeAudio",
-			"Data": "\u003caudio controls=\"controls\" src=\"assets/record1623071885833-20210607211805-xq6639t-20210607224119-o4qv6lg.wav\" data-src=\"assets/record1623071885833-20210607211805-xq6639t-20210607224119-o4qv6lg.wav\"\u003e\u003c/audio\u003e",
+			"Data": "\u003caudio controls=\"controls\" src=\"assets/record1623071885833-20210607211805-xq6639t.wav\" data-src=\"assets/record1623071885833-20210607211805-xq6639t.wav\"\u003e\u003c/audio\u003e",
 			"Properties": {
 				"id": "20210607224119-98broui",
 				"updated": "20210607224119"
