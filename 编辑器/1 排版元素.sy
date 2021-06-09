@@ -3,7 +3,7 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20200825162036-4dx365o",
-		"title-img": "background:linear-gradient(324deg, #232927 4%,   transparent 4%) -70px 43px, linear-gradient( 36deg, #232927 4%,   transparent 4%) 30px 43px, linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px, linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px, linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px, linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px, linear-gradient(324deg, #232927 4%,   transparent 4%) -20px 93px, linear-gradient( 36deg, #232927 4%,   transparent 4%) 80px 93px, linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px, linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px, linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px, linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;background-color: #232927;background-size: 100px 100px;",
+		"title-img": "background-color: hsl(2, 57%, 40%);background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);",
 		"type": "doc",
 		"updated": "20210201202302"
 	},
@@ -1678,6 +1678,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"fold": "1",
 						"id": "20210104091228-uwgbo4t"
 					},
 					"Children": [
@@ -1766,6 +1767,7 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
+						"fold": "1",
 						"id": "20210104091228-7flk3zm"
 					},
 					"Children": [
@@ -2008,6 +2010,7 @@
 						"Num": 2
 					},
 					"Properties": {
+						"fold": "1",
 						"id": "20210104091228-29gr849"
 					},
 					"Children": [
@@ -2104,6 +2107,7 @@
 						"Num": 3
 					},
 					"Properties": {
+						"fold": "1",
 						"id": "20210104091228-ucegi2v"
 					},
 					"Children": [
