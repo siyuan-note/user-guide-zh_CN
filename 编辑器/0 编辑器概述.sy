@@ -7,20 +7,6 @@
 	},
 	"Children": [
 		{
-			"ID": "20200813183139-quduiz9",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20200813183139-quduiz9",
-				"updated": "20210419175121"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "所见即所得是默认的编辑模式，主要特性如下："
-				}
-			]
-		},
-		{
 			"ID": "20210419175122-jibfje5",
 			"Type": "NodeList",
 			"ListData": {
