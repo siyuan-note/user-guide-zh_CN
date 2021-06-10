@@ -3,7 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20201002090451-hb9j8ai",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210403161327"
 	},
 	"Children": [
 		{
@@ -307,16 +308,12 @@
 		{
 			"ID": "20210104090742-f9nkimo",
 			"Type": "NodeHeading",
-			"HeadingLevel": 2,
+			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20210104090742-f9nkimo",
 				"updated": "20210403161345"
 			},
 			"Children": [
-				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
-				},
 				{
 					"Type": "NodeText",
 					"Data": "浏览历史"
@@ -416,16 +413,13 @@
 		{
 			"ID": "20210104090742-hjfornp",
 			"Type": "NodeHeading",
-			"HeadingLevel": 2,
+			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20210104090742-hjfornp",
+				"refcount": "1",
 				"updated": "20210403161327"
 			},
 			"Children": [
-				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
-				},
 				{
 					"Type": "NodeText",
 					"Data": "回滚"
