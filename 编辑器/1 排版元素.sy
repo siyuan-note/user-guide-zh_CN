@@ -5,7 +5,7 @@
 		"id": "20200825162036-4dx365o",
 		"title-img": "background-color: hsl(2, 57%, 40%);background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);",
 		"type": "doc",
-		"updated": "20210201202302"
+		"updated": "20210612222326"
 	},
 	"Children": [
 		{
@@ -1261,7 +1261,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210604234955-651jbge",
-				"updated": "20210604234931"
+				"updated": "20210612222326"
 			},
 			"Children": [
 				{
@@ -1276,7 +1276,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210604234946-4tvu1br",
-						"updated": "20210604234929"
+						"updated": "20210612222316"
 					},
 					"Children": [
 						{
@@ -1306,13 +1306,13 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210604234926-ex52mqx",
-								"style": "color: var(--b3-card-warning-color);background-color: var(--b3-card-warning-background);",
-								"updated": "20210604234929"
+								"style": "color: var(--b3-card-warning-color); background-color: var(--b3-card-warning-background); text-align: center;",
+								"updated": "20210612222316"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "段落二"
+									"Data": "段落二居中"
 								}
 							]
 						},
@@ -1326,7 +1326,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210604234949-meouz74",
-						"updated": "20210604234931"
+						"updated": "20210612222326"
 					},
 					"Children": [
 						{
@@ -1356,13 +1356,13 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210604234931-zexmrsb",
-								"style": "color: var(--b3-card-success-color);background-color: var(--b3-card-success-background);",
-								"updated": "20210604234936"
+								"style": "color: var(--b3-card-success-color); background-color: var(--b3-card-success-background); text-align: right;",
+								"updated": "20210612222326"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "段落四"
+									"Data": "段落四居右"
 								}
 							]
 						},
