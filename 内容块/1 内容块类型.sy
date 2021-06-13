@@ -1194,41 +1194,6 @@
 			]
 		},
 		{
-			"ID": "20210104090624-d93llpg",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210104090624-d93llpg"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "可以在设置中切换数学公式块渲染引擎，默认是 "
-				},
-				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "MathJax"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "。"
-				}
-			]
-		},
-		{
 			"ID": "20210104090624-l3zdlk1",
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
