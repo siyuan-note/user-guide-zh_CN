@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200915214115-42b8zma",
 		"type": "doc",
-		"updated": "20210604092212"
+		"updated": "20210615102825"
 	},
 	"Children": [
 		{
@@ -31,12 +31,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210503095358-zr3uijl",
-				"updated": "20210503095557"
+				"updated": "20210615102655"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "所有通过编辑器插入的附件文件都是资源文件，它们会被放置到工作空间的 data/assets 文件夹下。"
+					"Data": "通过编辑器插入的附件会被认为是资源文件，默认放置在工作空间 data/assets 文件夹下。"
 				}
 			]
 		},
@@ -77,12 +77,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210104091255-7fwvx7a",
-				"updated": "20210417113113"
+				"updated": "20210615101500"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "如果排版时指定了图片标题，则标题会被渲染在图片下方作为图注，标题部分文本支持行级排版，比如加粗、斜体、公式等。"
+					"Data": "如果排版时指定了图片标题，则标题会被渲染在图片下方作为图注。"
 				}
 			]
 		},
@@ -484,6 +484,35 @@
 				{
 					"Type": "NodeText",
 					"Data": "：使用绝对路径（本地路径或者是网络路径）不会纳入清理计算。"
+				}
+			]
+		},
+		{
+			"ID": "20210615102657-kampx8a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210615102657-kampx8a",
+				"updated": "20210615102702"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "笔记本 assets"
+				}
+			]
+		},
+		{
+			"ID": "20210615102703-7wghhgm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210615102703-7wghhgm",
+				"updated": "20210615102825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果需要默认将插入的资源文件放置在笔记本 assets 文件夹下，则需要先在笔记本文件夹下创建名为 assets 的文件夹，这样思源会优先选择该 assets 文件夹来存放资源文件。"
 				}
 			]
 		}
