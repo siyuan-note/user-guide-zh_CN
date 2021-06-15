@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200813093015-u6bopdt",
 		"type": "doc",
-		"updated": "20210605222458"
+		"updated": "20210615212801"
 	},
 	"Children": [
 		{
@@ -384,15 +384,16 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210323173015-i71ug1u",
-				"updated": "20210512152650"
+				"updated": "20210615212724"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "删除后文件不会出现在操作系统回收站中，而是直接删除，删除时思源会进行"
+					"Data": "删除后文件不会出现在操作系统回收站中，而是直接删除，删除时思源会生成"
 				},
 				{
 					"Type": "NodeBlockRef",
+					"Data": "span",
 					"Children": [
 						{
 							"Type": "NodeOpenParen"
@@ -402,14 +403,14 @@
 						},
 						{
 							"Type": "NodeBlockRefID",
-							"Data": "20201002090451-hb9j8ai"
+							"Data": "20210615211733-v6rzowm"
 						},
 						{
 							"Type": "NodeBlockRefSpace"
 						},
 						{
 							"Type": "NodeBlockRefText",
-							"Data": "自动备份"
+							"Data": "编辑历史"
 						},
 						{
 							"Type": "NodeCloseParen"
@@ -647,7 +648,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210226100854-6bo19cq",
-				"updated": "20210501204259"
+				"updated": "20210615212801"
 			},
 			"Children": [
 				{
@@ -656,25 +657,23 @@
 				},
 				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
 							"Data": ".siyuan/backup/"
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 文件夹，删除不需要的备份历史。"
+					"Data": " 文件夹，删除不需要的历史。"
 				}
 			]
 		},
