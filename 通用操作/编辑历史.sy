@@ -224,7 +224,7 @@
 										},
 										{
 											"Type": "NodeCodeSpanContent",
-											"Data": ".siyuan/backup/"
+											"Data": ".siyuan/history/"
 										},
 										{
 											"Type": "NodeCodeSpanCloseMarker"
