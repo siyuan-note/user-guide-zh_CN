@@ -3,8 +3,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20200812220555-lj3enxa",
+		"title-img": "background-color:#556;background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);background-size:80px 140px;background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;",
 		"type": "doc",
-		"updated": "20210528115249"
+		"updated": "20210428232015"
 	},
 	"Children": [
 		{
@@ -12,13 +13,39 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"bookmark": "✨",
 				"id": "20210428212840-859h45j",
 				"updated": "20210601233917"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "🍫 内容块"
+					"Data": "🍫 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "background-image: linear-gradient(to right, var(--b3-theme-primary), var(--b3-theme-error)); -webkit-background-clip: text; color: transparent;"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "内容块"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"background-image: linear-gradient(to right, var(--b3-theme-primary), var(--b3-theme-error)); -webkit-background-clip: text; color: transparent;\"}"
 				}
 			]
 		},
@@ -27,7 +54,8 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210428212840-8rqwn5o",
-				"updated": "20210512150241"
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20210622232119"
 			},
 			"Children": [
 				{
@@ -36,6 +64,7 @@
 				},
 				{
 					"Type": "NodeBlockRef",
+					"Data": "span",
 					"Children": [
 						{
 							"Type": "NodeOpenParen"
@@ -69,11 +98,19 @@
 			]
 		},
 		{
+			"ID": "20210622230230-mquefia",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210622230230-mquefia",
+				"updated": "20210622230230"
+			}
+		},
+		{
 			"ID": "20210528115012-vst5lwt",
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210528115012-vst5lwt",
-				"updated": "20210601233622"
+				"updated": "20210601233041"
 			},
 			"Children": [
 				{
@@ -88,6 +125,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210528115021-oj6gzg7",
+						"style": "width: 70%; flex: 0 0 auto;",
 						"updated": "20210601233041"
 					},
 					"Children": [
@@ -179,10 +217,7 @@
 															"Type": "NodeCodeSpanOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent"
-														},
-														{
-															"Type": "NodeText",
+															"Type": "NodeCodeSpanContent",
 															"Data": "/"
 														},
 														{
@@ -577,7 +612,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210528115259-ifi35e9",
-				"updated": "20210528115249"
+				"updated": "20210428232015"
 			},
 			"Children": [
 				{
@@ -592,6 +627,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210528115306-kftajae",
+						"style": "width: 70%; flex: 0 0 auto;",
 						"updated": "20210428232015"
 					},
 					"Children": [
@@ -608,6 +644,7 @@
 							"HeadingLevel": 2,
 							"Properties": {
 								"id": "20201225220955-g2fx196",
+								"name": "社区",
 								"updated": "20210601233355"
 							},
 							"Children": [
