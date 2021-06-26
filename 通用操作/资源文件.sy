@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200915214115-42b8zma",
 		"type": "doc",
-		"updated": "20210615102825"
+		"updated": "20210626153454"
 	},
 	"Children": [
 		{
@@ -132,6 +132,10 @@
 							"Type": "NodeCloseParen"
 						}
 					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"display: block;\"}"
 				},
 				{
 					"Type": "NodeText",
@@ -507,12 +511,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210615102703-7wghhgm",
-				"updated": "20210615102825"
+				"updated": "20210626153454"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "如果需要默认将插入的资源文件放置在笔记本 assets 文件夹下，则需要先在笔记本文件夹下创建名为 assets 的文件夹，这样思源会优先选择该 assets 文件夹来存放资源文件。"
+					"Data": "如果需要默认将插入的资源文件放置在文档同级 assets 文件夹下，则需要先手动创建名为 assets 的文件夹，这样思源会优先选择该 assets 文件夹来存放资源文件。"
 				}
 			]
 		}
