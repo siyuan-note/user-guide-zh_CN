@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200813004551-gm0pbn1",
 		"type": "doc",
-		"updated": "20210621111612"
+		"updated": "20210628234942"
 	},
 	"Children": [
 		{
@@ -1236,7 +1236,7 @@
 			],
 			"Properties": {
 				"id": "20201227133317-vopotjc",
-				"updated": "20210621111612"
+				"updated": "20210628234942"
 			},
 			"Children": [
 				{
@@ -2187,6 +2187,48 @@
 										{
 											"Type": "NodeText",
 											"Data": "F4"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "刷新编辑器"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "F5"
 										},
 										{
 											"Type": "NodeKbdCloseMarker"
