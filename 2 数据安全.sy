@@ -3,7 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20210117211155-56n4odu",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210630171753"
 	},
 	"Children": [
 		{
@@ -285,7 +286,7 @@
 			},
 			"Properties": {
 				"id": "20210525215316-438zsvu",
-				"updated": "20210525220029"
+				"updated": "20210630171753"
 			},
 			"Children": [
 				{
@@ -393,7 +394,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20210525220057-l8oobjx"
+						"id": "20210525220057-l8oobjx",
+						"updated": "20210630171753"
 					},
 					"Children": [
 						{
@@ -401,12 +403,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210525220057-j32ssb4",
-								"updated": "20210525220127"
+								"updated": "20210630171753"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "密码不进行存储，加密解密时需要使用者输入"
+									"Data": "用户设置的密码使用程序内置密钥加密后存储在本地"
 								}
 							]
 						}

@@ -3,7 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20201117101902-2ewjjum",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210630172500"
 	},
 	"Children": [
 		{
@@ -737,6 +738,101 @@
 				{
 					"Type": "NodeBlockQueryEmbedScript",
 					"Data": "SELECT * FROM blocks ORDER BY random() LIMIT 3"
+				},
+				{
+					"Type": "NodeCloseBrace"
+				},
+				{
+					"Type": "NodeCloseBrace"
+				}
+			]
+		},
+		{
+			"ID": "20210630172050-m3pgmkt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20210630172050-m3pgmkt",
+				"updated": "20210630172057"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例四"
+				}
+			]
+		},
+		{
+			"ID": "20210630172058-rpr2p31",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210630172058-rpr2p31",
+				"updated": "20210630172500"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查询未完成的任务列表项，这里需要使用 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "markdown"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 字段而不是 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "content"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 字段："
+				}
+			]
+		},
+		{
+			"ID": "20210630172118-iu2hsz3",
+			"Type": "NodeBlockQueryEmbed",
+			"Properties": {
+				"id": "20210630172118-iu2hsz3",
+				"updated": "20210630172302"
+			},
+			"Children": [
+				{
+					"Type": "NodeOpenBrace"
+				},
+				{
+					"Type": "NodeOpenBrace"
+				},
+				{
+					"Type": "NodeBlockQueryEmbedScript",
+					"Data": "SELECT * FROM blocks WHERE markdown LIKE '%- [ ]%' AND subtype = 't' AND type = 'i'"
 				},
 				{
 					"Type": "NodeCloseBrace"
