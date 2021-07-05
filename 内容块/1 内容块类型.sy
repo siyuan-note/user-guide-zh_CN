@@ -2308,7 +2308,7 @@
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "注意不是内容块引用，而是块引用（Blockquote）。"
+							"Data": "注意不是内容块引用，而是引述块（Blockquote）。"
 						}
 					]
 				}
