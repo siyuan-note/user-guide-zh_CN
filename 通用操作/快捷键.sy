@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20200813004551-gm0pbn1",
 		"type": "doc",
-		"updated": "20210708000346"
+		"updated": "20210708000837"
 	},
 	"Children": [
 		{
@@ -4633,70 +4633,13 @@
 		},
 		{
 			"ID": "20210708000243-4s325nw",
-			"Type": "NodeCodeBlock",
-			"IsFencedCodeBlock": true,
-			"Properties": {
-				"id": "20210708000243-4s325nw",
-				"updated": "20210708000243"
-			},
-			"Children": [
-				{
-					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
-				},
-				{
-					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "dHM="
-				},
-				{
-					"Type": "NodeCodeBlockCode",
-					"Data": "↓"
-				},
-				{
-					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
-				}
-			]
-		},
-		{
-			"ID": "20210708000239-xfxomii",
-			"Type": "NodeCodeBlock",
-			"IsFencedCodeBlock": true,
-			"Properties": {
-				"id": "20210708000239-xfxomii",
-				"updated": "20210708000239"
-			},
-			"Children": [
-				{
-					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
-				},
-				{
-					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "dHM="
-				},
-				{
-					"Type": "NodeCodeBlockCode",
-					"Data": "↓"
-				},
-				{
-					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
-				}
-			]
-		},
-		{
-			"ID": "20210526200223-c21rkwk",
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20210526200223-c21rkwk"
+				"id": "20210708000243-4s325nw",
+				"updated": "20210708000837"
 			},
 			"Children": [
-				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "### "
-				},
 				{
 					"Type": "NodeText",
 					"Data": "块图标"
