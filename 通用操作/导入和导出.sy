@@ -3,7 +3,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20200813125307-pxsjela",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210708215142"
 	},
 	"Children": [
 		{
@@ -28,12 +29,13 @@
 			"ID": "20210120161018-1mdw4fy",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20210120161018-1mdw4fy"
+				"id": "20210120161018-1mdw4fy",
+				"updated": "20210708215142"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "在文档树上选择文件夹后右键选择“导入”，二级菜单可选择导入文件夹或者导入单个文件。"
+					"Data": "思源仅支持导入 Markdown 文件。在文档树上选择文件夹后右键选择“导入”，二级菜单可选择导入文件夹或者导入单个 Markdown 文件。"
 				}
 			]
 		},
