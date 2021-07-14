@@ -5,7 +5,7 @@
 		"id": "20200812220555-lj3enxa",
 		"title-img": "background-color:#556;background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);background-size:80px 140px;background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;",
 		"type": "doc",
-		"updated": "20210622232119"
+		"updated": "20210714093017"
 	},
 	"Children": [
 		{
@@ -15,37 +15,12 @@
 			"Properties": {
 				"bookmark": "✨",
 				"id": "20210428212840-859h45j",
-				"updated": "20210601233917"
+				"updated": "20210714092948"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "🍫 "
-				},
-				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Properties": {
-						"style": "background-image: linear-gradient(to right, var(--b3-theme-primary), var(--b3-theme-error)); -webkit-background-clip: text; color: transparent;"
-					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "内容块"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
-				},
-				{
-					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"background-image: linear-gradient(to right, var(--b3-theme-primary), var(--b3-theme-error)); -webkit-background-clip: text; color: transparent;\"}"
+					"Data": "🍫 内容块"
 				}
 			]
 		},
@@ -102,7 +77,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210528115012-vst5lwt",
-				"updated": "20210601233041"
+				"updated": "20210714093017"
 			},
 			"Children": [
 				{
@@ -118,7 +93,7 @@
 					"Properties": {
 						"id": "20210528115021-oj6gzg7",
 						"style": "width: 70%; flex: 0 0 auto;",
-						"updated": "20210601233041"
+						"updated": "20210714093017"
 					},
 					"Children": [
 						{
@@ -317,7 +292,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210429172522-ceauu94",
-								"updated": "20210528115558"
+								"updated": "20210714093017"
 							},
 							"Children": [
 								{
@@ -338,7 +313,36 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "：请勿在帮助指南中保存数据，每次打开时都会被重置。"
+									"Data": "："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "background-image: linear-gradient(to right, var(--b3-theme-primary), var(--b3-theme-error)); -webkit-background-clip: text; color: transparent;"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "请勿在帮助指南中保存数据"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"background-image: linear-gradient(to right, var(--b3-theme-primary), var(--b3-theme-error)); -webkit-background-clip: text; color: transparent;\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，每次打开时都会被重置。"
 								}
 							]
 						},
