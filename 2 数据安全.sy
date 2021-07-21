@@ -5,7 +5,7 @@
 		"id": "20210117211155-56n4odu",
 		"title": "2 数据安全",
 		"type": "doc",
-		"updated": "20210630171753"
+		"updated": "20210721110945"
 	},
 	"Children": [
 		{
@@ -248,172 +248,59 @@
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20210117211513-nelhsjf",
-				"updated": "20210525214952"
+				"updated": "20210721110530"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
-				},
-				{
 					"Type": "NodeText",
-					"Data": "端到端加密备份"
+					"Data": "端到端加密"
 				}
 			]
 		},
 		{
-			"ID": "20210525215124-ifljpao",
+			"ID": "20210721110555-81sqopb",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20210525215124-ifljpao",
-				"updated": "20210525215811"
+				"id": "20210721110555-81sqopb",
+				"updated": "20210721110945"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "思源对工作空间生成备份时会进行加密，备份数据可以放心地进行网络传输和托管。"
-				}
-			]
-		},
-		{
-			"ID": "20210525215316-438zsvu",
-			"Type": "NodeList",
-			"ListData": {
-				"Tight": true,
-				"BulletChar": 42,
-				"Padding": 2,
-				"Marker": "Kg==",
-				"Num": -1
-			},
-			"Properties": {
-				"id": "20210525215316-438zsvu",
-				"updated": "20210630171753"
-			},
-			"Children": [
+					"Data": "思源云端备份和同步使用"
+				},
 				{
-					"ID": "20210525220029-7myvzw8",
-					"Type": "NodeListItem",
-					"Data": "*",
-					"ListData": {
-						"Tight": true,
-						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
-					},
-					"Properties": {
-						"id": "20210525220029-7myvzw8"
-					},
+					"Type": "NodeBlockRef",
+					"Data": "span",
 					"Children": [
 						{
-							"ID": "20210525220029-c9i66lb",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210525220029-c9i66lb",
-								"updated": "20210525220334"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "端到端加密，加解密完全在本地进行"
-								}
-							]
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20210721110423-5m6vo52"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefText",
+							"Data": "端到端加密"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
 				{
-					"ID": "20210525220320-a9li63c",
-					"Type": "NodeListItem",
-					"Data": "*",
-					"ListData": {
-						"Tight": true,
-						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
-					},
-					"Properties": {
-						"id": "20210525220320-a9li63c"
-					},
-					"Children": [
-						{
-							"ID": "20210525220320-h0rm7h0",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210525220320-h0rm7h0",
-								"updated": "20210525220426"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "加密算法为业界公认安全的 AES GCM"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210525220037-h0i8gm5",
-					"Type": "NodeListItem",
-					"Data": "*",
-					"ListData": {
-						"Tight": true,
-						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
-					},
-					"Properties": {
-						"id": "20210525220037-h0i8gm5"
-					},
-					"Children": [
-						{
-							"ID": "20210525220037-5vclp4i",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210525220037-5vclp4i",
-								"updated": "20210525220458"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "除非知道密码或者暴力破解，否则不可能被解密（开发者也无法解密）"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210525220057-l8oobjx",
-					"Type": "NodeListItem",
-					"Data": "*",
-					"ListData": {
-						"Tight": true,
-						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
-					},
-					"Properties": {
-						"id": "20210525220057-l8oobjx",
-						"updated": "20210630171753"
-					},
-					"Children": [
-						{
-							"ID": "20210525220057-j32ssb4",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210525220057-j32ssb4",
-								"updated": "20210630171753"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "用户设置的密码使用程序内置密钥加密后存储在本地"
-								}
-							]
-						}
-					]
+					"Type": "NodeText",
+					"Data": "，密码在本地通过内置密钥加密保存，除使用者之外的任何第三方（包括开发者）均无法在云端获得明文数据。"
 				}
 			]
 		},

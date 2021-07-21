@@ -1,0 +1,668 @@
+{
+	"ID": "20210721103420-vn6g2yy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20210721103420-vn6g2yy",
+		"title": "1 数据同步",
+		"updated": "20210721111408"
+	},
+	"Children": [
+		{
+			"ID": "20210721103855-c30ooqm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210721103855-c30ooqm",
+				"updated": "20210721103911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概述"
+				}
+			]
+		},
+		{
+			"ID": "20210721103420-82xgf8u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210721103420-82xgf8u",
+				"updated": "20210721103854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据同步指的是在多个设备上保持 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "工作空间/data/"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件夹数据一致，包括资源文件、模板、挂件以及笔记本数据。"
+				}
+			]
+		},
+		{
+			"ID": "20210721103754-930h5gz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210721103754-930h5gz",
+				"updated": "20210721103758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用方式"
+				}
+			]
+		},
+		{
+			"ID": "20210721103758-pc3i4x8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20210721103758-pc3i4x8",
+				"updated": "20210721105010"
+			},
+			"Children": [
+				{
+					"ID": "20210721103955-p8wc5js",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20210721103955-p8wc5js"
+					},
+					"Children": [
+						{
+							"ID": "20210721103955-bqzteuz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721103955-bqzteuz",
+								"updated": "20210721103955"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打开 "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "设置 - 云端"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，配置 "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "端到端加密密码"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，该密码仅需配置一次，所有设备上保持相同即可"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721104534-zgn4ihf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20210721104534-zgn4ihf"
+					},
+					"Children": [
+						{
+							"ID": "20210721104534-2yhd04d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721104534-2yhd04d",
+								"updated": "20210721104748"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "设置 - 云端 - 云端同步 - 添加"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 中创建云端同步目录"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721104739-9la1e6s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20210721104739-9la1e6s"
+					},
+					"Children": [
+						{
+							"ID": "20210721104739-jn4m2ob",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721104739-jn4m2ob",
+								"updated": "20210721104921"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选择一个云端同步目录，选择以后该云端同步目录将用于当前工作空间数据同步，选定以后请勿随意切换，否则云端数据会被覆盖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721103957-niox81t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20210721103957-niox81t"
+					},
+					"Children": [
+						{
+							"ID": "20210721103957-6v20946",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721103957-6v20946",
+								"updated": "20210721104517"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启用 "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "设置 - 云端 - 本地同步 - 同步到云端"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721104938-nwbhydd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20210721104938-nwbhydd",
+						"updated": "20210721105010"
+					},
+					"Children": [
+						{
+							"ID": "20210721104938-ktz4ha9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721104938-ktz4ha9",
+								"updated": "20210721105010"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "等待 1 分钟左右后同步就会开始工作，以后每隔 1 分钟定时自动同步一次"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20210721103656-afjj0tm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210721103656-afjj0tm",
+				"updated": "20210721103752"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工作原理"
+				}
+			]
+		},
+		{
+			"ID": "20210721103726-sbnev8w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210721103726-sbnev8w",
+				"updated": "20210721105947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每隔 1 分钟比较一次云端和本地数据修改时间，根据时间进行相应操作："
+				}
+			]
+		},
+		{
+			"ID": "20210721105306-biv12a6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20210721105306-biv12a6",
+				"updated": "20210721105927"
+			},
+			"Children": [
+				{
+					"ID": "20210721105353-r7uhzqt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210721105353-r7uhzqt"
+					},
+					"Children": [
+						{
+							"ID": "20210721105353-aseijn5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721105353-aseijn5",
+								"updated": "20210721105411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果时间相等则略过"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721105305-dt1ritx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210721105305-dt1ritx",
+						"updated": "20210721105836"
+					},
+					"Children": [
+						{
+							"ID": "20210721105305-kx4c8fj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721105305-kx4c8fj",
+								"updated": "20210721105836"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果云端时间大于本地时间，则将云端数据下载到本地并解密到 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "工作空间/data/"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件夹下，本地被覆盖或者删除的文件会移动到 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "工作空间/.siyuan/history/"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件夹下"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721105329-52g70vv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210721105329-52g70vv",
+						"updated": "20210721105927"
+					},
+					"Children": [
+						{
+							"ID": "20210721105329-ypobf4a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721105329-ypobf4a",
+								"updated": "20210721105927"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果云端时间小于本地，则扫描 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/工作空间/data/"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 变更，然后将变更加密复制到 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "工作空间/sync/"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件夹下，最后进行上传并覆盖云端数据"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20210721105949-0diekoc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210721105949-0diekoc",
+				"updated": "20210721105955"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意"
+				}
+			]
+		},
+		{
+			"ID": "20210721105956-5brxg8n",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20210721105956-5brxg8n",
+				"updated": "20210721111408"
+			},
+			"Children": [
+				{
+					"ID": "20210721110129-mfux9cn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210721110129-mfux9cn"
+					},
+					"Children": [
+						{
+							"ID": "20210721110129-hce7prb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721110129-hce7prb",
+								"updated": "20210721110149"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同步数据默认存放在 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "工作空间/sync/"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件夹下，该位置可修改"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721110150-7ujapfd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210721110150-7ujapfd"
+					},
+					"Children": [
+						{
+							"ID": "20210721110150-wk70l45",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721110150-wk70l45",
+								"updated": "20210721110255"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请勿使用第三方同步盘同步该文件夹，否则可能会造成数据损坏"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721110324-qky9w5f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210721110324-qky9w5f"
+					},
+					"Children": [
+						{
+							"ID": "20210721110324-zx526jq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721110324-zx526jq",
+								"updated": "20210721110400"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在不改变密码的情况下，数据是进行增量传输的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721111344-qgz9edg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210721111344-qgz9edg",
+						"updated": "20210721111408"
+					},
+					"Children": [
+						{
+							"ID": "20210721111344-n2ux39x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721111344-n2ux39x",
+								"updated": "20210721111408"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请务必校准设备时间"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
