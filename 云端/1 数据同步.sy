@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "1 数据同步",
-		"updated": "20210721160123"
+		"updated": "20210721195828"
 	},
 	"Children": [
 		{
@@ -530,7 +530,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210721105956-5brxg8n",
-				"updated": "20210721160123"
+				"updated": "20210721195828"
 			},
 			"Children": [
 				{
@@ -575,33 +575,6 @@
 								{
 									"Type": "NodeText",
 									"Data": " 文件夹下，该位置可修改"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210721110150-7ujapfd",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210721110150-7ujapfd"
-					},
-					"Children": [
-						{
-							"ID": "20210721110150-wk70l45",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210721110150-wk70l45",
-								"updated": "20210721110255"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "请勿使用第三方同步盘同步该文件夹，否则可能会造成数据损坏"
 								}
 							]
 						}
@@ -657,6 +630,34 @@
 								{
 									"Type": "NodeText",
 									"Data": "请务必校准设备时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210721195711-c0ljv7q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210721195711-c0ljv7q",
+						"updated": "20210721195828"
+					},
+					"Children": [
+						{
+							"ID": "20210721195711-gvej1i2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210721195711-gvej1i2",
+								"updated": "20210721195828"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重命名或删除云端目录前，请在所有设备上关闭同步后再修改或删除"
 								}
 							]
 						}
