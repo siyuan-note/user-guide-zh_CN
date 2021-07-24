@@ -5,7 +5,7 @@
 		"id": "20210505163537-oo97zov",
 		"title": "剪藏",
 		"type": "doc",
-		"updated": "20210505164913"
+		"updated": "20210724233556"
 	},
 	"Children": [
 		{
@@ -63,28 +63,18 @@
 		{
 			"ID": "20210505164024-uwvunwm",
 			"Type": "NodeList",
-			"ListData": {
-				"Tight": true,
-				"BulletChar": 42,
-				"Padding": 2,
-				"Marker": "Kg==",
-				"Num": -1
-			},
+			"ListData": {},
 			"Properties": {
 				"id": "20210505164024-uwvunwm",
-				"updated": "20210505164913"
+				"updated": "20210724233902"
 			},
 			"Children": [
 				{
 					"ID": "20210505164206-jydol2d",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20210505164206-jydol2d"
@@ -109,17 +99,13 @@
 				{
 					"ID": "20210505164209-g9651e2",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20210505164209-g9651e2",
-						"updated": "20210505164913"
+						"updated": "20210724233902"
 					},
 					"Children": [
 						{
@@ -127,62 +113,131 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210505164209-s3gbivw",
-								"updated": "20210505164913"
+								"updated": "20210724233445"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果想要将剪藏内容中包含的图片拉取到本地，则需要使用"
-								},
+									"Data": "如果想要将剪藏内容中包含的图片拉取到本地"
+								}
+							]
+						},
+						{
+							"ID": "20210724233446-u6b4p5i",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20210724233446-u6b4p5i",
+								"updated": "20210724233902"
+							},
+							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
+									"ID": "20210724233448-82tf2j9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20210724233448-82tf2j9",
+										"updated": "20210724233534"
+									},
 									"Children": [
 										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "思源 Crhome 扩展"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/siyuan-note/siyuan-chrome"
-										},
-										{
-											"Type": "NodeCloseParen"
+											"ID": "20210724233448-tb357iv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20210724233448-tb357iv",
+												"updated": "20210724233534"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "推荐使用 "
+												},
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Web Clipper"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://clipper.website"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
 										}
 									]
 								},
 								{
-									"Type": "NodeText",
-									"Data": "。"
-								},
-								{
-									"Type": "NodeTag",
-									"Data": "span",
+									"ID": "20210724233445-qqlgrvz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20210724233445-qqlgrvz",
+										"updated": "20210724233902"
+									},
 									"Children": [
 										{
-											"Type": "NodeTagOpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "注意"
-										},
-										{
-											"Type": "NodeTagCloseMarker"
+											"ID": "20210724233445-dt43h0s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20210724233445-dt43h0s",
+												"updated": "20210724233902"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "或者"
+												},
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "思源 Chome 扩展"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://chrome.google.com/webstore/detail/siyuan/hkcgjbeblifaincobbcfiffbpgoafepk"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
 										}
 									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "：拉取图片到本地是付费订阅特性"
 								}
 							]
 						}
@@ -196,127 +251,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20210531180555-mcz0ihc",
-				"updated": "20210531180635"
+				"updated": "20210724233556"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "思源浏览器扩展"
-				}
-			]
-		},
-		{
-			"ID": "20210531180643-1k4xc58",
-			"Type": "NodeList",
-			"ListData": {},
-			"Properties": {
-				"id": "20210531180643-1k4xc58",
-				"updated": "20210531180817"
-			},
-			"Children": [
-				{
-					"ID": "20210531180705-wwnl9ro",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210531180705-wwnl9ro",
-						"updated": "20210531180814"
-					},
-					"Children": [
-						{
-							"ID": "20210531180705-akpkgpa",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210531180705-akpkgpa",
-								"updated": "20210531180814"
-							},
-							"Children": [
-								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "稳定版"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://chrome.google.com/webstore/detail/siyuan/hkcgjbeblifaincobbcfiffbpgoafepk"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "已经上架 Chrome Web Store"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210531180723-g5savmu",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210531180723-g5savmu",
-						"updated": "20210531180817"
-					},
-					"Children": [
-						{
-							"ID": "20210531180723-l8yjyit",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210531180723-l8yjyit",
-								"updated": "20210531180817"
-							},
-							"Children": [
-								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "开发版"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/siyuan-note/siyuan-chrome"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
-								}
-							]
-						}
-					]
+					"Data": "思源 Chrome 扩展"
 				}
 			]
 		},
