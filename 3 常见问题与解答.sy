@@ -875,7 +875,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "基础功能完全免费使用，"
+					"Data": "本地功能完全免费使用，"
 				},
 				{
 					"Type": "NodeLink",
@@ -886,7 +886,7 @@
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "高级特性"
+							"Data": "云端服务"
 						},
 						{
 							"Type": "NodeCloseBracket",
