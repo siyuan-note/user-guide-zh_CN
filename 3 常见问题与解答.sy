@@ -5,7 +5,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "3 常见问题与解答",
 		"type": "doc",
-		"updated": "20210710111209"
+		"updated": "20210726165013"
 	},
 	"Children": [
 		{
@@ -870,7 +870,8 @@
 			"ID": "20201224120447-xj9cd10",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20201224120447-xj9cd10"
+				"id": "20201224120447-xj9cd10",
+				"updated": "20210726165013"
 			},
 			"Children": [
 				{
@@ -879,69 +880,33 @@
 				},
 				{
 					"Type": "NodeLink",
+					"Data": "span",
 					"Children": [
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "["
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
 							"Data": "云端服务"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]"
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "("
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://b3log.org/siyuan/pricing.html"
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "需要"
-				},
-				{
-					"Type": "NodeLink",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "["
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "年付订阅"
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]"
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "("
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
 							"Data": "https://b3log.org/siyuan/pricing.html"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": ")"
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": "。"
+					"Data": "需要年付订阅。"
 				}
 			]
 		},
