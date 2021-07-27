@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "1 数据同步",
-		"updated": "20210721195828"
+		"updated": "20210727103336"
 	},
 	"Children": [
 		{
@@ -79,7 +79,7 @@
 			},
 			"Properties": {
 				"id": "20210721103758-pc3i4x8",
-				"updated": "20210721105010"
+				"updated": "20210727103011"
 			},
 			"Children": [
 				{
@@ -239,7 +239,8 @@
 						"Num": 4
 					},
 					"Properties": {
-						"id": "20210721103957-niox81t"
+						"id": "20210721103957-niox81t",
+						"updated": "20210727103011"
 					},
 					"Children": [
 						{
@@ -247,12 +248,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721103957-6v20946",
-								"updated": "20210721104517"
+								"updated": "20210727103011"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "启用 "
+									"Data": "启用同步开关 "
 								},
 								{
 									"Type": "NodeKbd",
@@ -303,6 +304,42 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20210727102835-sm3eyau",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210727102835-sm3eyau",
+				"updated": "20210727103336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以上操作请先在"
+				},
+				{
+					"Type": "NodeEmphasis",
+					"Data": "em",
+					"Children": [
+						{
+							"Type": "NodeEmA6kOpenMarker",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "主力"
+						},
+						{
+							"Type": "NodeEmA6kCloseMarker",
+							"Data": "*"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "设备上进行，然后在其他设备上选择相同的云端同步目录，并打开同步开关即可。如果要切换、重命名或者删除云端同步目录，请先在所有设备上关闭同步开关后再操作。"
 				}
 			]
 		},
