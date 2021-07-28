@@ -4,7 +4,8 @@
 	"Properties": {
 		"id": "20200828105441-r76vmu5",
 		"title": "启动参数",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210728171326"
 	},
 	"Children": [
 		{
@@ -437,28 +438,23 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20210117224112-8i8ptea"
+				"id": "20210117224112-8i8ptea",
+				"updated": "20210728171326"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "### "
-				},
-				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
-							"Data": "--authCode"
+							"Data": "--accessAuthCode"
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				}
@@ -506,73 +502,6 @@
 				{
 					"Type": "NodeText",
 					"Data": "，设置后会覆盖 conf.json 中的 authCode。"
-				}
-			]
-		},
-		{
-			"ID": "20201225172241-vxb8nxf",
-			"Type": "NodeHeading",
-			"HeadingLevel": 3,
-			"Properties": {
-				"id": "20201225172241-vxb8nxf"
-			},
-			"Children": [
-				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "### "
-				},
-				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--auth"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20201225172241-dczo2za",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20201225172241-dczo2za"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "使用 "
-				},
-				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--auth=true"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": " 后将使用 conf.json 中 user 数据进行鉴权，该参数主要用于思源在线空间鉴权，自助伺服时请勿指定。"
 				}
 			]
 		},
