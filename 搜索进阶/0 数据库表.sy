@@ -4,7 +4,8 @@
 	"Properties": {
 		"id": "20201222093044-rx4zjoy",
 		"title": "0 数据库表",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210321225614"
 	},
 	"Children": [
 		{
@@ -60,7 +61,6 @@
 		{
 			"ID": "20201224120447-cs6ur9x",
 			"Type": "NodeTable",
-			"Data": "|        字段 | 说明                                         |\n| ------------: | ---------------------------------------------- |\n|          id | 内容块 ID                                    |\n|   parent_id | 父块的 ID，如果内容块是文档块则该字段为空    |\n| previous_id | 前一个块的 ID                                |\n|     next_id | 后一个块的 ID                                |\n|     root_id | 根块 ID，即文档块 ID                         |\n|        hash | content 的 SHA256 校验和                     |\n|         box | 笔记本名                                     |\n|        path | 内容块所在文档路径                           |\n|        name | 内容块名称                                   |\n|       alias | 内容块别名                                   |\n|        memo | 内容块备注                                   |\n|     content | 去除了 Markdown 标记符的文本                 |\n|    markdown | 包含完整 Markdown 标记符的文本               |\n|      length | Markdown 文本长度                            |\n|        type | 内容块类型，参考((20210210103523-ombf290 \"这里\"))   |\n|     subtype | 内容块子类型，参考((20210210103411-tcbcjja \"这里\")) |\n|         ial | 内联属性列表，形如 `{: name=\"value\"}`        |\n|        sort | 排序用，数值越小排序越靠前                   |\n|     created | 创建时间                                     |\n|     updated | 更新时间                                     |",
 			"TableAligns": [
 				3,
 				0
@@ -72,13 +72,18 @@
 			"Children": [
 				{
 					"Type": "NodeTableHead",
+					"Data": "thead",
 					"Children": [
 						{
 							"Type": "NodeTableRow",
+							"Data": "tr",
 							"Children": [
 								{
 									"Type": "NodeTableCell",
+									"Data": "th",
 									"TableCellAlign": 3,
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 11,
 									"Children": [
 										{
 											"Type": "NodeText",
@@ -88,6 +93,9 @@
 								},
 								{
 									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellContentWidth": 6,
+									"TableCellContentMaxWidth": 50,
 									"Children": [
 										{
 											"Type": "NodeText",
@@ -101,14 +109,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 4,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -118,6 +126,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 11,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -129,14 +140,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 11,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -146,6 +157,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 43,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -157,70 +171,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "previous_id"
-								}
-							]
-						},
-						{
-							"Type": "NodeTableCell",
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "前一个块的 ID"
-								}
-							]
-						}
-					]
-				},
-				{
-					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
-					"Children": [
-						{
-							"Type": "NodeTableCell",
-							"TableCellAlign": 3,
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "next_id"
-								}
-							]
-						},
-						{
-							"Type": "NodeTableCell",
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "后一个块的 ID"
-								}
-							]
-						}
-					]
-				},
-				{
-					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
-					"Children": [
-						{
-							"Type": "NodeTableCell",
-							"TableCellAlign": 3,
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -230,6 +188,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 22,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -241,14 +202,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -258,6 +219,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 26,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -269,14 +233,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 5,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -286,6 +250,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -297,14 +264,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -314,6 +281,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 20,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -325,14 +295,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -342,6 +312,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -353,14 +326,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 7,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -370,6 +343,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -381,14 +357,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -398,6 +374,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 12,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -409,14 +388,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -426,6 +405,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 30,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -437,14 +419,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -454,6 +436,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 32,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -465,14 +450,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 8,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -482,6 +467,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 19,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -493,14 +481,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -510,6 +498,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 48,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -517,6 +508,7 @@
 								},
 								{
 									"Type": "NodeBlockRef",
+									"Data": "span",
 									"Children": [
 										{
 											"Type": "NodeOpenParen"
@@ -549,14 +541,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -566,6 +558,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 50,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -573,6 +568,7 @@
 								},
 								{
 									"Type": "NodeBlockRef",
+									"Data": "span",
 									"Children": [
 										{
 											"Type": "NodeOpenParen"
@@ -605,14 +601,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 5,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -622,6 +618,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 41,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -629,19 +628,17 @@
 								},
 								{
 									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Data": "code",
 									"Children": [
 										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`"
+											"Type": "NodeCodeSpanOpenMarker"
 										},
 										{
 											"Type": "NodeCodeSpanContent",
 											"Data": "{: name=\"value\"}"
 										},
 										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`"
+											"Type": "NodeCodeSpanCloseMarker"
 										}
 									]
 								}
@@ -651,14 +648,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 6,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -668,6 +665,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 28,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -679,14 +679,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -696,6 +696,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -707,14 +710,14 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						3,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"TableCellAlign": 3,
+							"TableCellContentWidth": 9,
+							"TableCellContentMaxWidth": 11,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -724,6 +727,9 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellContentWidth": 10,
+							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
