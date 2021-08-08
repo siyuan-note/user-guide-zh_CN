@@ -1,0 +1,146 @@
+{
+	"ID": "20210721110423-5m6vo52",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20210721110423-5m6vo52",
+		"title": "3 端到端加密",
+		"updated": "20210721111300"
+	},
+	"Children": [
+		{
+			"ID": "20210525215124-ifljpao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210525215124-ifljpao",
+				"updated": "20210721111027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思源在进行备份和同步前会进行数据加密，加密后的数据可以放心地进行网络传输和托管。"
+				}
+			]
+		},
+		{
+			"ID": "20210525215316-438zsvu",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20210525215316-438zsvu",
+				"updated": "20210721111300"
+			},
+			"Children": [
+				{
+					"ID": "20210525220029-7myvzw8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210525220029-7myvzw8",
+						"updated": "20210721111300"
+					},
+					"Children": [
+						{
+							"ID": "20210525220029-c9i66lb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220029-c9i66lb",
+								"updated": "20210721111300"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加密和解密过程完全在本地设备上进行"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210525220320-a9li63c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210525220320-a9li63c"
+					},
+					"Children": [
+						{
+							"ID": "20210525220320-h0rm7h0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220320-h0rm7h0",
+								"updated": "20210525220426"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加密算法为业界公认安全的 AES GCM"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210525220037-h0i8gm5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210525220037-h0i8gm5"
+					},
+					"Children": [
+						{
+							"ID": "20210525220037-5vclp4i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220037-5vclp4i",
+								"updated": "20210525220458"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "除非知道密码或者暴力破解，否则不可能被解密（开发者也无法解密）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210525220057-l8oobjx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210525220057-l8oobjx",
+						"updated": "20210630171753"
+					},
+					"Children": [
+						{
+							"ID": "20210525220057-j32ssb4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210525220057-j32ssb4",
+								"updated": "20210630171753"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户设置的密码使用程序内置密钥加密后存储在本地"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
