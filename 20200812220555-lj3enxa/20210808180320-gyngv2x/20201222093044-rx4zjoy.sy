@@ -5,7 +5,7 @@
 		"id": "20201222093044-rx4zjoy",
 		"title": "0 数据库表",
 		"type": "doc",
-		"updated": "20210321225614"
+		"updated": "20210810182346"
 	},
 	"Children": [
 		{
@@ -67,7 +67,7 @@
 			],
 			"Properties": {
 				"id": "20201224120447-cs6ur9x",
-				"updated": "20210321225614"
+				"updated": "20210810182346"
 			},
 			"Children": [
 				{
@@ -251,12 +251,12 @@
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
-							"TableCellContentWidth": 10,
+							"TableCellContentWidth": 11,
 							"TableCellContentMaxWidth": 50,
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "笔记本名"
+									"Data": "笔记本 ID"
 								}
 							]
 						}
