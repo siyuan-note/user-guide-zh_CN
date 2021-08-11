@@ -4,7 +4,8 @@
 	"Properties": {
 		"id": "20210127202655-2334vvv",
 		"title": "预览 PDF",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210811224214"
 	},
 	"Children": [
 		{
@@ -12,7 +13,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210127202655-eyv25b7",
-				"updated": "20210503094823"
+				"updated": "20210811224214"
 			},
 			"Children": [
 				{
@@ -21,25 +22,23 @@
 				},
 				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
 							"Data": "[filename](assets/filename.pdf)"
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 的链接。在该链接上右键下拉菜单资源中可选择新页签打开预览，或者使用系统默认的程序打开该 PDF 文件。"
+					"Data": " 的链接。点击该链接可使用思源进行预览。"
 				}
 			]
 		},
