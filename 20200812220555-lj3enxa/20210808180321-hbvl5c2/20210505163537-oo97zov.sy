@@ -5,7 +5,7 @@
 		"id": "20210505163537-oo97zov",
 		"title": "剪藏",
 		"type": "doc",
-		"updated": "20210820094808"
+		"updated": "20210820171805"
 	},
 	"Children": [
 		{
@@ -66,7 +66,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210505164024-uwvunwm",
-				"updated": "20210820094808"
+				"updated": "20210820171304"
 			},
 			"Children": [
 				{
@@ -105,7 +105,7 @@
 					},
 					"Properties": {
 						"id": "20210505164209-g9651e2",
-						"updated": "20210820094808"
+						"updated": "20210820171304"
 					},
 					"Children": [
 						{
@@ -128,7 +128,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20210724233446-u6b4p5i",
-								"updated": "20210820094808"
+								"updated": "20210820171304"
 							},
 							"Children": [
 								{
@@ -140,7 +140,7 @@
 									},
 									"Properties": {
 										"id": "20210724233448-82tf2j9",
-										"updated": "20210724233534"
+										"updated": "20210820171304"
 									},
 									"Children": [
 										{
@@ -148,67 +148,9 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20210724233448-tb357iv",
-												"updated": "20210724233534"
+												"updated": "20210820171304"
 											},
 											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "推荐使用 "
-												},
-												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "Web Clipper"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://clipper.website"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20210724233445-qqlgrvz",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20210724233445-qqlgrvz",
-										"updated": "20210820094808"
-									},
-									"Children": [
-										{
-											"ID": "20210724233445-dt43h0s",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20210724233445-dt43h0s",
-												"updated": "20210820094808"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "或者"
-												},
 												{
 													"Type": "NodeLink",
 													"Data": "span",
@@ -229,6 +171,56 @@
 														{
 															"Type": "NodeLinkDest",
 															"Data": "https://ld246.com/article/1629423901669"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20210724233445-qqlgrvz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20210724233445-qqlgrvz",
+										"updated": "20210820171251"
+									},
+									"Children": [
+										{
+											"ID": "20210724233445-dt43h0s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20210724233445-dt43h0s",
+												"updated": "20210820171251"
+											},
+											"Children": [
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Web Clipper"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://clipper.website"
 														},
 														{
 															"Type": "NodeCloseParen"
@@ -268,11 +260,11 @@
 			},
 			"Properties": {
 				"id": "20210531180907-u4jeq2k",
-				"updated": "20210531180941"
+				"updated": "20210820171805"
 			},
 			"Children": [
 				{
-					"ID": "20210531180907-mtgh0eb",
+					"ID": "20210820171356-ky8ms7s",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -281,21 +273,21 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20210531180907-mtgh0eb",
-						"updated": "20210531180923"
+						"id": "20210820171356-ky8ms7s",
+						"updated": "20210820171805"
 					},
 					"Children": [
 						{
-							"ID": "20210531180907-1c5dnnd",
+							"ID": "20210820171356-8doieb3",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210531180907-1c5dnnd",
-								"updated": "20210531180923"
+								"id": "20210820171356-8doieb3",
+								"updated": "20210820171805"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "运行思源"
+									"Data": "安装扩展，在扩展的选项中配置 API token（token 可在思源设置 - 关于中查看）"
 								}
 							]
 						}
