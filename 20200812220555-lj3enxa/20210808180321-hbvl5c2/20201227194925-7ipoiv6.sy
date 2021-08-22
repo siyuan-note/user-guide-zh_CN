@@ -1,0 +1,56 @@
+{
+	"ID": "20201227194925-7ipoiv6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20201227194925-7ipoiv6",
+		"title": "内核 API",
+		"type": "doc",
+		"updated": "1629621541047"
+	},
+	"Children": [
+		{
+			"ID": "20210822163618-m0zvvbe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210822163618-m0zvvbe",
+				"updated": "20210822163704"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "请关注 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "#213"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/siyuan-note/siyuan/issues/213"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		}
+	]
+}
