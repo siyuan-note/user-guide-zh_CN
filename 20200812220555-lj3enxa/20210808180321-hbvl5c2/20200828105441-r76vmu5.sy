@@ -5,7 +5,7 @@
 		"id": "20200828105441-r76vmu5",
 		"title": "启动参数",
 		"type": "doc",
-		"updated": "20210728171326"
+		"updated": "20210824202638"
 	},
 	"Children": [
 		{
@@ -13,16 +13,13 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20201225172241-ifgc4hm"
+				"id": "20201225172241-ifgc4hm",
+				"updated": "20210824202638"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
-				},
-				{
 					"Type": "NodeText",
-					"Data": "思源内核"
+					"Data": "内核"
 				}
 			]
 		},

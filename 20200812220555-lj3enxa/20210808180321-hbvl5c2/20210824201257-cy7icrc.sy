@@ -1,0 +1,119 @@
+{
+	"ID": "20210824201257-cy7icrc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20210824201257-cy7icrc",
+		"title": "挂件",
+		"updated": "20210824202222"
+	},
+	"Children": [
+		{
+			"ID": "20210824201352-apdkqps",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210824201352-apdkqps",
+				"updated": "20210824201352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概述"
+				}
+			]
+		},
+		{
+			"ID": "20210824201352-z3731rx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210824201352-z3731rx",
+				"updated": "20210824201939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "挂件是思源内核伺服的静态网页，它通过 API 存取数据，通过 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\u003ciframe\u003e"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 进行渲染展现。"
+				}
+			]
+		},
+		{
+			"ID": "20210824201352-9vey615",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210824201352-9vey615",
+				"updated": "20210824202222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用方式"
+				}
+			]
+		},
+		{
+			"ID": "20210824201352-xhr1kmi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210824201352-xhr1kmi",
+				"updated": "20210824202009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "挂件通过挂件集市安装，安装后挂件将被放置到工作空间/widgets 文件夹下。在编辑器中使用斜杆菜单触发调用搜索，选择需要的挂件后改挂件就会以挂件块的形式插入到文档中。"
+				}
+			]
+		},
+		{
+			"ID": "20210824201845-ulo1wui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210824201845-ulo1wui",
+				"updated": "20210824201920"
+			},
+			"Children": [
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：目前挂件还在内测中，只有订阅用户能够参与内测使用。"
+				}
+			]
+		}
+	]
+}
