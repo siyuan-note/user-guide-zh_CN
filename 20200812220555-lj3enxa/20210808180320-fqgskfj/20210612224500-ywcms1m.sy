@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210612224500-ywcms1m",
 		"title": "6 内容块属性",
-		"updated": "20210613122309"
+		"updated": "20210824200842"
 	},
 	"Children": [
 		{
@@ -355,12 +355,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210613102636-nmps3i3",
-				"updated": "20210613105620"
+				"updated": "20210824200842"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "属性主要有两个使用场景：根据属性查询内容块和存储挂件块数据。"
+					"Data": "属性主要有两个使用场景：根据属性查询内容块和存储挂件数据。"
 				}
 			]
 		},
@@ -466,12 +466,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20210613105822-z219hfe",
-				"updated": "20210613105903"
+				"updated": "20210824200723"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "存储挂件块数据"
+					"Data": "存储挂件数据"
 				}
 			]
 		},
@@ -480,28 +480,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210613105905-k6pckoi",
-				"updated": "20210613120640"
+				"updated": "20210824200729"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "挂件块可以通过接口来设置属性，具体请参考开发文档。"
-				},
-				{
-					"Type": "NodeTag",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeTagOpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "TODO"
-						},
-						{
-							"Type": "NodeTagCloseMarker"
-						}
-					]
+					"Data": "挂件可以通过接口来设置属性，具体请参考开发文档。"
 				}
 			]
 		}
