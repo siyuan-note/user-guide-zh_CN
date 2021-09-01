@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "1 数据同步",
-		"updated": "20210727103336"
+		"updated": "20210901163754"
 	},
 	"Children": [
 		{
@@ -79,7 +79,7 @@
 			},
 			"Properties": {
 				"id": "20210721103758-pc3i4x8",
-				"updated": "20210727103011"
+				"updated": "20210901163754"
 			},
 			"Children": [
 				{
@@ -161,7 +161,8 @@
 						"Num": 2
 					},
 					"Properties": {
-						"id": "20210721104534-zgn4ihf"
+						"id": "20210721104534-zgn4ihf",
+						"updated": "20210901163259"
 					},
 					"Children": [
 						{
@@ -169,7 +170,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721104534-2yhd04d",
-								"updated": "20210721104748"
+								"updated": "20210901163259"
 							},
 							"Children": [
 								{
@@ -185,7 +186,7 @@
 										},
 										{
 											"Type": "NodeText",
-											"Data": "设置 - 云端 - 云端同步 - 添加"
+											"Data": "设置 - 云端 - 同步"
 										},
 										{
 											"Type": "NodeKbdCloseMarker"
@@ -240,7 +241,7 @@
 					},
 					"Properties": {
 						"id": "20210721103957-niox81t",
-						"updated": "20210727103011"
+						"updated": "20210901163120"
 					},
 					"Children": [
 						{
@@ -248,7 +249,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721103957-6v20946",
-								"updated": "20210727103011"
+								"updated": "20210901163120"
 							},
 							"Children": [
 								{
@@ -264,7 +265,7 @@
 										},
 										{
 											"Type": "NodeText",
-											"Data": "设置 - 云端 - 本地同步 - 同步到云端"
+											"Data": "设置 - 云端 - 同步 - 启用"
 										},
 										{
 											"Type": "NodeKbdCloseMarker"
@@ -286,7 +287,7 @@
 					},
 					"Properties": {
 						"id": "20210721104938-nwbhydd",
-						"updated": "20210721105010"
+						"updated": "20210901163754"
 					},
 					"Children": [
 						{
@@ -294,12 +295,32 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721104938-ktz4ha9",
-								"updated": "20210721105010"
+								"updated": "20210901163754"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "等待 1 分钟左右后同步就会开始工作，以后每隔 1 分钟定时自动同步一次"
+									"Data": "等待 1 分钟左右后同步就会开始工作（或者点击 "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "立即同步"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "），以后每隔 1 分钟定时自动同步一次"
 								}
 							]
 						}
@@ -363,12 +384,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210721103726-sbnev8w",
-				"updated": "20210721105947"
+				"updated": "20210901163432"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "每隔 1 分钟比较一次云端和本地数据修改时间，根据时间进行相应操作："
+					"Data": "每隔 1 分钟比较一次云端和本地数据版本，根据版本进行相应操作："
 				}
 			]
 		},
@@ -378,7 +399,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210721105306-biv12a6",
-				"updated": "20210721105927"
+				"updated": "20210901163421"
 			},
 			"Children": [
 				{
@@ -389,7 +410,8 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20210721105353-r7uhzqt"
+						"id": "20210721105353-r7uhzqt",
+						"updated": "20210901163356"
 					},
 					"Children": [
 						{
@@ -397,12 +419,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721105353-aseijn5",
-								"updated": "20210721105411"
+								"updated": "20210901163356"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果时间相等则略过"
+									"Data": "如果版本相等则略过"
 								}
 							]
 						}
@@ -417,7 +439,7 @@
 					},
 					"Properties": {
 						"id": "20210721105305-dt1ritx",
-						"updated": "20210721105836"
+						"updated": "20210901163411"
 					},
 					"Children": [
 						{
@@ -425,12 +447,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721105305-kx4c8fj",
-								"updated": "20210721105836"
+								"updated": "20210901163411"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果云端时间大于本地时间，则将云端数据下载到本地并解密到 "
+									"Data": "如果云端版本大于本地版本，则将云端数据下载到本地并解密到 "
 								},
 								{
 									"Type": "NodeCodeSpan",
@@ -485,7 +507,7 @@
 					},
 					"Properties": {
 						"id": "20210721105329-52g70vv",
-						"updated": "20210721105927"
+						"updated": "20210901163421"
 					},
 					"Children": [
 						{
@@ -493,12 +515,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721105329-ypobf4a",
-								"updated": "20210721105927"
+								"updated": "20210901163421"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果云端时间小于本地，则扫描 "
+									"Data": "如果云端版本小于本地，则扫描 "
 								},
 								{
 									"Type": "NodeCodeSpan",
@@ -552,12 +574,24 @@
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20210721105949-0diekoc",
-				"updated": "20210721105955"
+				"updated": "20210901163526"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "注意"
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
 				}
 			]
 		},
@@ -567,56 +601,9 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210721105956-5brxg8n",
-				"updated": "20210721195828"
+				"updated": "20210901163157"
 			},
 			"Children": [
-				{
-					"ID": "20210721110129-mfux9cn",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210721110129-mfux9cn"
-					},
-					"Children": [
-						{
-							"ID": "20210721110129-hce7prb",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210721110129-hce7prb",
-								"updated": "20210721110149"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "同步数据默认存放在 "
-								},
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "工作空间/sync/"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": " 文件夹下，该位置可修改"
-								}
-							]
-						}
-					]
-				},
 				{
 					"ID": "20210721110324-qky9w5f",
 					"Type": "NodeListItem",
@@ -639,34 +626,6 @@
 								{
 									"Type": "NodeText",
 									"Data": "在不改变密码的情况下，数据是进行增量传输的"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210721111344-qgz9edg",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210721111344-qgz9edg",
-						"updated": "20210721111408"
-					},
-					"Children": [
-						{
-							"ID": "20210721111344-n2ux39x",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210721111344-n2ux39x",
-								"updated": "20210721111408"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "请务必校准设备时间"
 								}
 							]
 						}
