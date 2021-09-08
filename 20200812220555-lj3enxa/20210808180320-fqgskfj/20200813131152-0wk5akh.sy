@@ -4,7 +4,8 @@
 	"Properties": {
 		"id": "20200813131152-0wk5akh",
 		"title": "3 在内容块中遨游",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210908144139"
 	},
 	"Children": [
 		{
@@ -364,69 +365,10 @@
 				"Num": -1
 			},
 			"Properties": {
-				"id": "20210104090757-g5onw59"
+				"id": "20210104090757-g5onw59",
+				"updated": "20210908144139"
 			},
 			"Children": [
-				{
-					"ID": "20210104090757-btgb3je",
-					"Type": "NodeListItem",
-					"Data": "*",
-					"ListData": {
-						"Tight": true,
-						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
-					},
-					"Properties": {
-						"id": "20210104090757-btgb3je"
-					},
-					"Children": [
-						{
-							"ID": "20210205172718-laa6zyw",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210205172718-laa6zyw"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "单击反链列表中的引用块会在当前文档中高亮定义块"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210104090757-swkxo5d",
-					"Type": "NodeListItem",
-					"Data": "*",
-					"ListData": {
-						"Tight": true,
-						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
-					},
-					"Properties": {
-						"id": "20210104090757-swkxo5d"
-					},
-					"Children": [
-						{
-							"ID": "20210205172718-tro8fo2",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210205172718-tro8fo2"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "光标所在当前文档中定义块会在反链列表中高亮引用块（如果存在引用的话）"
-								}
-							]
-						}
-					]
-				},
 				{
 					"ID": "20210104090757-pb550rg",
 					"Type": "NodeListItem",
@@ -439,19 +381,21 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20210104090757-pb550rg"
+						"id": "20210104090757-pb550rg",
+						"updated": "20210908144139"
 					},
 					"Children": [
 						{
 							"ID": "20210205172718-90wokcr",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210205172718-90wokcr"
+								"id": "20210205172718-90wokcr",
+								"updated": "20210908144139"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "鼠标悬浮反链列表中引用块前面的标识进行内容预览"
+									"Data": "鼠标悬浮引用块前面的标识会弹出预览浮窗"
 								}
 							]
 						}
@@ -469,19 +413,21 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20210104090757-91fwrlj"
+						"id": "20210104090757-91fwrlj",
+						"updated": "20210908144057"
 					},
 					"Children": [
 						{
 							"ID": "20210205172718-s191x9n",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210205172718-s191x9n"
+								"id": "20210205172718-s191x9n",
+								"updated": "20210908144057"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "双击反链列表中的引用块进行跳转"
+									"Data": "单击反链列表中的引用块进行跳转"
 								}
 							]
 						}
