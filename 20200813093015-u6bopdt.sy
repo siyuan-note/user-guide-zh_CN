@@ -343,35 +343,6 @@
 			]
 		},
 		{
-			"ID": "20210621105929-hzem5fi",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20210621105929-hzem5fi",
-				"updated": "20210621110023"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "如何修改笔记本名或删除笔记本？"
-				}
-			]
-		},
-		{
-			"ID": "20210621105917-94yv31i",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210621105917-94yv31i",
-				"updated": "20210621110026"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "请在文件系统上直接修改或删除，然后重启思源。"
-				}
-			]
-		},
-		{
 			"ID": "20201224120447-dscw9gl",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
