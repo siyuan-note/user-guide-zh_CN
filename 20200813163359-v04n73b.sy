@@ -5,7 +5,8 @@
 		"icon": "1f4c4",
 		"id": "20200813163359-v04n73b",
 		"title": "1 隐私条款和使用授权",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20210104090915"
 	},
 	"Children": [
 		{
@@ -125,7 +126,8 @@
 			"ID": "20210104090915-a04zhlh",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20210104090915-a04zhlh"
+				"id": "20210104090915-a04zhlh",
+				"updated": "20210104090915"
 			},
 			"Children": [
 				{
