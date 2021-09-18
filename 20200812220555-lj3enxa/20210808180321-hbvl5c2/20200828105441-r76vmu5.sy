@@ -5,7 +5,7 @@
 		"id": "20200828105441-r76vmu5",
 		"title": "内核参数",
 		"type": "doc",
-		"updated": "20210824203758"
+		"updated": "20210918230046"
 	},
 	"Children": [
 		{
@@ -158,28 +158,27 @@
 			"ID": "20201225172241-lvrwm82",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20201225172241-lvrwm82"
+				"id": "20201225172241-lvrwm82",
+				"updated": "20210918225353"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "用于指定伺服路径，默认值为 "
+					"Data": "用于指定伺服路径（host:port），默认值为 "
 				},
 				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
 							"Data": "window.location.hostname+\":6806\""
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				},
@@ -193,34 +192,33 @@
 			"ID": "20201225172241-qobh9gl",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20201225172241-qobh9gl"
+				"id": "20201225172241-qobh9gl",
+				"updated": "20210918230046"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "如果需要使用 "
+					"Data": "例如需要通过域名访问时，请将该值设置为 "
 				},
 				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
-							"Data": "xxx.com/custom/"
+							"Data": "yourdomain.com"
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 作为虚拟目录或 location 时请指定该参数。"
+					"Data": "，端口留空则表示使用协议默认端口，需要通过 NGINX 反向代理请求到 6806 端口。"
 				}
 			]
 		},
