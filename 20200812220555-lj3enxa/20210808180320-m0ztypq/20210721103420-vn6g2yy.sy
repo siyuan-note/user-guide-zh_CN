@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "1 数据同步",
-		"updated": "20210901163754"
+		"updated": "20210918202147"
 	},
 	"Children": [
 		{
@@ -79,7 +79,7 @@
 			},
 			"Properties": {
 				"id": "20210721103758-pc3i4x8",
-				"updated": "20210901163754"
+				"updated": "20210918201855"
 			},
 			"Children": [
 				{
@@ -287,7 +287,7 @@
 					},
 					"Properties": {
 						"id": "20210721104938-nwbhydd",
-						"updated": "20210901163754"
+						"updated": "20210918201855"
 					},
 					"Children": [
 						{
@@ -295,7 +295,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721104938-ktz4ha9",
-								"updated": "20210901163754"
+								"updated": "20210918201855"
 							},
 							"Children": [
 								{
@@ -320,7 +320,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "），以后每隔 1 分钟定时自动同步一次"
+									"Data": "）"
 								}
 							]
 						}
@@ -384,12 +384,32 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210721103726-sbnev8w",
-				"updated": "20210901163432"
+				"updated": "20210918202147"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "每隔 1 分钟比较一次云端和本地数据版本，根据版本进行相应操作："
+					"Data": "每隔一段时间（取决于 "
+				},
+				{
+					"Type": "NodeKbd",
+					"Data": "kbd",
+					"Children": [
+						{
+							"Type": "NodeKbdOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "设置 - 云端 - 同步 - 间隔"
+						},
+						{
+							"Type": "NodeKbdCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "），思源会自动比较一次云端和本地数据版本，根据版本进行相应操作："
 				}
 			]
 		},
