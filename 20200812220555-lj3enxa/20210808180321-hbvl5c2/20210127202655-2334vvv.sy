@@ -3,11 +3,26 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20210127202655-2334vvv",
-		"title": "预览 PDF",
+		"title": "PDF 标注双链",
 		"type": "doc",
-		"updated": "20210811224214"
+		"updated": "20210923104220"
 	},
 	"Children": [
+		{
+			"ID": "20210923103658-jkmi4k7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210923103658-jkmi4k7",
+				"updated": "20210923103704"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "插入 PDF 资源文件"
+				}
+			]
+		},
 		{
 			"ID": "20210127202655-eyv25b7",
 			"Type": "NodeParagraph",
@@ -39,6 +54,21 @@
 				{
 					"Type": "NodeText",
 					"Data": " 的链接。点击该链接可使用思源进行预览。"
+				}
+			]
+		},
+		{
+			"ID": "20210923103705-4cxiau3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210923103705-4cxiau3",
+				"updated": "20210923103716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "超链接页码跳转"
 				}
 			]
 		},
@@ -96,6 +126,101 @@
 				{
 					"Type": "NodeText",
 					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20210923103628-oif5bk8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20210923103628-oif5bk8",
+				"updated": "20210923103722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "标注双链"
+				}
+			]
+		},
+		{
+			"ID": "20210923103723-8fz5i0j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210923103723-8fz5i0j",
+				"updated": "20210923104112"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PDF 预览时可使用划选进行标注，标注可复制到文档中形成双向链接："
+				}
+			]
+		},
+		{
+			"ID": "20210923104112-fheqye1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20210923104112-fheqye1",
+				"updated": "20210923104220"
+			},
+			"Children": [
+				{
+					"ID": "20210923104113-am5a0ei",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210923104113-am5a0ei"
+					},
+					"Children": [
+						{
+							"ID": "20210923104113-es0tpkd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210923104113-es0tpkd",
+								"updated": "20210923104134"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在文档中点击引用链接可以打开 PDF 并跳转到标注"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210923104137-p7qk722",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20210923104137-p7qk722",
+						"updated": "20210923104220"
+					},
+					"Children": [
+						{
+							"ID": "20210923104137-f2sv4l9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20210923104137-f2sv4l9",
+								"updated": "20210923104220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 PDF 中鼠标悬浮标注可预览引用块"
+								}
+							]
+						}
+					]
 				}
 			]
 		}
