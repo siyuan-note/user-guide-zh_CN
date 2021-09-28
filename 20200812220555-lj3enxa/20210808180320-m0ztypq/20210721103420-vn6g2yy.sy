@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "1 数据同步",
-		"updated": "20210928101334"
+		"updated": "20210928220514"
 	},
 	"Children": [
 		{
@@ -384,7 +384,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210928094612-rymbb43",
-				"updated": "20210928101334"
+				"updated": "20210928220514"
 			},
 			"Children": [
 				{
@@ -409,7 +409,7 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "。其中每一行使用 data 文件夹的相对路径进行配置，表示忽略文件或文件夹的路径，支持通配符。例如："
+					"Data": "， 其中每一行使用 data 文件夹的相对路径进行配置，表示忽略文件或文件夹的路径，支持通配符。例如："
 				}
 			]
 		},
@@ -438,7 +438,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210928094822-ipyjn3n",
-								"updated": "20210928095145"
+								"updated": "20210928220135"
 							},
 							"Children": [
 								{
@@ -450,7 +450,7 @@
 										},
 										{
 											"Type": "NodeCodeSpanContent",
-											"Data": "20210808180117-6v0mkxr"
+											"Data": "20210808180117-6v0mkxr/**/*"
 										},
 										{
 											"Type": "NodeCodeSpanCloseMarker"
@@ -459,7 +459,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "： 忽略 data/20210808180117-6v0mkxr 文件/文件夹"
+									"Data": "： 忽略 data/20210808180117-6v0mkxr 文件夹及其包含的所有文件"
 								}
 							]
 						}
