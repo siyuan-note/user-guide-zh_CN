@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "3 常见问题与解答",
 		"type": "doc",
-		"updated": "20210918115955"
+		"updated": "20211009092408"
 	},
 	"Children": [
 		{
@@ -347,31 +347,27 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20201224120447-dscw9gl"
+				"id": "20201224120447-dscw9gl",
+				"updated": "20211009092403"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
-				},
-				{
 					"Type": "NodeText",
-					"Data": "删除文件/文件夹有什么"
+					"Data": "删除文档有什么"
 				},
 				{
 					"Type": "NodeTag",
+					"Data": "span",
 					"Children": [
 						{
-							"Type": "NodeTagOpenMarker",
-							"Data": "#"
+							"Type": "NodeTagOpenMarker"
 						},
 						{
 							"Type": "NodeText",
 							"Data": "注意"
 						},
 						{
-							"Type": "NodeTagCloseMarker",
-							"Data": "#"
+							"Type": "NodeTagCloseMarker"
 						}
 					]
 				},
@@ -386,12 +382,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210323173015-i71ug1u",
-				"updated": "20210615212724"
+				"updated": "20211009092408"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "删除后文件不会出现在操作系统回收站中，而是直接删除，删除时思源会生成"
+					"Data": "文档被删除后不会出现在操作系统回收站中，而是直接删除，删除时思源会生成"
 				},
 				{
 					"Type": "NodeBlockRef",
