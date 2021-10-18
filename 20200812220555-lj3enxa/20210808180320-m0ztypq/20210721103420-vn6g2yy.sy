@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "1 数据同步",
-		"updated": "20210930212733"
+		"updated": "20211018230636"
 	},
 	"Children": [
 		{
@@ -79,7 +79,7 @@
 			},
 			"Properties": {
 				"id": "20210721103758-pc3i4x8",
-				"updated": "20210918201855"
+				"updated": "20211018230636"
 			},
 			"Children": [
 				{
@@ -92,7 +92,8 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20210721103955-p8wc5js"
+						"id": "20210721103955-p8wc5js",
+						"updated": "20211018230636"
 					},
 					"Children": [
 						{
@@ -100,7 +101,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721103955-bqzteuz",
-								"updated": "20210721103955"
+								"updated": "20211018230636"
 							},
 							"Children": [
 								{
@@ -145,7 +146,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "，该密码仅需配置一次，所有设备上保持相同即可"
+									"Data": "，该密码需要在所有设备上配置一次"
 								}
 							]
 						}
