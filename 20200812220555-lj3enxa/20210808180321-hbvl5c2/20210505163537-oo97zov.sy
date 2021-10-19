@@ -5,7 +5,7 @@
 		"id": "20210505163537-oo97zov",
 		"title": "剪藏",
 		"type": "doc",
-		"updated": "20210820171805"
+		"updated": "20211019235043"
 	},
 	"Children": [
 		{
@@ -66,7 +66,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210505164024-uwvunwm",
-				"updated": "20210820171304"
+				"updated": "20211019234828"
 			},
 			"Children": [
 				{
@@ -105,7 +105,7 @@
 					},
 					"Properties": {
 						"id": "20210505164209-g9651e2",
-						"updated": "20210820171304"
+						"updated": "20211019234828"
 					},
 					"Children": [
 						{
@@ -113,121 +113,36 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210505164209-s3gbivw",
-								"updated": "20210724233445"
+								"updated": "20211019234828"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果想要将剪藏内容中包含的图片拉取到本地"
-								}
-							]
-						},
-						{
-							"ID": "20210724233446-u6b4p5i",
-							"Type": "NodeList",
-							"ListData": {},
-							"Properties": {
-								"id": "20210724233446-u6b4p5i",
-								"updated": "20210820171304"
-							},
-							"Children": [
-								{
-									"ID": "20210724233448-82tf2j9",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20210724233448-82tf2j9",
-										"updated": "20210820171304"
-									},
-									"Children": [
-										{
-											"ID": "20210724233448-tb357iv",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20210724233448-tb357iv",
-												"updated": "20210820171304"
-											},
-											"Children": [
-												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "思源 Chome 扩展"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://ld246.com/article/1629423901669"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												}
-											]
-										}
-									]
+									"Data": "如果需要将剪藏内容中包含的图片拉取到本地，可使用"
 								},
 								{
-									"ID": "20210724233445-qqlgrvz",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20210724233445-qqlgrvz",
-										"updated": "20210820171251"
-									},
+									"Type": "NodeLink",
+									"Data": "span",
 									"Children": [
 										{
-											"ID": "20210724233445-dt43h0s",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20210724233445-dt43h0s",
-												"updated": "20210820171251"
-											},
-											"Children": [
-												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "Web Clipper"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://clipper.website"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												}
-											]
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "思源 Chome 扩展"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://ld246.com/article/1629423901669"
+										},
+										{
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -350,6 +265,20 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20211019234857-y3dcex1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211019234857-y3dcex1",
+				"updated": "20211019235043"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果需要剪藏整篇文章，可在扩展上直接点击“Send to SiYuan”。"
 				}
 			]
 		}
