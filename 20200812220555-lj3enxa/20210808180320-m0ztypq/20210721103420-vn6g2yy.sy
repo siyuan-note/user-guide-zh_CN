@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "1 数据同步",
-		"updated": "20211018230636"
+		"updated": "20211027215641"
 	},
 	"Children": [
 		{
@@ -72,6 +72,40 @@
 			]
 		},
 		{
+			"ID": "20210721103955-bqzteuz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20210721103955-bqzteuz",
+				"updated": "20211027205709"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "打开 "
+				},
+				{
+					"Type": "NodeKbd",
+					"Data": "kbd",
+					"Children": [
+						{
+							"Type": "NodeKbdOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "设置 - 云端 - 设置"
+						},
+						{
+							"Type": "NodeKbdCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，通过同步设置向导进行操作。"
+				}
+			]
+		},
+		{
 			"ID": "20210721103758-pc3i4x8",
 			"Type": "NodeList",
 			"ListData": {
@@ -79,11 +113,11 @@
 			},
 			"Properties": {
 				"id": "20210721103758-pc3i4x8",
-				"updated": "20211018230636"
+				"updated": "20211027215641"
 			},
 			"Children": [
 				{
-					"ID": "20210721103955-p8wc5js",
+					"ID": "20211027205711-eup41br",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -92,61 +126,41 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20210721103955-p8wc5js",
-						"updated": "20211018230636"
+						"id": "20211027205711-eup41br",
+						"updated": "20211027215641"
 					},
 					"Children": [
 						{
-							"ID": "20210721103955-bqzteuz",
+							"ID": "20211027205711-07u1glm",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210721103955-bqzteuz",
-								"updated": "20211018230636"
+								"id": "20211027205711-07u1glm",
+								"updated": "20211027215641"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "打开 "
+									"Data": "设置端到端加密密码。"
 								},
 								{
-									"Type": "NodeKbd",
-									"Data": "kbd",
+									"Type": "NodeTag",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeKbdOpenMarker"
+											"Type": "NodeTagOpenMarker"
 										},
 										{
 											"Type": "NodeText",
-											"Data": "设置 - 云端"
+											"Data": "注意"
 										},
 										{
-											"Type": "NodeKbdCloseMarker"
+											"Type": "NodeTagCloseMarker"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "，配置 "
-								},
-								{
-									"Type": "NodeKbd",
-									"Data": "kbd",
-									"Children": [
-										{
-											"Type": "NodeKbdOpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "端到端加密密码"
-										},
-										{
-											"Type": "NodeKbdCloseMarker"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "，该密码需要在所有设备上配置一次"
+									"Data": "：该密码一旦设置就不支持修改和查看。如果你忘记了该密码，你的云端数据将永久丢失，所以请务必牢记该密码"
 								}
 							]
 						}
@@ -163,7 +177,7 @@
 					},
 					"Properties": {
 						"id": "20210721104534-zgn4ihf",
-						"updated": "20210901163259"
+						"updated": "20211027205734"
 					},
 					"Children": [
 						{
@@ -171,39 +185,19 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721104534-2yhd04d",
-								"updated": "20210901163259"
+								"updated": "20211027205734"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "在 "
-								},
-								{
-									"Type": "NodeKbd",
-									"Data": "kbd",
-									"Children": [
-										{
-											"Type": "NodeKbdOpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "设置 - 云端 - 同步"
-										},
-										{
-											"Type": "NodeKbdCloseMarker"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": " 中创建云端同步目录"
+									"Data": "创建或选择一个云端同步目录，选择以后该云端同步目录将用于当前工作空间数据同步"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20210721104739-9la1e6s",
+					"ID": "20211027205159-f5nqqth",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -212,20 +206,20 @@
 						"Num": 3
 					},
 					"Properties": {
-						"id": "20210721104739-9la1e6s"
+						"id": "20211027205159-f5nqqth"
 					},
 					"Children": [
 						{
-							"ID": "20210721104739-jn4m2ob",
+							"ID": "20211027205159-rylrq29",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210721104739-jn4m2ob",
-								"updated": "20210721104921"
+								"id": "20211027205159-rylrq29",
+								"updated": "20211027205546"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "选择一个云端同步目录，选择以后该云端同步目录将用于当前工作空间数据同步，选定以后请勿随意切换，否则数据会被覆盖"
+									"Data": "选择同步间隔和同步协议，强烈建议使用默认配置，即自动同步间隔和 SSH 协议"
 								}
 							]
 						}
@@ -250,78 +244,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721103957-6v20946",
-								"updated": "20210901163120"
+								"updated": "20211027205115"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "启用同步开关 "
-								},
-								{
-									"Type": "NodeKbd",
-									"Data": "kbd",
-									"Children": [
-										{
-											"Type": "NodeKbdOpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "设置 - 云端 - 同步 - 启用"
-										},
-										{
-											"Type": "NodeKbdCloseMarker"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210721104938-nwbhydd",
-					"Type": "NodeListItem",
-					"ListData": {
-						"Typ": 1,
-						"Delimiter": 46,
-						"Marker": "NS4=",
-						"Num": 5
-					},
-					"Properties": {
-						"id": "20210721104938-nwbhydd",
-						"updated": "20210918201855"
-					},
-					"Children": [
-						{
-							"ID": "20210721104938-ktz4ha9",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210721104938-ktz4ha9",
-								"updated": "20210918201855"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "等待 1 分钟左右后同步就会开始工作（或者点击 "
-								},
-								{
-									"Type": "NodeKbd",
-									"Data": "kbd",
-									"Children": [
-										{
-											"Type": "NodeKbdOpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "立即同步"
-										},
-										{
-											"Type": "NodeKbdCloseMarker"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "）"
+									"Data": "启用同步开关"
 								}
 							]
 						}
