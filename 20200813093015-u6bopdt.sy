@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "3 常见问题与解答",
 		"type": "doc",
-		"updated": "20211009092408"
+		"updated": "20211102091242"
 	},
 	"Children": [
 		{
@@ -1164,34 +1164,13 @@
 			"ID": "20201224120447-s45uw5h",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20201224120447-s45uw5h"
+				"id": "20201224120447-s45uw5h",
+				"updated": "20211102091242"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "如果你在非中国大陆地区需要创建账号和支付订阅，请发送邮件给我们（"
-				},
-				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "845765@qq.com"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "），我们将为你手动创建账号和创建 PayPal 邮件支付订单，谢谢。"
+					"Data": "非中国大陆地区的用户请勿付费订阅，因为思源云端服务器无法保证非中国大陆地区可用。"
 				}
 			]
 		}
