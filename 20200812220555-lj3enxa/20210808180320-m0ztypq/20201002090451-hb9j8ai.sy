@@ -5,7 +5,7 @@
 		"id": "20201002090451-hb9j8ai",
 		"title": "2 数据备份和恢复",
 		"type": "doc",
-		"updated": "20210721110355"
+		"updated": "20211106112557"
 	},
 	"Children": [
 		{
@@ -568,12 +568,24 @@
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20210721100216-m2d5xka",
-				"updated": "20210721100723"
+				"updated": "20211106112557"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "注意"
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
 				}
 			]
 		},
@@ -744,80 +756,6 @@
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20210527110448-vxmkzuv",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210527110448-vxmkzuv",
-				"updated": "20210721101533"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "在 macOS 上，需要手动安装 "
-				},
-				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Rsync"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://rsync.samba.org"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": " 才能将备份上传到云端，请参考"
-				},
-				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "这里"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://ld246.com/article/1622084568155"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "进行安装。"
 				}
 			]
 		}
