@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "1 数据同步",
-		"updated": "20211027215641"
+		"updated": "20211106114053"
 	},
 	"Children": [
 		{
@@ -76,7 +76,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210721103955-bqzteuz",
-				"updated": "20211027205709"
+				"updated": "20211106114053"
 			},
 			"Children": [
 				{
@@ -92,7 +92,7 @@
 						},
 						{
 							"Type": "NodeText",
-							"Data": "设置 - 云端 - 设置"
+							"Data": "设置 - 云端 - 云端同步"
 						},
 						{
 							"Type": "NodeKbdCloseMarker"
