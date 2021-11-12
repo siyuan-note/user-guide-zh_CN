@@ -5,7 +5,7 @@
 		"id": "20201227173504-847cs1q",
 		"title": "Docker 伺服",
 		"type": "doc",
-		"updated": "20210930092037"
+		"updated": "20211112103359"
 	},
 	"Children": [
 		{
@@ -588,7 +588,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20201227194509-hdnzkry",
-				"updated": "20210822163556"
+				"updated": "20211112103117"
 			},
 			"Children": [
 				{
@@ -664,12 +664,105 @@
 						},
 						{
 							"Type": "NodeCodeSpanContent",
-							"Data": "docker run -v /siyuan/workspace:/siyuan/workspace -p 6806:6806 b3log/siyuan --workspace=/siyuan/workspace/"
+							"Data": "docker run -v /siyuan/workspace:/siyuan/workspace -p 6806:6806 -u 1000:1000 b3log/siyuan --workspace=/siyuan/workspace/"
 						},
 						{
 							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20211112102027-wpzhq6h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211112102027-wpzhq6h",
+				"updated": "20211112102725"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户权限"
+				}
+			]
+		},
+		{
+			"ID": "20211112102355-akc01dd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211112102355-akc01dd",
+				"updated": "20211112103316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "镜像中是使用默认创建的普通用户 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "siyuan"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（uid 1000/gid 1000）来启动内核进程的，所以在宿主机创建工作空间文件夹时请注意设置该文件夹所属用户组："
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "chown -R 1000:1000 /siyuan/workspace"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，在启动容器时需要带参数 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "-u 1000:1000"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
 				}
 			]
 		},
@@ -708,7 +801,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210930091550-c9aemmk",
-				"updated": "20210930091838"
+				"updated": "20211112103359"
 			},
 			"Children": [
 				{
@@ -783,7 +876,7 @@
 					},
 					"Properties": {
 						"id": "20210930091552-6ng73bf",
-						"updated": "20210930091838"
+						"updated": "20211112103359"
 					},
 					"Children": [
 						{
@@ -791,12 +884,28 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210930091552-81uy57d",
-								"updated": "20210930091838"
+								"updated": "20211112103359"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "配置 WebSocket 反代"
+									"Data": "配置 WebSocket 反代 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/ws"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
 								}
 							]
 						}
