@@ -5,7 +5,7 @@
 		"id": "20201204181006-7bkppue",
 		"title": "模板片段",
 		"type": "doc",
-		"updated": "20210604111632"
+		"updated": "20210428230754"
 	},
 	"Children": [
 		{
@@ -37,60 +37,39 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "模板片段用于在光标插入符位置快速插入之前设置好的文本内容，支持变量。模板片段使用 "
+					"Data": "模板片段"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "用于在光标插入符位置快速插入之前设置好的文本内容，支持变量。"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "模板片段"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "使用 "
 				},
 				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
 							"Data": ".md"
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
 					"Data": " 后缀文件，存放在工作空间 data/templates 文件夹下。"
-				}
-			]
-		},
-		{
-			"ID": "20210428230842-g4pxf4a",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210428230842-g4pxf4a",
-				"updated": "20210428230924"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "目前请使用其他文本编辑器编写模板，后续思源将支持内置编辑。"
-				},
-				{
-					"Type": "NodeTag",
-					"Children": [
-						{
-							"Type": "NodeTagOpenMarker",
-							"Data": "#"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "TODO"
-						},
-						{
-							"Type": "NodeTagCloseMarker",
-							"Data": "#"
-						}
-					]
 				}
 			]
 		},
