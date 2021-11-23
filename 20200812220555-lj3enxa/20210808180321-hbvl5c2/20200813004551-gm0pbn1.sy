@@ -6,7 +6,7 @@
 		"id": "20200813004551-gm0pbn1",
 		"title": "快捷键",
 		"type": "doc",
-		"updated": "20211120101200"
+		"updated": "20211123191524"
 	},
 	"Children": [
 		{
@@ -1906,7 +1906,7 @@
 			],
 			"Properties": {
 				"id": "20201227133317-vopotjc",
-				"updated": "20211105095118"
+				"updated": "20211123191442"
 			},
 			"Children": [
 				{
@@ -4956,7 +4956,7 @@
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
-							"TableCellContentWidth": 11,
+							"TableCellContentWidth": 21,
 							"TableCellContentMaxWidth": 58,
 							"Children": [
 								{
@@ -4969,6 +4969,26 @@
 										{
 											"Type": "NodeText",
 											"Data": "Home"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " / "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "⌘←"
 										},
 										{
 											"Type": "NodeKbdCloseMarker"
@@ -5014,7 +5034,7 @@
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
-							"TableCellContentWidth": 8,
+							"TableCellContentWidth": 18,
 							"TableCellContentMaxWidth": 58,
 							"Children": [
 								{
@@ -5027,6 +5047,26 @@
 										{
 											"Type": "NodeText",
 											"Data": "End"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " / "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "⌘→"
 										},
 										{
 											"Type": "NodeKbdCloseMarker"
@@ -6378,7 +6418,7 @@
 			],
 			"Properties": {
 				"id": "20210102174148-snb76bj",
-				"updated": "20211120101200"
+				"updated": "20211123191524"
 			},
 			"Children": [
 				{
@@ -6496,7 +6536,7 @@
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
-							"TableCellContentWidth": 20,
+							"TableCellContentWidth": 19,
 							"TableCellContentMaxWidth": 42,
 							"Children": [
 								{
@@ -6508,7 +6548,7 @@
 										},
 										{
 											"Type": "NodeText",
-											"Data": "Ctrl+["
+											"Data": "Alt+["
 										},
 										{
 											"Type": "NodeKbdCloseMarker"
@@ -6528,7 +6568,7 @@
 										},
 										{
 											"Type": "NodeText",
-											"Data": "⌘["
+											"Data": "⌥["
 										},
 										{
 											"Type": "NodeKbdCloseMarker"
