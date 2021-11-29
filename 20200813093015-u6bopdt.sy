@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "3 常见问题与解答",
 		"type": "doc",
-		"updated": "20211102091242"
+		"updated": "20211129190758"
 	},
 	"Children": [
 		{
@@ -339,6 +339,95 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20211129190023-eezo4zh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211129190023-eezo4zh",
+				"updated": "20211129190629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思源是开源的吗？"
+				}
+			]
+		},
+		{
+			"ID": "20211129190031-6sp8uxq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211129190031-6sp8uxq",
+				"updated": "20211129190758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前并没有完全开源，但为了保证数据的可迁移性，"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "数据解析器"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/88250/protyle"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "和"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "编辑器引擎"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/88250/lute"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "是完全开源的。"
 				}
 			]
 		},
@@ -1025,7 +1114,8 @@
 			"ID": "20201224120447-pm4sntk",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20201224120447-pm4sntk"
+				"id": "20201224120447-pm4sntk",
+				"updated": "20201224120447"
 			},
 			"Children": [
 				{
@@ -1034,6 +1124,7 @@
 				},
 				{
 					"Type": "NodeBlockRef",
+					"Data": "span",
 					"Children": [
 						{
 							"Type": "NodeOpenParen"
@@ -1066,6 +1157,7 @@
 				},
 				{
 					"Type": "NodeBlockRef",
+					"Data": "span",
 					"Children": [
 						{
 							"Type": "NodeOpenParen"
