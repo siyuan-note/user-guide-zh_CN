@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "3 常见问题与解答",
 		"type": "doc",
-		"updated": "20211129190758"
+		"updated": "20210918115430"
 	},
 	"Children": [
 		{
@@ -705,91 +705,6 @@
 			]
 		},
 		{
-			"ID": "20210204162503-c50xmpz",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20210204162503-c50xmpz"
-			},
-			"Children": [
-				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
-				},
-				{
-					"Type": "NodeText",
-					"Data": "幻灯片演示如何翻页？"
-				}
-			]
-		},
-		{
-			"ID": "20210204162527-ihjhkpz",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210204162527-ihjhkpz",
-				"updated": "20210204162527"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "在文档排版中需要使用 "
-				},
-				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "---"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": " 来分隔每页内容，具体用法请参考"
-				},
-				{
-					"Type": "NodeBlockRef",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeBlockRefID",
-							"Data": "20210203180140-n7dy1w6"
-						},
-						{
-							"Type": "NodeBlockRefSpace"
-						},
-						{
-							"Type": "NodeBlockRefText",
-							"Data": "幻灯片演示"
-						},
-						{
-							"Type": "NodeCloseParen"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "。"
-				}
-			]
-		},
-		{
 			"ID": "20210918114843-6xo7hmr",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
@@ -810,7 +725,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210918114855-vrhbp4h",
-				"updated": "20210918115955"
+				"updated": "20210918115430"
 			},
 			"Children": [
 				{
@@ -968,7 +883,8 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20210918115406-h9ilvo9"
+						"id": "20210918115406-h9ilvo9",
+						"updated": "20210918115430"
 					},
 					"Children": [
 						{
@@ -984,109 +900,6 @@
 									"Data": "第三方同步和思源同步存在冲突，切勿同时使用"
 								}
 							]
-						}
-					]
-				},
-				{
-					"ID": "20210918115856-cc13mfr",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210918115856-cc13mfr",
-						"updated": "20210918115955"
-					},
-					"Children": [
-						{
-							"ID": "20210918115856-uhcsji3",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210918115856-uhcsji3",
-								"updated": "20210918115955"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "思源同步的使用方式请参考"
-								},
-								{
-									"Type": "NodeBlockRef",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeBlockRefID",
-											"Data": "20210721103420-vn6g2yy"
-										},
-										{
-											"Type": "NodeBlockRefSpace"
-										},
-										{
-											"Type": "NodeBlockRefText",
-											"Data": "数据同步"
-										},
-										{
-											"Type": "NodeCloseParen"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20210226100948-zi80m1q",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20210226100948-zi80m1q",
-				"updated": "20210226101123"
-			},
-			"Children": [
-				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
-				},
-				{
-					"Type": "NodeText",
-					"Data": "如何删除不再需要的云端资源文件？"
-				}
-			]
-		},
-		{
-			"ID": "20210226101024-nr9ewus",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210226101024-nr9ewus",
-				"updated": "20210315223540"
-			},
-			"Children": [
-				{
-					"Type": "NodeTag",
-					"Children": [
-						{
-							"Type": "NodeTagOpenMarker",
-							"Data": "#"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "TODO"
-						},
-						{
-							"Type": "NodeTagCloseMarker",
-							"Data": "#"
 						}
 					]
 				}
