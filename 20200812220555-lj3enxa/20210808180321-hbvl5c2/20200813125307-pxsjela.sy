@@ -5,7 +5,7 @@
 		"id": "20200813125307-pxsjela",
 		"title": "导入和导出",
 		"type": "doc",
-		"updated": "20210708215142"
+		"updated": "20211130234341"
 	},
 	"Children": [
 		{
@@ -31,26 +31,20 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210120161018-1mdw4fy",
-				"updated": "20210708215142"
+				"updated": "20211130234341"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "思源仅支持导入 Markdown 文件。在文档树上选择文件夹后右键选择“导入”，二级菜单可选择导入文件夹或者导入单个 Markdown 文件。"
-				}
-			]
-		},
-		{
-			"ID": "20210120153405-vzgduc3",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210120153405-vzgduc3",
-				"updated": "20210302223616"
-			},
-			"Children": [
+					"Data": "思源仅支持导入 Markdown 文件。"
+				},
 				{
 					"Type": "NodeText",
-					"Data": "导入过程主要完成如下转换处理："
+					"Data": "导入"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "过程主要完成如下转换处理："
 				}
 			]
 		},
@@ -269,10 +263,19 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "选择内容后使用复制快捷键 "
+					"Data": "选择内容后使用复制"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "快捷键"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
 				},
 				{
 					"Type": "NodeKbd",
+					"Data": "kbd",
 					"Children": [
 						{
 							"Type": "NodeKbdOpenMarker"
@@ -288,7 +291,11 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 即可。"
+					"Data": " "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "即可。"
 				}
 			]
 		},
@@ -326,27 +333,18 @@
 		{
 			"ID": "20201229120428-sokahme",
 			"Type": "NodeList",
-			"ListData": {
-				"Tight": true,
-				"BulletChar": 42,
-				"Padding": 2,
-				"Marker": "Kg==",
-				"Num": -1
-			},
+			"ListData": {},
 			"Properties": {
-				"id": "20201229120428-sokahme"
+				"id": "20201229120428-sokahme",
+				"updated": "20211130233606"
 			},
 			"Children": [
 				{
 					"ID": "20201229120428-3zal4fw",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20201229120428-3zal4fw"
@@ -356,12 +354,41 @@
 							"ID": "20210302223614-aj1pupk",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210302223614-aj1pupk"
+								"id": "20210302223614-aj1pupk",
+								"updated": "20211130233541"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Markdown：遵循 GFM/CommonMark 标准的 Markdown 文件"
+									"Data": "Markdown"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211130233551-symvd8f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211130233551-symvd8f",
+						"updated": "20211130233606"
+					},
+					"Children": [
+						{
+							"ID": "20211130233551-qj3if2v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211130233551-qj3if2v",
+								"updated": "20211130233606"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Word"
 								}
 							]
 						}
@@ -370,13 +397,9 @@
 				{
 					"ID": "20201229120428-rbzugkm",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20201229120428-rbzugkm"
@@ -400,13 +423,9 @@
 				{
 					"ID": "20210120155702-mhp0c0s",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20210120155702-mhp0c0s"
@@ -433,59 +452,83 @@
 			"ID": "20201229120428-gjqhua5",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20201229120428-gjqhua5"
+				"id": "20201229120428-gjqhua5",
+				"updated": "20211130233802"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "如果需要导出更多格式，请通过 "
+					"Data": "在导出 Word 时，思源是通过 "
 				},
 				{
 					"Type": "NodeLink",
+					"Data": "span",
 					"Children": [
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "["
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
 							"Data": "Pandoc"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]"
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "("
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
 							"Data": "https://pandoc.org"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": ")"
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 完成。"
-				}
-			]
-		},
-		{
-			"ID": "20210117224547-1m32ykj",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210117224547-1m32ykj",
-				"updated": "20210512160039"
-			},
-			"Children": [
+					"Data": " 处理的，如果需要添加参数，可在文档上设置一个自定义属性 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "pandoc-docx"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
 				{
 					"Type": "NodeText",
-					"Data": "在文档树上选择文件夹后右键选择“导出”是批量导出操作，导出的是带资源文件的标准 Markdown 文件压缩包。"
+					"Data": "，其值为附加的参数列表，比如 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "--reference-doc twocolumns.docx --lua-filter=zotero.lua"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
 				}
 			]
 		}
