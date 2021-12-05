@@ -7,7 +7,7 @@
 		"title": "0 请从这里开始",
 		"title-img": "background-color:#556;background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);background-size:80px 140px;background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;",
 		"type": "doc",
-		"updated": "20211117110704"
+		"updated": "20211205193639"
 	},
 	"Children": [
 		{
@@ -79,7 +79,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210528115012-vst5lwt",
-				"updated": "20210714093017"
+				"updated": "20211205193639"
 			},
 			"Children": [
 				{
@@ -95,7 +95,7 @@
 					"Properties": {
 						"id": "20210528115021-oj6gzg7",
 						"style": "width: 70%; flex: 0 0 auto;",
-						"updated": "20210714093017"
+						"updated": "20211205193639"
 					},
 					"Children": [
 						{
@@ -125,7 +125,8 @@
 							"Type": "NodeList",
 							"ListData": {},
 							"Properties": {
-								"id": "20201225220955-l154bn4"
+								"id": "20201225220955-l154bn4",
+								"updated": "20211205193639"
 							},
 							"Children": [
 								{
@@ -163,7 +164,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20201225220955-uwhqnug"
+										"id": "20201225220955-uwhqnug",
+										"updated": "20211205193639"
 									},
 									"Children": [
 										{
@@ -171,7 +173,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20210131155408-btnfw88",
-												"updated": "20210428212510"
+												"updated": "20211205193639"
 											},
 											"Children": [
 												{
@@ -179,18 +181,18 @@
 													"Data": "在编辑器中输入 "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
+													"Type": "NodeKbd",
+													"Data": "kbd",
 													"Children": [
 														{
-															"Type": "NodeCodeSpanOpenMarker"
+															"Type": "NodeKbdOpenMarker"
 														},
 														{
-															"Type": "NodeCodeSpanContent",
+															"Type": "NodeText",
 															"Data": "/"
 														},
 														{
-															"Type": "NodeCodeSpanCloseMarker"
+															"Type": "NodeKbdCloseMarker"
 														}
 													]
 												},
