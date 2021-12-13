@@ -6,7 +6,7 @@
 		"title": "排版元素",
 		"title-img": "background-color: hsl(2, 57%, 40%);background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);",
 		"type": "doc",
-		"updated": "20211205000246"
+		"updated": "20211213122523"
 	},
 	"Children": [
 		{
@@ -3017,6 +3017,20 @@
 			]
 		},
 		{
+			"ID": "20211213122456-r9r9njg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211213122456-r9r9njg",
+				"updated": "20211213122523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 Markdown 列表语法渲染脑图。"
+				}
+			]
+		},
+		{
 			"ID": "20210104091228-2nz4ows",
 			"Type": "NodeHeading",
 			"HeadingLevel": 1,
@@ -3061,6 +3075,50 @@
 					"Type": "NodeCodeBlockFenceCloseMarker",
 					"Data": "```",
 					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20211213121825-odla09q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211213121825-odla09q",
+				"updated": "20211213121826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Mermaid"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/mermaid-js/mermaid"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
 				}
 			]
 		},
@@ -3113,6 +3171,50 @@
 			]
 		},
 		{
+			"ID": "20211213121831-ma24020",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211213121831-ma24020",
+				"updated": "20211213121831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Mermaid"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/mermaid-js/mermaid"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
 			"ID": "20210104091228-bp25efl",
 			"Type": "NodeHeading",
 			"HeadingLevel": 1,
@@ -3157,6 +3259,50 @@
 					"Type": "NodeCodeBlockFenceCloseMarker",
 					"Data": "```",
 					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20211213121834-620i4kh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211213121834-620i4kh",
+				"updated": "20211213121835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Mermaid"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/mermaid-js/mermaid"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
 				}
 			]
 		},
@@ -3257,6 +3403,50 @@
 			]
 		},
 		{
+			"ID": "20211213122035-83prmz2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211213122035-83prmz2",
+				"updated": "20211213122043"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "abcjs"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/paulrosen/abcjs"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
 			"ID": "20210104091228-ifv0j64",
 			"Type": "NodeHeading",
 			"HeadingLevel": 1,
@@ -3301,6 +3491,50 @@
 					"Type": "NodeCodeBlockFenceCloseMarker",
 					"Data": "```",
 					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20211213122048-2s8m4r5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211213122048-2s8m4r5",
+				"updated": "20211213122133"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Graphviz"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://graphviz.org"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
 				}
 			]
 		},
@@ -3353,6 +3587,50 @@
 			]
 		},
 		{
+			"ID": "20211213122136-j3etina",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211213122136-j3etina",
+				"updated": "20211213122329"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "flowchart.js"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/adrai/flowchart.js"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
 			"ID": "20210201202204-gljrabr",
 			"Type": "NodeHeading",
 			"HeadingLevel": 1,
@@ -3391,6 +3669,50 @@
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
 					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211213122332-wozw982",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211213122332-wozw982",
+				"updated": "20211213122432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "PlantUML"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://plantuml.com"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
 				}
 			]
 		}
