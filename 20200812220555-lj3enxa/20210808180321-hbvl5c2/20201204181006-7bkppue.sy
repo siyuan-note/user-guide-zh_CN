@@ -5,7 +5,7 @@
 		"id": "20201204181006-7bkppue",
 		"title": "模板片段",
 		"type": "doc",
-		"updated": "20210428230754"
+		"updated": "20211213121154"
 	},
 	"Children": [
 		{
@@ -415,7 +415,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210104091309-gjkg3u5",
-				"updated": "20210104091309"
+				"updated": "20211213121154"
 			},
 			"Children": [
 				{
@@ -519,6 +519,92 @@
 								{
 									"Type": "NodeText",
 									"Data": "：该变量用于插入当前文档 ID"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211213120720-ulwzg6f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211213120720-ulwzg6f"
+					},
+					"Children": [
+						{
+							"ID": "20211213120720-bm8xbwm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211213120720-bm8xbwm",
+								"updated": "20211213120746"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "name"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：该变量用于插入当前文档命名"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211213120748-0uhzrha",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211213120748-0uhzrha"
+					},
+					"Children": [
+						{
+							"ID": "20211213120748-72e95wc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211213120748-72e95wc",
+								"updated": "20211213120801"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "alias"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：该变量用于插入但前文档别名"
 								}
 							]
 						}
@@ -637,6 +723,70 @@
 											"Type": "NodeCodeSpanCloseMarker"
 										}
 									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211213120813-ppm3j85",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211213120813-ppm3j85",
+						"updated": "20211213121154"
+					},
+					"Children": [
+						{
+							"ID": "20211213120813-9ynpjax",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211213120813-9ynpjax",
+								"updated": "20211213121154"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "parseTime"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：该函数用于将时间格式的字符串解析为 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "time.Time"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 类型，以便使用更多格式化方法渲染该时间"
 								}
 							]
 						}
