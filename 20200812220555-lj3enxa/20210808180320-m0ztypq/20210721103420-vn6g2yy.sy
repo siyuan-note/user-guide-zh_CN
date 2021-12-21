@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "1 数据同步",
-		"updated": "20211106114053"
+		"updated": "20211222010047"
 	},
 	"Children": [
 		{
@@ -348,7 +348,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210928094821-syjcgbp",
-				"updated": "20210928095254"
+				"updated": "20211222010047"
 			},
 			"Children": [
 				{
@@ -359,7 +359,8 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20210928094822-nn422ie"
+						"id": "20210928094822-nn422ie",
+						"updated": "20211222010047"
 					},
 					"Children": [
 						{
@@ -367,7 +368,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210928094822-ipyjn3n",
-								"updated": "20210928220135"
+								"updated": "20211222010047"
 							},
 							"Children": [
 								{
@@ -379,7 +380,7 @@
 										},
 										{
 											"Type": "NodeCodeSpanContent",
-											"Data": "20210808180117-6v0mkxr/**/*"
+											"Data": "20210808180117-6v0mkxr"
 										},
 										{
 											"Type": "NodeCodeSpanCloseMarker"
@@ -388,7 +389,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "： 忽略 data/20210808180117-6v0mkxr 文件夹及其包含的所有文件"
+									"Data": "： 忽略 data/20210808180117-6v0mkxr 笔记本"
 								}
 							]
 						}
@@ -433,92 +434,6 @@
 								{
 									"Type": "NodeText",
 									"Data": "：忽略 data/assets/ 下的 PDF 文件"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210928095213-amq20m6",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210928095213-amq20m6"
-					},
-					"Children": [
-						{
-							"ID": "20210928095213-fnrzaw0",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210928095213-fnrzaw0",
-								"updated": "20210928101143"
-							},
-							"Children": [
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "**/foo/*.png"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "：忽略任意层级下 foo/ 下的 PNG 文件"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210928101042-b5lctj2",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210928101042-b5lctj2"
-					},
-					"Children": [
-						{
-							"ID": "20210928101042-ppnvxvh",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210928101042-ppnvxvh",
-								"updated": "20210928101134"
-							},
-							"Children": [
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "foo/ba*.png"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "：忽略 data/foo/ 下以 ba 开头的 PNG 文件"
 								}
 							]
 						}

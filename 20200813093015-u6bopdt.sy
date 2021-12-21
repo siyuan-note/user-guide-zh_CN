@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "3 常见问题与解答",
 		"type": "doc",
-		"updated": "20210918115430"
+		"updated": "20211222010906"
 	},
 	"Children": [
 		{
@@ -566,35 +566,6 @@
 			]
 		},
 		{
-			"ID": "20210605222431-03gsadg",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20210605222431-03gsadg",
-				"updated": "20210605222458"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "如何在中文段首缩进？"
-				}
-			]
-		},
-		{
-			"ID": "20210605222439-98s2lbe",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210605222439-98s2lbe",
-				"updated": "20210708214434"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "请使用全角空格，这样内容自动折行以后才能对齐。"
-				}
-			]
-		},
-		{
 			"ID": "20210710111120-1v1dxaf",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
@@ -902,6 +873,148 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20211222010224-qmstv96",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211222010224-qmstv96",
+				"updated": "20211222010250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "端到端密码忘记了怎么办？"
+				}
+			]
+		},
+		{
+			"ID": "20211222010251-cxpfurj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211222010251-cxpfurj",
+				"updated": "20211222010657"
+			},
+			"Children": [
+				{
+					"ID": "20211222010348-k7b2teg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222010348-k7b2teg"
+					},
+					"Children": [
+						{
+							"ID": "20211222010348-tkdp90p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222010348-tkdp90p",
+								"updated": "20211222010725"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主力设备上使用新的工作空间，将旧的工作空间 data 文件夹手动复制到新的工作空间下"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211222010407-ze0dmor",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222010407-ze0dmor"
+					},
+					"Children": [
+						{
+							"ID": "20211222010407-cc9eipr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222010407-cc9eipr",
+								"updated": "20211222010437"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新的工作空间可以重新设置密码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211222010438-yululiy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222010438-yululiy",
+						"updated": "20211222010657"
+					},
+					"Children": [
+						{
+							"ID": "20211222010438-jpbst6x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222010438-jpbst6x",
+								"updated": "20211222010657"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "云端使用新的云端同步目录"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211222010449-g4bodci",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222010449-g4bodci",
+				"updated": "20211222010906"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果是移动端的话卸载重装即可（"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：移动端卸载应用时，本地工作空间数据会被一并删除）"
 				}
 			]
 		},
