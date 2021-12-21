@@ -6,7 +6,7 @@
 		"title": "排版元素",
 		"title-img": "background-color: hsl(2, 57%, 40%);background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);",
 		"type": "doc",
-		"updated": "20211213122523"
+		"updated": "20211221130849"
 	},
 	"Children": [
 		{
@@ -3128,7 +3128,7 @@
 			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20210104091228-jlr83td",
-				"updated": "20210415200558"
+				"updated": "20211221130459"
 			},
 			"Children": [
 				{
@@ -3267,6 +3267,350 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20211213121834-620i4kh",
+				"updated": "20211213121835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Mermaid"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/mermaid-js/mermaid"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20211221130523-8zamni0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211221130523-8zamni0",
+				"updated": "20211221130530"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类图"
+				}
+			]
+		},
+		{
+			"ID": "20211221130523-4ufvc7s",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211221130523-4ufvc7s",
+				"updated": "20211221130538"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWVybWFpZA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "classDiagram\nClass01 \u0026lt;|-- AveryLongClass : Cool\nClass03 *-- Class04\nClass05 o-- Class06\nClass07 .. Class08\nClass09 --\u0026gt; C2 : Where am i?\nClass09 --* C3\nClass09 --|\u0026gt; Class07\nClass07 : equals()\nClass07 : Object[] elementData\nClass01 : size()\nClass01 : int chimp\nClass01 : int gorilla\nClass08 \u0026lt;--\u0026gt; C2: Cool label"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211221130523-i2wlj6c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211221130523-i2wlj6c",
+				"updated": "20211213121835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Mermaid"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/mermaid-js/mermaid"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20211221130726-bc0gmbk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211221130726-bc0gmbk",
+				"updated": "20211221130849"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户游历图"
+				}
+			]
+		},
+		{
+			"ID": "20211221130726-sqk7b09",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211221130726-sqk7b09",
+				"updated": "20211221130820"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWVybWFpZA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "journey\n    title My working day\n    section Go to work\n      Make tea: 5: Me\n      Go upstairs: 3: Me\n      Do work: 1: Me, Cat\n    section Go home\n      Go downstairs: 5: Me\n      Sit down: 5: Me"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211221130726-qziyunc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211221130726-qziyunc",
+				"updated": "20211213121835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Mermaid"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/mermaid-js/mermaid"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20211221130609-36qfaos",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211221130609-36qfaos",
+				"updated": "20211221130615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Git 图"
+				}
+			]
+		},
+		{
+			"ID": "20211221130609-z04k7rn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211221130609-z04k7rn",
+				"updated": "20211221130624"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWVybWFpZA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "gitGraph:\noptions\n{\n    \u0026quot;nodeSpacing\u0026quot;: 150,\n    \u0026quot;nodeRadius\u0026quot;: 10\n}\nend\ncommit\nbranch newbranch\ncheckout newbranch\ncommit\ncommit\ncheckout master\ncommit\ncommit\nmerge newbranch"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211221130609-51xo27y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211221130609-51xo27y",
+				"updated": "20211213121835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "语法请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Mermaid"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/mermaid-js/mermaid"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20211221130641-06rg9n2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20211221130641-06rg9n2",
+				"updated": "20211221130714"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实体关系图"
+				}
+			]
+		},
+		{
+			"ID": "20211221130641-t6qb9tz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211221130641-t6qb9tz",
+				"updated": "20211221130710"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWVybWFpZA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "erDiagram\n    CUSTOMER ||--o{ ORDER : places\n    ORDER ||--|{ LINE-ITEM : contains\n    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211221130641-a9ouedl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211221130641-a9ouedl",
 				"updated": "20211213121835"
 			},
 			"Children": [
