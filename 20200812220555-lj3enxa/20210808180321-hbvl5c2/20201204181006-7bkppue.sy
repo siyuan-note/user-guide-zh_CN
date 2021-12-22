@@ -5,7 +5,7 @@
 		"id": "20201204181006-7bkppue",
 		"title": "模板片段",
 		"type": "doc",
-		"updated": "20211213121154"
+		"updated": "20211222094908"
 	},
 	"Children": [
 		{
@@ -1050,39 +1050,37 @@
 			"ID": "20210131162925-ececb6c",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20210131162925-ececb6c"
+				"id": "20210131162925-ececb6c",
+				"updated": "20211222094858"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "上架前请确认你的模板仓库根路径下至少包含这两个文件（"
+					"Data": "上架前请确认你的模板仓库根路径下至少包含以下文件（"
 				},
 				{
 					"Type": "NodeLink",
+					"Data": "span",
 					"Children": [
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "["
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
 							"Data": "仓库示例"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]"
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "("
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
 							"Data": "https://github.com/88250/November-Rain"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": ")"
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
@@ -1095,27 +1093,18 @@
 		{
 			"ID": "20210131162925-lyyl9sm",
 			"Type": "NodeList",
-			"ListData": {
-				"Tight": true,
-				"BulletChar": 42,
-				"Padding": 2,
-				"Marker": "Kg==",
-				"Num": -1
-			},
+			"ListData": {},
 			"Properties": {
-				"id": "20210131162925-lyyl9sm"
+				"id": "20210131162925-lyyl9sm",
+				"updated": "20211222094908"
 			},
 			"Children": [
 				{
 					"ID": "20210131162925-mzvnu0y",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20210131162925-mzvnu0y"
@@ -1139,13 +1128,9 @@
 				{
 					"ID": "20210131162925-kvgwgr7",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20210131162925-kvgwgr7"
@@ -1155,12 +1140,41 @@
 							"ID": "20210131162925-m5sxpc7",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210131162925-m5sxpc7"
+								"id": "20210131162925-m5sxpc7",
+								"updated": "20211222094852"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "preview.png（请压缩图片大小在 128 KB 以内）"
+									"Data": "preview.png（请压缩图片大小在 512 KB 以内）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211222094908-l3yznj7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222094908-l3yznj7",
+						"updated": "20211222094908"
+					},
+					"Children": [
+						{
+							"ID": "20211222094908-xiw0ti2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222094908-xiw0ti2",
+								"updated": "20211222094908"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "README.md（请注意大小写）"
 								}
 							]
 						}

@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210824201257-cy7icrc",
 		"title": "挂件",
-		"updated": "20210824202222"
+		"updated": "20211222095304"
 	},
 	"Children": [
 		{
@@ -112,6 +112,320 @@
 				{
 					"Type": "NodeText",
 					"Data": "：目前挂件还在内测中，只有订阅用户能够参与内测使用。"
+				}
+			]
+		},
+		{
+			"ID": "20211222095016-3jjm95h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211222095016-3jjm95h",
+				"updated": "20211222095023"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上架挂件集市"
+				}
+			]
+		},
+		{
+			"ID": "20211222095046-vswv2j2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222095046-vswv2j2",
+				"updated": "20211222095120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上架前请确认你的模板仓库根路径下至少包含以下文件（"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "仓库示例"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/88250/Stairway-To-Heaven"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）："
+				}
+			]
+		},
+		{
+			"ID": "20211222095046-19gwg0x",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211222095046-19gwg0x",
+				"updated": "20211222095205"
+			},
+			"Children": [
+				{
+					"ID": "20211222095046-a31h24x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222095046-a31h24x"
+					},
+					"Children": [
+						{
+							"ID": "20211222095046-6wrfvla",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222095046-6wrfvla",
+								"updated": "20211222095132"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "widget.json（请确保 JSON 格式正确）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211222095203-n4rmbif",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222095203-n4rmbif",
+						"updated": "20211222095205"
+					},
+					"Children": [
+						{
+							"ID": "20211222095203-e7ndcm9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222095203-e7ndcm9",
+								"updated": "20211222095205"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "index.html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211222095046-3ck7na5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222095046-3ck7na5"
+					},
+					"Children": [
+						{
+							"ID": "20211222095046-ef1y073",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222095046-ef1y073",
+								"updated": "20211222094852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "preview.png（请压缩图片大小在 512 KB 以内）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211222095046-ossgnvf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222095046-ossgnvf"
+					},
+					"Children": [
+						{
+							"ID": "20211222095046-40cakfz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222095046-40cakfz",
+								"updated": "20211222094908"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "README.md（请注意大小写）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211222095046-70nwjqi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222095046-70nwjqi",
+				"updated": "20211222095304"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "确认无误以后请通过对"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "社区集市"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/siyuan-note/bazaar"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "仓库"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "发起 pull request"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://docs.github.com/cn/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，修改 widgets.json 文件。该文件是所有社区模板仓库的索引，格式为："
+				}
+			]
+		},
+		{
+			"ID": "20211222095046-dfkdfb0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211222095046-dfkdfb0",
+				"updated": "20211222095046"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"repos\": [\n    \"username/reponame@commithash\"\n  ]\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211222095046-3s0n0up",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222095046-3s0n0up",
+				"updated": "20211222095046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "commithash"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 请填写你的模板仓库上最近一次发布版本的 Git 提交哈希值，请使用完整哈希值，不要使用 7 位短值。"
 				}
 			]
 		}

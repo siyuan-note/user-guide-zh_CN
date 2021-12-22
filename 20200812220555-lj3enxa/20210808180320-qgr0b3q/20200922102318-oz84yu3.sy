@@ -4,7 +4,8 @@
 	"Properties": {
 		"id": "20200922102318-oz84yu3",
 		"title": "主题",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20211222094837"
 	},
 	"Children": [
 		{
@@ -1511,39 +1512,37 @@
 			"ID": "20201225230635-yirtjhq",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20201225230635-yirtjhq"
+				"id": "20201225230635-yirtjhq",
+				"updated": "20211222094816"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "上架前请确认你的主题仓库根路径下至少包含这三个文件（"
+					"Data": "上架前请确认你的主题仓库根路径下至少包含以下文件（"
 				},
 				{
 					"Type": "NodeLink",
+					"Data": "span",
 					"Children": [
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "["
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
 							"Data": "仓库示例"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]"
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "("
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
 							"Data": "https://github.com/88250/Comfortably-Numb"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": ")"
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
@@ -1556,27 +1555,18 @@
 		{
 			"ID": "20201225230635-jddgzin",
 			"Type": "NodeList",
-			"ListData": {
-				"Tight": true,
-				"BulletChar": 42,
-				"Padding": 2,
-				"Marker": "Kg==",
-				"Num": -1
-			},
+			"ListData": {},
 			"Properties": {
-				"id": "20201225230635-jddgzin"
+				"id": "20201225230635-jddgzin",
+				"updated": "20211222094837"
 			},
 			"Children": [
 				{
 					"ID": "20201225230635-jhu92r3",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20201225230635-jhu92r3"
@@ -1600,13 +1590,9 @@
 				{
 					"ID": "20201225230635-y7bv6z2",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20201225230635-y7bv6z2"
@@ -1630,13 +1616,9 @@
 				{
 					"ID": "20201225230635-dt0ei0y",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20201225230635-dt0ei0y"
@@ -1646,12 +1628,41 @@
 							"ID": "20210131160321-j73qjfe",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210131160321-j73qjfe"
+								"id": "20210131160321-j73qjfe",
+								"updated": "20211222094822"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "preview.png（请压缩图片大小在 128 KB 以内）"
+									"Data": "preview.png（请压缩图片大小在 512 KB 以内）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211222094824-4pjn4gm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222094824-4pjn4gm",
+						"updated": "20211222094837"
+					},
+					"Children": [
+						{
+							"ID": "20211222094824-vgxypxr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222094824-vgxypxr",
+								"updated": "20211222094837"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "README.md（请注意大小写）"
 								}
 							]
 						}

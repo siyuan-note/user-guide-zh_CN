@@ -5,7 +5,7 @@
 		"id": "20200922101913-d5yitmq",
 		"title": "图标",
 		"type": "doc",
-		"updated": "20210601103721"
+		"updated": "20211222095233"
 	},
 	"Children": [
 		{
@@ -1795,12 +1795,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210601103342-7d4iljw",
-				"updated": "20210601103721"
+				"updated": "20211222094931"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "上架前请确认你的图标仓库根路径下至少包含这三个文件："
+					"Data": "上架前请确认你的图标仓库根路径下至少包含以下文件："
 				}
 			]
 		},
@@ -1810,37 +1810,9 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210601103342-zdcsuht",
-				"updated": "20210601103413"
+				"updated": "20211222095233"
 			},
 			"Children": [
-				{
-					"ID": "20210601103342-b6pepqi",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210601103342-b6pepqi",
-						"updated": "20210601103411"
-					},
-					"Children": [
-						{
-							"ID": "20210601103342-c9u1p65",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210601103342-c9u1p65",
-								"updated": "20210601103411"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "icon.js"
-								}
-							]
-						}
-					]
-				},
 				{
 					"ID": "20210601103342-k9u1i4j",
 					"Type": "NodeListItem",
@@ -1870,6 +1842,34 @@
 					]
 				},
 				{
+					"ID": "20211222095233-2yjarbn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222095233-2yjarbn",
+						"updated": "20211222095233"
+					},
+					"Children": [
+						{
+							"ID": "20211222095233-11xu18u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222095233-11xu18u",
+								"updated": "20211222095233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "icon.js"
+								}
+							]
+						}
+					]
+				},
+				{
 					"ID": "20210601103342-j8l50u8",
 					"Type": "NodeListItem",
 					"ListData": {
@@ -1890,6 +1890,33 @@
 								{
 									"Type": "NodeText",
 									"Data": "preview.png（请压缩图片大小在 128 KB 以内）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20211222094933-4q0nfh2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211222094933-4q0nfh2"
+					},
+					"Children": [
+						{
+							"ID": "20211222094933-iipkwms",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211222094933-iipkwms",
+								"updated": "20211222094934"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "README.md（请注意大小写）"
 								}
 							]
 						}
