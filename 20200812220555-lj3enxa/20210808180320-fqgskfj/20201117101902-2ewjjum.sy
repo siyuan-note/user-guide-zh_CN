@@ -5,7 +5,7 @@
 		"id": "20201117101902-2ewjjum",
 		"title": "5 嵌入内容块",
 		"type": "doc",
-		"updated": "20211008203521"
+		"updated": "20211222185428"
 	},
 	"Children": [
 		{
@@ -567,9 +567,9 @@
 		{
 			"ID": "20210111224926-ju1sd4d",
 			"Type": "NodeBlockQueryEmbed",
-			"Data": "{{SELECT * FROM blocks WHERE content LIKE '%在思源中%' AND content LIKE '%核心概念%' AND path NOT LIKE '%嵌入内容块%'}}\n",
 			"Properties": {
-				"id": "20210111224926-ju1sd4d"
+				"id": "20210111224926-ju1sd4d",
+				"updated": "20211222185346"
 			},
 			"Children": [
 				{
@@ -580,7 +580,7 @@
 				},
 				{
 					"Type": "NodeBlockQueryEmbedScript",
-					"Data": "SELECT * FROM blocks WHERE content LIKE '%在思源中%' AND content LIKE '%核心概念%' AND path NOT LIKE '%嵌入内容块%'"
+					"Data": "SELECT * FROM blocks WHERE content LIKE '%在思源中%' AND content LIKE '%核心概念%' AND hpath NOT LIKE '%嵌入内容块%'"
 				},
 				{
 					"Type": "NodeCloseBrace"
@@ -668,9 +668,9 @@
 		{
 			"ID": "20201224120447-veyqmvr",
 			"Type": "NodeBlockQueryEmbed",
-			"Data": "{{SELECT * FROM blocks WHERE (content LIKE '%#内容块/嵌入#%' OR content LIKE '%#内容块/引用#%') AND path NOT LIKE '%嵌入内容块%'}}\n",
 			"Properties": {
-				"id": "20201224120447-veyqmvr"
+				"id": "20201224120447-veyqmvr",
+				"updated": "20211222185428"
 			},
 			"Children": [
 				{
@@ -681,7 +681,7 @@
 				},
 				{
 					"Type": "NodeBlockQueryEmbedScript",
-					"Data": "SELECT * FROM blocks WHERE (content LIKE '%#内容块/嵌入#%' OR content LIKE '%#内容块/引用#%') AND path NOT LIKE '%嵌入内容块%'"
+					"Data": "SELECT * FROM blocks WHERE (content LIKE '%#内容块/嵌入#%' OR content LIKE '%#内容块/引用#%') AND hpath NOT LIKE '%嵌入内容块%'"
 				},
 				{
 					"Type": "NodeCloseBrace"
