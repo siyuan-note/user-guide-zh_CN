@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "3 常见问题与解答",
 		"type": "doc",
-		"updated": "20211222010906"
+		"updated": "20211222190846"
 	},
 	"Children": [
 		{
@@ -989,7 +989,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20211222010449-g4bodci",
-				"updated": "20211222010906"
+				"updated": "20211222190827"
 			},
 			"Children": [
 				{
@@ -1014,7 +1014,36 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "：移动端卸载应用时，本地工作空间数据会被一并删除）"
+					"Data": "：移动端卸载应用时，本地工作空间数据会被一并删除）。"
+				}
+			]
+		},
+		{
+			"ID": "20211222190633-8md4eai",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20211222190633-8md4eai",
+				"updated": "20211222190846"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于同一个工作空间，云端同步和云端备份大小为什么不一样？"
+				}
+			]
+		},
+		{
+			"ID": "20211222190655-djyj4zl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211222190655-djyj4zl",
+				"updated": "20211222190750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因为云端同步不包含历史，云端备份包含了历史。"
 				}
 			]
 		},
