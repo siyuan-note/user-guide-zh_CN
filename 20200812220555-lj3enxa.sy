@@ -7,7 +7,7 @@
 		"title": "请从这里开始",
 		"title-img": "background-color:#556;background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);background-size:80px 140px;background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;",
 		"type": "doc",
-		"updated": "20211223191632"
+		"updated": "20211223213352"
 	},
 	"Children": [
 		{
@@ -79,7 +79,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210528115012-vst5lwt",
-				"updated": "20211205193639"
+				"updated": "20210502233951"
 			},
 			"Children": [
 				{
@@ -95,7 +95,7 @@
 					"Properties": {
 						"id": "20210528115021-oj6gzg7",
 						"style": "width: 70%; flex: 0 0 auto;",
-						"updated": "20211205193639"
+						"updated": "20210502233951"
 					},
 					"Children": [
 						{
@@ -126,7 +126,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20201225220955-l154bn4",
-								"updated": "20211205193639"
+								"updated": "20210502233951"
 							},
 							"Children": [
 								{
@@ -212,7 +212,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20201225220955-04ymi2j"
+										"id": "20201225220955-04ymi2j",
+										"updated": "20210502233951"
 									},
 									"Children": [
 										{
@@ -292,65 +293,6 @@
 							]
 						},
 						{
-							"ID": "20210429172522-ceauu94",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210429172522-ceauu94",
-								"updated": "20210714093017"
-							},
-							"Children": [
-								{
-									"Type": "NodeTag",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeTagOpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "注意"
-										},
-										{
-											"Type": "NodeTagCloseMarker"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "："
-								},
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Properties": {
-										"style": "background-image: linear-gradient(to right, var(--b3-theme-primary), var(--b3-theme-error)); -webkit-background-clip: text; color: transparent;"
-									},
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "请勿在帮助指南中保存数据"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeKramdownSpanIAL",
-									"Data": "{: style=\"background-image: linear-gradient(to right, var(--b3-theme-primary), var(--b3-theme-error)); -webkit-background-clip: text; color: transparent;\"}"
-								},
-								{
-									"Type": "NodeText",
-									"Data": "，每次打开时都会被重置。"
-								}
-							]
-						},
-						{
 							"Type": "NodeSuperBlockCloseMarker"
 						}
 					]
@@ -360,7 +302,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210528115016-kgyy5mm",
-						"updated": "20210601233622"
+						"updated": "20211223213134"
 					},
 					"Children": [
 						{
@@ -391,7 +333,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20201225220955-5tzog8p",
-								"updated": "20210528115049"
+								"updated": "20211223213134"
 							},
 							"Children": [
 								{
@@ -402,14 +344,16 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20201225220955-bdl9x01"
+										"id": "20201225220955-bdl9x01",
+										"updated": "20211223213134"
 									},
 									"Children": [
 										{
 											"ID": "20210131155408-4u2rjpf",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20210131155408-4u2rjpf"
+												"id": "20210131155408-4u2rjpf",
+												"updated": "20211223213134"
 											},
 											"Children": [
 												{
@@ -431,58 +375,7 @@
 														},
 														{
 															"Type": "NodeBlockRefText",
-															"Data": "常见问题和解答"
-														},
-														{
-															"Type": "NodeCloseParen"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20201225220955-6d3bb3r",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20201225220955-6d3bb3r"
-									},
-									"Children": [
-										{
-											"ID": "20210131155408-9x5e1wk",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20210131155408-9x5e1wk"
-											},
-											"Children": [
-												{
-													"Type": "NodeBlockRef",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeBlockRefID",
-															"Data": "20200813163359-v04n73b"
-														},
-														{
-															"Type": "NodeBlockRefSpace"
-														},
-														{
-															"Type": "NodeBlockRefText",
-															"Data": "隐私条款"
+															"Data": "常见问题"
 														},
 														{
 															"Type": "NodeCloseParen"
@@ -612,7 +505,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210528115259-ifi35e9",
-				"updated": "20211222095347"
+				"updated": "20211223213352"
 			},
 			"Children": [
 				{
@@ -628,7 +521,7 @@
 					"Properties": {
 						"id": "20210528115306-kftajae",
 						"style": "width: 70%; flex: 0 0 auto;",
-						"updated": "20210428232015"
+						"updated": "20211223213352"
 					},
 					"Children": [
 						{
@@ -660,7 +553,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20210428231856-0ej7uyw",
-								"updated": "20210428232015"
+								"updated": "20211223213352"
 							},
 							"Children": [
 								{
@@ -702,55 +595,6 @@
 														{
 															"Type": "NodeLinkDest",
 															"Data": "https://ld246.com/domain/siyuan"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20210601234215-jivxrj4",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20210601234215-jivxrj4"
-									},
-									"Children": [
-										{
-											"ID": "20210601234215-3e80nbr",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20210601234215-3e80nbr",
-												"updated": "20210601234215"
-											},
-											"Children": [
-												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "语雀（自来水群组）"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://www.yuque.com/siyuannote"
 														},
 														{
 															"Type": "NodeCloseParen"
@@ -812,23 +656,23 @@
 									]
 								},
 								{
-									"ID": "20210428231846-czvayxd",
+									"ID": "20211223213307-l2nf86a",
 									"Type": "NodeListItem",
 									"ListData": {
 										"BulletChar": 42,
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20210428231846-czvayxd",
-										"updated": "20210428232015"
+										"id": "20211223213307-l2nf86a",
+										"updated": "20211223213352"
 									},
 									"Children": [
 										{
-											"ID": "20210428231846-9h72l8i",
+											"ID": "20211223213307-a4gzm9a",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20210428231846-9h72l8i",
-												"updated": "20210428232015"
+												"id": "20211223213307-a4gzm9a",
+												"updated": "20211223213352"
 											},
 											"Children": [
 												{
@@ -840,7 +684,7 @@
 														},
 														{
 															"Type": "NodeLinkText",
-															"Data": "Discord（英文讨论区）"
+															"Data": "QQ 频道"
 														},
 														{
 															"Type": "NodeCloseBracket"
@@ -850,7 +694,57 @@
 														},
 														{
 															"Type": "NodeLinkDest",
-															"Data": "https://discord.gg/bzfCBwMzdP"
+															"Data": "https://qun.qq.com/qqweb/qunpro/share?_wv=3\u0026_wwv=128\u0026inviteCode=EGKPc\u0026from=246610\u0026biz=ka"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20210428231846-czvayxd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20210428231846-czvayxd",
+										"updated": "20211223213053"
+									},
+									"Children": [
+										{
+											"ID": "20210428231846-9h72l8i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20210428231846-9h72l8i",
+												"updated": "20211223213053"
+											},
+											"Children": [
+												{
+													"Type": "NodeLink",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "用户社群汇总"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "https://ld246.com/article/1640266171309"
 														},
 														{
 															"Type": "NodeCloseParen"
