@@ -1019,35 +1019,6 @@
 			]
 		},
 		{
-			"ID": "20211222190633-8md4eai",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20211222190633-8md4eai",
-				"updated": "20211222190846"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "对于同一个工作空间，云端同步和云端备份大小为什么不一样？"
-				}
-			]
-		},
-		{
-			"ID": "20211222190655-djyj4zl",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20211222190655-djyj4zl",
-				"updated": "20211222190750"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "因为云端同步不包含历史，云端备份包含了历史。"
-				}
-			]
-		},
-		{
 			"ID": "20201224120447-dguzzc9",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
