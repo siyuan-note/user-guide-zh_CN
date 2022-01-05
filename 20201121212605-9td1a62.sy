@@ -6,7 +6,7 @@
 		"id": "20201121212605-9td1a62",
 		"title": "致谢",
 		"type": "doc",
-		"updated": "20211223191652"
+		"updated": "20210924163203"
 	},
 	"Children": [
 		{
@@ -3279,14 +3279,16 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20210924163203-0i1l72x"
+						"id": "20210924163203-0i1l72x",
+						"updated": "20210924163203"
 					},
 					"Children": [
 						{
 							"ID": "20210924163203-dwsqqgk",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210924163203-dwsqqgk"
+								"id": "20210924163203-dwsqqgk",
+								"updated": "20210924163203"
 							},
 							"Children": [
 								{
@@ -3309,74 +3311,6 @@
 										{
 											"Type": "NodeLinkDest",
 											"Data": "https://github.com/jgm/pandoc"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": " "
-								},
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "GPL-3.0 License"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210924163203-88tsco5",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210924163203-88tsco5"
-					},
-					"Children": [
-						{
-							"ID": "20210924163203-z9gif1l",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210924163203-z9gif1l"
-							},
-							"Children": [
-								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://github.com/WayneD/rsync"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/WayneD/rsync"
 										},
 										{
 											"Type": "NodeCloseParen"
