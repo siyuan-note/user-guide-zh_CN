@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210824201257-cy7icrc",
 		"title": "挂件",
-		"updated": "20211230223933"
+		"updated": "20220108010931"
 	},
 	"Children": [
 		{
@@ -426,6 +426,108 @@
 				{
 					"Type": "NodeText",
 					"Data": " 请填写你的模板仓库上最近一次发布版本的 Git 提交哈希值，请使用完整哈希值，不要使用 7 位短值。"
+				}
+			]
+		},
+		{
+			"ID": "20220108010915-kwv5j0s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220108010915-kwv5j0s",
+				"updated": "20220108010915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更新"
+				}
+			]
+		},
+		{
+			"ID": "20220108010915-w8a3mib",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220108010915-w8a3mib",
+				"updated": "20220108010922"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果你开发的挂件更新了版本，请记得："
+				}
+			]
+		},
+		{
+			"ID": "20220108010915-rgdoeez",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220108010915-rgdoeez",
+				"updated": "20220108010931"
+			},
+			"Children": [
+				{
+					"ID": "20220108010915-m411fw5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220108010915-m411fw5",
+						"updated": "20220108010931"
+					},
+					"Children": [
+						{
+							"ID": "20220108010915-fx63gvv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220108010915-fx63gvv",
+								"updated": "20220108010931"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "更新你的挂件配置 widget.json 中的 version 字段"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220108010915-8i3n4ed",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220108010915-8i3n4ed"
+					},
+					"Children": [
+						{
+							"ID": "20220108010915-0vgx9h4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220108010915-0vgx9h4"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "再次对"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "社区"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "集市发起 Pull Request"
+								}
+							]
+						}
+					]
 				}
 			]
 		}
