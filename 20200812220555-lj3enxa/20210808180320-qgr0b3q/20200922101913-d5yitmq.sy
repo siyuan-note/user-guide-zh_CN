@@ -1889,7 +1889,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "preview.png（请压缩图片大小在 128 KB 以内）"
+									"Data": "preview.png（请压缩图片大小在 512 KB 以内）"
 								}
 							]
 						}
