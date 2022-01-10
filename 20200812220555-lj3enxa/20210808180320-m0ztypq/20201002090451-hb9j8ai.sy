@@ -5,7 +5,7 @@
 		"id": "20201002090451-hb9j8ai",
 		"title": "数据备份和恢复",
 		"type": "doc",
-		"updated": "20211223192026"
+		"updated": "20220110113852"
 	},
 	"Children": [
 		{
@@ -100,7 +100,7 @@
 			},
 			"Properties": {
 				"id": "20210721101907-5xurf7e",
-				"updated": "20210721102529"
+				"updated": "20220110113852"
 			},
 			"Children": [
 				{
@@ -113,7 +113,8 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20210721102104-aignutr"
+						"id": "20210721102104-aignutr",
+						"updated": "20220110113852"
 					},
 					"Children": [
 						{
@@ -121,7 +122,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721102104-774n55n",
-								"updated": "20210721102329"
+								"updated": "20220110113852"
 							},
 							"Children": [
 								{
@@ -163,10 +164,6 @@
 											"Type": "NodeKbdCloseMarker"
 										}
 									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "，该密码仅需配置一次，所有设备上保持相同即可"
 								}
 							]
 						}
@@ -377,7 +374,7 @@
 			},
 			"Properties": {
 				"id": "20210721102538-a63eeng",
-				"updated": "20210721102659"
+				"updated": "20220110113759"
 			},
 			"Children": [
 				{
@@ -390,7 +387,8 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20210721102543-5li9vau"
+						"id": "20210721102543-5li9vau",
+						"updated": "20220110113759"
 					},
 					"Children": [
 						{
@@ -398,7 +396,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721102543-gziwktr",
-								"updated": "20210721102551"
+								"updated": "20220110113759"
 							},
 							"Children": [
 								{
@@ -440,10 +438,6 @@
 											"Type": "NodeKbdCloseMarker"
 										}
 									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": "，该密码仅需配置一次，所有设备上保持相同即可"
 								}
 							]
 						}
