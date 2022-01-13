@@ -367,34 +367,6 @@
 					]
 				},
 				{
-					"ID": "20211130233551-symvd8f",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20211130233551-symvd8f",
-						"updated": "20211130233606"
-					},
-					"Children": [
-						{
-							"ID": "20211130233551-qj3if2v",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20211130233551-qj3if2v",
-								"updated": "20211130233606"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "Word"
-								}
-							]
-						}
-					]
-				},
-				{
 					"ID": "20201229120428-rbzugkm",
 					"Type": "NodeListItem",
 					"ListData": {
@@ -445,90 +417,6 @@
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20201229120428-gjqhua5",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20201229120428-gjqhua5",
-				"updated": "20211130233802"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "在导出 Word 时，思源是通过 "
-				},
-				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Pandoc"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://pandoc.org"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": " 处理的，如果需要添加参数，可在文档上设置一个自定义属性 "
-				},
-				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "pandoc-docx"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "，其值为附加的参数列表，比如 "
-				},
-				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "--reference-doc twocolumns.docx --lua-filter=zotero.lua"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "。"
 				}
 			]
 		}
