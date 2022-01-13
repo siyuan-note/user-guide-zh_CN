@@ -24,27 +24,12 @@
 			]
 		},
 		{
-			"ID": "20210924163203-kh3tlxl",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20210924163203-kh3tlxl",
-				"updated": "20210924163214"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "源码依赖"
-				}
-			]
-		},
-		{
 			"ID": "20210928101945-9anw7ho",
 			"Type": "NodeList",
 			"ListData": {},
 			"Properties": {
 				"id": "20210928101945-9anw7ho",
-				"updated": "20211213120218"
+				"updated": "20210928101945"
 			},
 			"Children": [
 				{
@@ -3185,14 +3170,16 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20210928101945-v7nkk69"
+						"id": "20210928101945-v7nkk69",
+						"updated": "20210928101945"
 					},
 					"Children": [
 						{
 							"ID": "20210928101945-ixzdqnx",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210928101945-ixzdqnx"
+								"id": "20210928101945-ixzdqnx",
+								"updated": "20210928101945"
 							},
 							"Children": [
 								{
@@ -3235,102 +3222,6 @@
 										{
 											"Type": "NodeCodeSpanContent",
 											"Data": "MIT License"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20210924163203-b2u1ka6",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20210924163203-b2u1ka6",
-				"updated": "20210924163224"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "二进制依赖"
-				}
-			]
-		},
-		{
-			"ID": "20210924163203-y3zjwgb",
-			"Type": "NodeList",
-			"ListData": {},
-			"Properties": {
-				"id": "20210924163203-y3zjwgb",
-				"updated": "20210924163203"
-			},
-			"Children": [
-				{
-					"ID": "20210924163203-0i1l72x",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210924163203-0i1l72x",
-						"updated": "20210924163203"
-					},
-					"Children": [
-						{
-							"ID": "20210924163203-dwsqqgk",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210924163203-dwsqqgk",
-								"updated": "20210924163203"
-							},
-							"Children": [
-								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://github.com/jgm/pandoc"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/jgm/pandoc"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": " "
-								},
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "GPL-3.0 License"
 										},
 										{
 											"Type": "NodeCodeSpanCloseMarker"
