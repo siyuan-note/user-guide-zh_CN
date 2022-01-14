@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721110423-5m6vo52",
 		"title": "端到端加密",
-		"updated": "20220111133236"
+		"updated": "20220115000748"
 	},
 	"Children": [
 		{
@@ -95,34 +95,6 @@
 								{
 									"Type": "NodeText",
 									"Data": "加密算法为业界公认安全的 AES GCM"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20210525220037-h0i8gm5",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210525220037-h0i8gm5",
-						"updated": "20220111133236"
-					},
-					"Children": [
-						{
-							"ID": "20210525220037-5vclp4i",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210525220037-5vclp4i",
-								"updated": "20220111133236"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "除非知道密码或者暴力破解，否则不可能被解密"
 								}
 							]
 						}
@@ -260,6 +232,87 @@
 			]
 		},
 		{
+			"ID": "20220115001624-6mku466",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220115001624-6mku466",
+				"updated": "20220115002008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这两种密码生成方式的区别是："
+				}
+			]
+		},
+		{
+			"ID": "20220115001637-hltae6p",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220115001637-hltae6p",
+				"updated": "20220115002445"
+			},
+			"Children": [
+				{
+					"ID": "20220115001638-enezfl8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220115001638-enezfl8",
+						"updated": "20220115002418"
+					},
+					"Children": [
+						{
+							"ID": "20220115001638-93vi3fb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115001638-93vi3fb",
+								"updated": "20220115002418"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 id 生成方式主要是为了简单方便，但从技术上而言开发者是能够在云端解密数据的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220115001714-xgv19z7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220115001714-xgv19z7",
+						"updated": "20220115002445"
+					},
+					"Children": [
+						{
+							"ID": "20220115001714-8feaplt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115001714-8feaplt",
+								"updated": "20220115002445"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用自定义密码方式主要是为了更加安全（除非知道密码或者暴力破解，否则不可能被解密），但操作相对麻烦一点且必须牢记密码"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"ID": "20220110112926-l56c42w",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
@@ -306,7 +359,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220110113116-ta5467v",
-				"updated": "20220110113655"
+				"updated": "20220110113433"
 			},
 			"Children": [
 				{
@@ -344,7 +397,8 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220110113221-rrdd8mk"
+						"id": "20220110113221-rrdd8mk",
+						"updated": "20220110113433"
 					},
 					"Children": [
 						{
@@ -386,6 +440,115 @@
 								{
 									"Type": "NodeText",
 									"Data": "如果使用自定义密码，请务必牢记"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220114235050-cqm6gau",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220114235050-cqm6gau",
+				"updated": "20220115001324"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "加密内容"
+				}
+			]
+		},
+		{
+			"ID": "20220114235542-jjeec4f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220114235542-jjeec4f",
+				"updated": "20220115000734"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "data/.siyuan 文件夹和子文件 conf.json、syncignore，这些数据是同步所需的配置和元数据，所以不会被加密。"
+				}
+			]
+		},
+		{
+			"ID": "20220115001129-ym9wh0l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220115001129-ym9wh0l",
+				"updated": "20220115001129"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除此以外所有 data 文件夹下的数据都会被加密，具体加密内容为："
+				}
+			]
+		},
+		{
+			"ID": "20220115000532-t8nejer",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220115000532-t8nejer",
+				"updated": "20220115000748"
+			},
+			"Children": [
+				{
+					"ID": "20220115000533-9p9lcw9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220115000533-9p9lcw9"
+					},
+					"Children": [
+						{
+							"ID": "20220115000533-r4fdh7x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115000533-r4fdh7x",
+								"updated": "20220115000623"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "文件夹名和文件名（比如 .sy 文件和 assets 资源文件的文件名）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220115000741-ocyzlew",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220115000741-ocyzlew",
+						"updated": "20220115000748"
+					},
+					"Children": [
+						{
+							"ID": "20220115000741-cnei5th",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220115000741-cnei5th",
+								"updated": "20220115000748"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "文件内容"
 								}
 							]
 						}
