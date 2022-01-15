@@ -6,7 +6,7 @@
 		"title": "排版元素",
 		"title-img": "background-color: hsl(2, 57%, 40%);background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);",
 		"type": "doc",
-		"updated": "20220115192916"
+		"updated": "20220115193648"
 	},
 	"Children": [
 		{
@@ -30,7 +30,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210104091228-ttcj9nm",
-				"updated": "20220115192916"
+				"updated": "20220115193648"
 			},
 			"Children": [
 				{
@@ -94,7 +94,8 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20210104091228-56d6mjx"
+						"id": "20210104091228-56d6mjx",
+						"updated": "20220115193517"
 					},
 					"Children": [
 						{
@@ -102,7 +103,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210201202130-jhxwimm",
-								"updated": "20210604220901"
+								"updated": "20220115193517"
 							},
 							"Children": [
 								{
@@ -114,7 +115,7 @@
 										},
 										{
 											"Type": "NodeLinkText",
-											"Data": "超级链接\n"
+											"Data": "超级链接"
 										},
 										{
 											"Type": "NodeCloseBracket"
@@ -132,30 +133,8 @@
 									]
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "username@gmail.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:username@gmail.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeBr",
+									"Data": "br"
 								}
 							]
 						}
@@ -1078,19 +1057,21 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20210604182911-vurbome"
+						"id": "20210604182911-vurbome",
+						"updated": "20220115193648"
 					},
 					"Children": [
 						{
 							"ID": "20210604182911-ubd41f1",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210604182911-ubd41f1"
+								"id": "20210604182911-ubd41f1",
+								"updated": "20220115193648"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "支持大部分标准的表情符号，可使用输入法直接输入，也可手动输入字符格式。通过输入 "
+									"Data": "通过输入 "
 								},
 								{
 									"Type": "NodeCodeSpan",
@@ -1110,7 +1091,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": " 触发自动完成。😄 😆 😵 😭 😰 😅  😢 😤 😍 😌👍 👎 💯 👏 🔔 🎁 ❓ 💣 ❤️ ☕️ 🌀 🙇 💋 🙏 💢"
+									"Data": " 加字母触发表情字符搜索 😄 😆 😵 😭 😰 😅  😢 😤 😍 😌👍 👎 💯 👏 🔔 🎁 ❓ 💣 ❤️ ☕️ 🌀 🙇 💋 🙏 💢"
 								}
 							]
 						}
