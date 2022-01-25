@@ -5,7 +5,7 @@
 		"id": "20200922102318-oz84yu3",
 		"title": "主题",
 		"type": "doc",
-		"updated": "20211222094837"
+		"updated": "20220125163757"
 	},
 	"Children": [
 		{
@@ -530,6 +530,7 @@
 			"Type": "NodeList",
 			"ListData": {
 				"Typ": 1,
+				"Tight": true,
 				"Start": 1,
 				"Delimiter": 46,
 				"Padding": 3,
@@ -546,6 +547,7 @@
 					"Data": "1",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
 						"Start": 1,
 						"Delimiter": 46,
 						"Padding": 3,
@@ -1115,7 +1117,8 @@
 				"Num": -1
 			},
 			"Properties": {
-				"id": "20201225202158-jnsfuj4"
+				"id": "20201225202158-jnsfuj4",
+				"updated": "20201225202158"
 			},
 			"Children": [
 				{
@@ -1491,6 +1494,75 @@
 			]
 		},
 		{
+			"ID": "20220125162841-7fpgtq7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220125162841-7fpgtq7",
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220125163757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除了可以通过 theme.css 修改样式以外，如果主题文件夹下存在 theme.js，则渲染界面时会自动加载它，这样就能够通过 JavaScript 代码来实现一些功能相关定制。"
+				},
+				{
+					"Type": "NodeTag",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker",
+							"Data": "#"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意"
+						},
+						{
+							"Type": "NodeTagCloseMarker",
+							"Data": "#"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：请勿修改编辑器 DOM，编辑器里的块应该通过"
+				},
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "块操作 API"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/siyuan-note/siyuan/blob/master/API.md#%E5%9D%97%E6%93%8D%E4%BD%9C"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 进行操作。"
+				}
+			]
+		},
+		{
 			"ID": "20201225212401-ru1scjs",
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
@@ -1522,27 +1594,30 @@
 				},
 				{
 					"Type": "NodeLink",
-					"Data": "span",
 					"Children": [
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "["
 						},
 						{
 							"Type": "NodeLinkText",
 							"Data": "仓库示例"
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]"
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "("
 						},
 						{
 							"Type": "NodeLinkDest",
 							"Data": "https://github.com/88250/Comfortably-Numb"
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")"
 						}
 					]
 				},
@@ -1555,7 +1630,13 @@
 		{
 			"ID": "20201225230635-jddgzin",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20201225230635-jddgzin",
 				"updated": "20211222094837"
@@ -1564,9 +1645,13 @@
 				{
 					"ID": "20201225230635-jhu92r3",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20201225230635-jhu92r3"
@@ -1590,9 +1675,13 @@
 				{
 					"ID": "20201225230635-y7bv6z2",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20201225230635-y7bv6z2"
@@ -1616,9 +1705,13 @@
 				{
 					"ID": "20201225230635-dt0ei0y",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20201225230635-dt0ei0y"
@@ -1643,9 +1736,13 @@
 				{
 					"ID": "20211222094824-4pjn4gm",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20211222094824-4pjn4gm",
