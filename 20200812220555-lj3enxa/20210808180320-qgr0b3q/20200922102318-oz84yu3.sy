@@ -5,7 +5,7 @@
 		"id": "20200922102318-oz84yu3",
 		"title": "主题",
 		"type": "doc",
-		"updated": "20220125163757"
+		"updated": "20201225222236"
 	},
 	"Children": [
 		{
@@ -1565,15 +1565,12 @@
 		{
 			"ID": "20201225212401-ru1scjs",
 			"Type": "NodeHeading",
-			"HeadingLevel": 3,
+			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20201225212401-ru1scjs"
+				"id": "20201225212401-ru1scjs",
+				"updated": "20201225212401"
 			},
 			"Children": [
-				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "### "
-				},
 				{
 					"Type": "NodeText",
 					"Data": "上架主题集市"
@@ -1917,15 +1914,12 @@
 		{
 			"ID": "20201225222236-en4fjay",
 			"Type": "NodeHeading",
-			"HeadingLevel": 4,
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20201225222236-en4fjay"
+				"id": "20201225222236-en4fjay",
+				"updated": "20201225222236"
 			},
 			"Children": [
-				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "#### "
-				},
 				{
 					"Type": "NodeText",
 					"Data": "更新"

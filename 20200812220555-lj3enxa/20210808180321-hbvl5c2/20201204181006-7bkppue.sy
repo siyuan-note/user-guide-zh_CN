@@ -5,7 +5,7 @@
 		"id": "20201204181006-7bkppue",
 		"title": "模板片段",
 		"type": "doc",
-		"updated": "20211222094908"
+		"updated": "20210131162925"
 	},
 	"Children": [
 		{
@@ -1332,15 +1332,12 @@
 		{
 			"ID": "20210131162925-e2aq6sa",
 			"Type": "NodeHeading",
-			"HeadingLevel": 4,
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20210131162925-e2aq6sa"
+				"id": "20210131162925-e2aq6sa",
+				"updated": "20210131162925"
 			},
 			"Children": [
-				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "#### "
-				},
 				{
 					"Type": "NodeText",
 					"Data": "更新"
