@@ -86,36 +86,6 @@
 			]
 		},
 		{
-			"ID": "20210824201845-ulo1wui",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210824201845-ulo1wui",
-				"updated": "20210824201920"
-			},
-			"Children": [
-				{
-					"Type": "NodeTag",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeTagOpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "注意"
-						},
-						{
-							"Type": "NodeTagCloseMarker"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "：目前挂件还在内测中，只有订阅用户能够参与内测使用。"
-				}
-			]
-		},
-		{
 			"ID": "20211222095016-3jjm95h",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
