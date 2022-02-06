@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "常见问题",
 		"type": "doc",
-		"updated": "20211223191950"
+		"updated": "20220206221746"
 	},
 	"Children": [
 		{
@@ -358,76 +358,267 @@
 			]
 		},
 		{
-			"ID": "20211129190031-6sp8uxq",
+			"ID": "20220206221746-1vnqzwi",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20211129190031-6sp8uxq",
-				"updated": "20211129190758"
+				"id": "20220206221746-1vnqzwi",
+				"updated": "20220206221746"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "目前并没有完全开源，但为了保证数据的可迁移性，"
-				},
+					"Data": "目前并没有完全开源，但已开源部分组件和应用端："
+				}
+			]
+		},
+		{
+			"ID": "20220206221746-blany2i",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220206221746-blany2i",
+				"updated": "20220206221746"
+			},
+			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
+					"ID": "20220206221746-8jnywr6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220206221746-8jnywr6"
+					},
 					"Children": [
 						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "数据解析器"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/88250/protyle"
-						},
-						{
-							"Type": "NodeCloseParen"
+							"ID": "20220206221746-xfj99d2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220206221746-xfj99d2"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "数据解析器"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/88250/protyle"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
 						}
 					]
 				},
 				{
-					"Type": "NodeText",
-					"Data": "和"
-				},
-				{
-					"Type": "NodeLink",
-					"Data": "span",
+					"ID": "20220206221746-vafjida",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220206221746-vafjida"
+					},
 					"Children": [
 						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "编辑器引擎"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/88250/lute"
-						},
-						{
-							"Type": "NodeCloseParen"
+							"ID": "20220206221746-cpv58o6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220206221746-cpv58o6"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "编辑器引擎"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/88250/lute"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
 						}
 					]
 				},
 				{
-					"Type": "NodeText",
-					"Data": "是完全开源的。"
+					"ID": "20220206221746-2o8jwng",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220206221746-2o8jwng"
+					},
+					"Children": [
+						{
+							"ID": "20220206221746-9xvehmg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220206221746-9xvehmg"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "端到端加密"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/siyuan-note/encryption"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220206221746-1lh1ej1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220206221746-1lh1ej1"
+					},
+					"Children": [
+						{
+							"ID": "20220206221746-r4o4g3e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220206221746-r4o4g3e"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Chrome 剪藏扩展"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/siyuan-note/siyuan-chrome"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220206221746-qrs7b2j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220206221746-qrs7b2j"
+					},
+					"Children": [
+						{
+							"ID": "20220206221746-tbag4t0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220206221746-tbag4t0"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Android 端"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/siyuan-note/siyuan-android"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		},
