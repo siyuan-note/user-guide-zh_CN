@@ -5,7 +5,7 @@
 		"id": "20201227194925-7ipoiv6",
 		"title": "内核 API",
 		"type": "doc",
-		"updated": "20210918114656"
+		"updated": "20220224233723"
 	},
 	"Children": [
 		{
@@ -13,7 +13,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210822163618-m0zvvbe",
-				"updated": "20210918114656"
+				"updated": "20220224233723"
 			},
 			"Children": [
 				{
@@ -39,7 +39,7 @@
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "https://github.com/siyuan-note/siyuan/blob/master/API.md"
+							"Data": "https://github.com/siyuan-note/siyuan/blob/master/API_zh_CN.md"
 						},
 						{
 							"Type": "NodeCloseParen"

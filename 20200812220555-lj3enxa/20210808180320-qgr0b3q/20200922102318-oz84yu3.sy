@@ -5,7 +5,7 @@
 		"id": "20200922102318-oz84yu3",
 		"title": "主题",
 		"type": "doc",
-		"updated": "20201225222236"
+		"updated": "20220224233943"
 	},
 	"Children": [
 		{
@@ -1499,7 +1499,7 @@
 			"Properties": {
 				"id": "20220125162841-7fpgtq7",
 				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
-				"updated": "20220125163757"
+				"updated": "20220224233943"
 			},
 			"Children": [
 				{
@@ -1508,18 +1508,17 @@
 				},
 				{
 					"Type": "NodeTag",
+					"Data": "span",
 					"Children": [
 						{
-							"Type": "NodeTagOpenMarker",
-							"Data": "#"
+							"Type": "NodeTagOpenMarker"
 						},
 						{
 							"Type": "NodeText",
 							"Data": "注意"
 						},
 						{
-							"Type": "NodeTagCloseMarker",
-							"Data": "#"
+							"Type": "NodeTagCloseMarker"
 						}
 					]
 				},
@@ -1529,30 +1528,27 @@
 				},
 				{
 					"Type": "NodeLink",
+					"Data": "span",
 					"Children": [
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "["
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "块操作 API"
+							"Data": "块 API"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]"
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "("
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "https://github.com/siyuan-note/siyuan/blob/master/API.md#%E5%9D%97%E6%93%8D%E4%BD%9C"
+							"Data": "https://github.com/siyuan-note/siyuan/blob/master/API_zh_CN.md#%E5%9D%97"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": ")"
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
