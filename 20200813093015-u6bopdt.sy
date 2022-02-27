@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "常见问题",
 		"type": "doc",
-		"updated": "20220208224358"
+		"updated": "20211222010657"
 	},
 	"Children": [
 		{
@@ -1229,7 +1229,9 @@
 		{
 			"ID": "20211222010251-cxpfurj",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
 				"id": "20211222010251-cxpfurj",
 				"updated": "20211222010657"
@@ -1239,8 +1241,10 @@
 					"ID": "20211222010348-k7b2teg",
 					"Type": "NodeListItem",
 					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
 					},
 					"Properties": {
 						"id": "20211222010348-k7b2teg"
@@ -1266,8 +1270,10 @@
 					"ID": "20211222010407-ze0dmor",
 					"Type": "NodeListItem",
 					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
 					},
 					"Properties": {
 						"id": "20211222010407-ze0dmor"
@@ -1293,8 +1299,10 @@
 					"ID": "20211222010438-yululiy",
 					"Type": "NodeListItem",
 					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
 					},
 					"Properties": {
 						"id": "20211222010438-yululiy",
