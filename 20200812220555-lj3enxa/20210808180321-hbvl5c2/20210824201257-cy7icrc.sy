@@ -356,8 +356,12 @@
 					"CodeBlockInfo": "anNvbg=="
 				},
 				{
+					"ID": "20220307091943-711z3n0",
 					"Type": "NodeCodeBlockCode",
-					"Data": "{\n  \"repos\": [\n    \"username/reponame@commithash\"\n  ]\n}\n"
+					"Data": "{\n  \"repos\": [\n    \"username/reponame@commithash\"\n  ]\n}\n",
+					"Properties": {
+						"id": "20220307091943-711z3n0"
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",

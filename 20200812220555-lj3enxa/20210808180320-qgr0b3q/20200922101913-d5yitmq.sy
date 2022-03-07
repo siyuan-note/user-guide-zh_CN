@@ -658,8 +658,12 @@
 									"CodeBlockInfo": "anNvbg=="
 								},
 								{
+									"ID": "20220307091943-a4jij0r",
 									"Type": "NodeCodeBlockCode",
-									"Data": "{\n  \"name\": \"alice\",\n  \"author\": \"Vanessa\",\n  \"url\": \"https://github.com/Vanessa219\",\n  \"version\": \"1.0.0\"\n}\n"
+									"Data": "{\n  \"name\": \"alice\",\n  \"author\": \"Vanessa\",\n  \"url\": \"https://github.com/Vanessa219\",\n  \"version\": \"1.0.0\"\n}\n",
+									"Properties": {
+										"id": "20220307091943-a4jij0r"
+									}
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",
@@ -1623,8 +1627,12 @@
 													"CodeBlockInfo": "aHRtbA=="
 												},
 												{
+													"ID": "20220307091943-01zwait",
 													"Type": "NodeCodeBlockCode",
-													"Data": "\u003cscript src=\"material/icon.js\"\u003e\u003c/script\u003e\n"
+													"Data": "\u003cscript src=\"material/icon.js\"\u003e\u003c/script\u003e\n",
+													"Properties": {
+														"id": "20220307091943-01zwait"
+													}
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
@@ -2016,8 +2024,12 @@
 					"CodeBlockInfo": "anNvbg=="
 				},
 				{
+					"ID": "20220307091943-xb6snca",
 					"Type": "NodeCodeBlockCode",
-					"Data": "{\n  \"repos\": [\n    \"username/reponame@commithash\"\n  ]\n}\n"
+					"Data": "{\n  \"repos\": [\n    \"username/reponame@commithash\"\n  ]\n}\n",
+					"Properties": {
+						"id": "20220307091943-xb6snca"
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",

@@ -861,8 +861,12 @@
 					"Type": "NodeCodeBlockFenceInfoMarker"
 				},
 				{
+					"ID": "20220307091943-diuexe8",
 					"Type": "NodeCodeBlockCode",
-					"Data": ".action{$today := now | date \"20060102150405\"}\n.action{$blocks :=queryBlocks \"SELECT * FROM blocks WHERE content LIKE '?' AND updated \u003e '?' LIMIT ?\" \"%foo%\" $today \"3\"}\n"
+					"Data": ".action{$today := now | date \"20060102150405\"}\n.action{$blocks :=queryBlocks \"SELECT * FROM blocks WHERE content LIKE '?' AND updated \u003e '?' LIMIT ?\" \"%foo%\" $today \"3\"}\n",
+					"Properties": {
+						"id": "20220307091943-diuexe8"
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -965,8 +969,12 @@
 					"CodeBlockInfo": "cGxhaW50ZXh0"
 				},
 				{
+					"ID": "20220307091943-k77h7sb",
 					"Type": "NodeCodeBlockCode",
-					"Data": ".action{$before := (div (now.Sub (toDate \"2006-01-02\" \"2020-02-19\")).Hours 24)}\n\n.action{$after := (div ((toDate \"2006-01-02\" \"2048-02-19\").Sub now).Hours 24)}\n今天是 `.action{now | date \"2006-01-02\"}`。\n\n* 距离 `2020-02-19` 已经过去 `.action{$before}` 天\n* 距离 `2048-02-19` 还剩 `.action{$after}` 天\n"
+					"Data": ".action{$before := (div (now.Sub (toDate \"2006-01-02\" \"2020-02-19\")).Hours 24)}\n\n.action{$after := (div ((toDate \"2006-01-02\" \"2048-02-19\").Sub now).Hours 24)}\n今天是 `.action{now | date \"2006-01-02\"}`。\n\n* 距离 `2020-02-19` 已经过去 `.action{$before}` 天\n* 距离 `2048-02-19` 还剩 `.action{$after}` 天\n",
+					"Properties": {
+						"id": "20220307091943-k77h7sb"
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -1284,8 +1292,12 @@
 					"CodeBlockInfo": "anNvbg=="
 				},
 				{
+					"ID": "20220307091943-dgkvjic",
 					"Type": "NodeCodeBlockCode",
-					"Data": "{\n  \"repos\": [\n    \"username/reponame@commithash\"\n  ]\n}\n"
+					"Data": "{\n  \"repos\": [\n    \"username/reponame@commithash\"\n  ]\n}\n",
+					"Properties": {
+						"id": "20220307091943-dgkvjic"
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
