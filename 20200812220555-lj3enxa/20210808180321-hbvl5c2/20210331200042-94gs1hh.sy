@@ -4,7 +4,8 @@
 	"Properties": {
 		"id": "20210331200042-94gs1hh",
 		"title": "超链接",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20220312232838"
 	},
 	"Children": [
 		{
@@ -91,25 +92,77 @@
 			"Children": [
 				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
 							"Data": "siyuan://blocks/{id}"
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
 					"Data": "：直接打开内容块，需要该块所在笔记本已经处于打开状态。"
+				}
+			]
+		},
+		{
+			"ID": "20220312232623-xhnu1dy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220312232623-xhnu1dy",
+				"updated": "20220312232838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "加入查询字符串参数 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "focus=1"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " （"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "siyuan://blocks/{id}?focus=1"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）表示聚焦打开。"
 				}
 			]
 		},
@@ -144,7 +197,7 @@
 			},
 			"Properties": {
 				"id": "20210331200839-18k56cs",
-				"updated": "20210331200851"
+				"updated": "20210502203034"
 			},
 			"Children": [
 				{
@@ -212,7 +265,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20210331201016-h8i10b1"
+						"id": "20210331201016-h8i10b1",
+						"updated": "20210502203034"
 					},
 					"Children": [
 						{
@@ -232,13 +286,6 @@
 					]
 				}
 			]
-		},
-		{
-			"ID": "20210331200642-97tzo7v",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210331200642-97tzo7v"
-			}
 		}
 	]
 }
