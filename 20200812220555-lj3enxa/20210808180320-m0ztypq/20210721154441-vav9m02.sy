@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721154441-vav9m02",
 		"title": "资源文件图床",
-		"updated": "20211223192034"
+		"updated": "20220317224624"
 	},
 	"Children": [
 		{
@@ -44,7 +44,7 @@
 			},
 			"Properties": {
 				"id": "20210721154746-xbh258y",
-				"updated": "20210721155054"
+				"updated": "20220317224624"
 			},
 			"Children": [
 				{
@@ -57,7 +57,8 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20210721154804-tm5mn1b"
+						"id": "20210721154804-tm5mn1b",
+						"updated": "20220317224624"
 					},
 					"Children": [
 						{
@@ -65,26 +66,30 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721154804-39dutt6",
-								"updated": "20210721154836"
+								"updated": "20220317224624"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "文档右上角 "
+									"Data": "文档右上角"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
 									"Children": [
 										{
-											"Type": "NodeCodeSpanOpenMarker"
+											"Type": "NodeKbdOpenMarker"
 										},
 										{
-											"Type": "NodeCodeSpanContent",
+											"Type": "NodeText",
 											"Data": "..."
 										},
 										{
-											"Type": "NodeCodeSpanCloseMarker"
+											"Type": "NodeKbdCloseMarker"
 										}
 									]
 								},
