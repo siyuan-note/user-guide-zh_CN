@@ -6,7 +6,7 @@
 		"id": "20201121212605-9td1a62",
 		"title": "致谢",
 		"type": "doc",
-		"updated": "20220326092700"
+		"updated": "20220326094719"
 	},
 	"Children": [
 		{
@@ -29,7 +29,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220326092700-41a0zw1",
-				"updated": "20220326092700"
+				"updated": "20220326094719"
 			},
 			"Children": [
 				{
@@ -1042,6 +1042,76 @@
 										{
 											"Type": "NodeCodeSpanContent",
 											"Data": "MIT License"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326094719-dkh24t7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326094719-dkh24t7",
+						"updated": "20220326094719"
+					},
+					"Children": [
+						{
+							"ID": "20220326094719-bmn5r4a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326094719-bmn5r4a",
+								"updated": "20220326094719"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://github.com/dgraph-io/ristretto"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/dgraph-io/ristretto"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Apache-2.0 License"
 										},
 										{
 											"Type": "NodeCodeSpanCloseMarker"
