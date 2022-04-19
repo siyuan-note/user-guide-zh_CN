@@ -805,69 +805,6 @@
 			},
 			"Children": [
 				{
-					"ID": "20210930091551-261lsdw",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20210930091551-261lsdw"
-					},
-					"Children": [
-						{
-							"ID": "20210930091551-yu1j4ae",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20210930091551-yu1j4ae",
-								"updated": "20210930091812"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "配置 "
-								},
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "--servePath"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": " 参数为你的域名，例如 "
-								},
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "--servePath=yourdomain.com"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
 					"ID": "20210930091552-6ng73bf",
 					"Type": "NodeListItem",
 					"ListData": {
