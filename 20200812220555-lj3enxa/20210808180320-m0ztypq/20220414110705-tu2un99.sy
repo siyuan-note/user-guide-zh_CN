@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220414110705-tu2un99",
 		"title": "收集箱",
-		"updated": "20220419193932"
+		"updated": "20220420002346"
 	},
 	"Children": [
 		{
@@ -89,7 +89,7 @@
 			},
 			"Properties": {
 				"id": "20220414111447-0byxaq6",
-				"updated": "20220414111650"
+				"updated": "20220420002346"
 			},
 			"Children": [
 				{
@@ -103,7 +103,7 @@
 					},
 					"Properties": {
 						"id": "20220414111447-ap5pmv3",
-						"updated": "20220414111447"
+						"updated": "20220420002346"
 					},
 					"Children": [
 						{
@@ -111,12 +111,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220414111447-u47duy5",
-								"updated": "20220414111447"
+								"updated": "20220420002346"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "在"
+									"Data": "在 "
 								},
 								{
 									"Type": "NodeLink",
@@ -127,7 +127,7 @@
 										},
 										{
 											"Type": "NodeLinkText",
-											"Data": "链滴设置账号"
+											"Data": "链滴 - 设置 - 账号"
 										},
 										{
 											"Type": "NodeCloseBracket"
@@ -146,7 +146,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "中绑定微信"
+									"Data": " 中绑定微信"
 								}
 							]
 						}
@@ -351,7 +351,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220419112507-tz5zv3b",
-				"updated": "20220419193932"
+				"updated": "20220420002338"
 			},
 			"Children": [
 				{
@@ -461,7 +461,7 @@
 					},
 					"Properties": {
 						"id": "20220419193618-gy6cfmb",
-						"updated": "20220419193932"
+						"updated": "20220420002338"
 					},
 					"Children": [
 						{
@@ -469,7 +469,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220419193618-6con6jh",
-								"updated": "20220419193932"
+								"updated": "20220420002338"
 							},
 							"Children": [
 								{
@@ -525,7 +525,7 @@
 										},
 										{
 											"Type": "NodeLinkText",
-											"Data": "设置 - 链滴"
+											"Data": "链滴 - 设置 - 账号"
 										},
 										{
 											"Type": "NodeCloseBracket"

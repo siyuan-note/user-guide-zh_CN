@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220119224322-rdzzk5e",
 		"title": "微信提醒",
-		"updated": "20220119232232"
+		"updated": "20220420002356"
 	},
 	"Children": [
 		{
@@ -59,7 +59,7 @@
 			},
 			"Properties": {
 				"id": "20220119224322-4pj06lq",
-				"updated": "20220119232004"
+				"updated": "20220420002356"
 			},
 			"Children": [
 				{
@@ -73,7 +73,7 @@
 					},
 					"Properties": {
 						"id": "20220119225846-u8bxlfk",
-						"updated": "20220119232004"
+						"updated": "20220420002356"
 					},
 					"Children": [
 						{
@@ -81,12 +81,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220119225846-b4afjs3",
-								"updated": "20220119232004"
+								"updated": "20220420002356"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "在"
+									"Data": "在 "
 								},
 								{
 									"Type": "NodeLink",
@@ -97,7 +97,7 @@
 										},
 										{
 											"Type": "NodeLinkText",
-											"Data": "链滴设置账号"
+											"Data": "链滴 - 设置 - 账号"
 										},
 										{
 											"Type": "NodeCloseBracket"
@@ -116,7 +116,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "中绑定微信"
+									"Data": " 中绑定微信"
 								}
 							]
 						}

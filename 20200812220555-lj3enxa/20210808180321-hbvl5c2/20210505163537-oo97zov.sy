@@ -5,7 +5,7 @@
 		"id": "20210505163537-oo97zov",
 		"title": "剪藏",
 		"type": "doc",
-		"updated": "20211019235043"
+		"updated": "20220420001611"
 	},
 	"Children": [
 		{
@@ -279,6 +279,68 @@
 				{
 					"Type": "NodeText",
 					"Data": "如果需要剪藏整篇文章，可在扩展上直接点击“Send to SiYuan”。"
+				}
+			]
+		},
+		{
+			"ID": "20220420001516-9rek6if",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220420001516-9rek6if",
+				"updated": "20220420001521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "移动端剪藏"
+				}
+			]
+		},
+		{
+			"ID": "20220420001522-igble2k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220420001522-igble2k",
+				"updated": "20220420001611"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果需要在手机上进行剪藏，请使用"
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220414110705-tu2un99"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "收集箱"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
 				}
 			]
 		}
