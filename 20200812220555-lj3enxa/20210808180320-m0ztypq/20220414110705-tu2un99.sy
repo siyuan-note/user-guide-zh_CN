@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220414110705-tu2un99",
 		"title": "收集箱",
-		"updated": "20220414111650"
+		"updated": "20220419193932"
 	},
 	"Children": [
 		{
@@ -346,18 +346,272 @@
 			]
 		},
 		{
-			"ID": "20220414111353-afugmrj",
+			"ID": "20220419112507-tz5zv3b",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220419112507-tz5zv3b",
+				"updated": "20220419193932"
+			},
+			"Children": [
+				{
+					"ID": "20220419193441-vc34okr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220419193441-vc34okr",
+						"updated": "20220419193441"
+					},
+					"Children": [
+						{
+							"ID": "20220419193441-12nhipi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220419193441-12nhipi",
+								"updated": "20220419193441"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "POST "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "https://ld246.com/apis/siyuan/inbox/addCloudShorthand"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220419193442-52ds9zb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220419193442-52ds9zb"
+					},
+					"Children": [
+						{
+							"ID": "20220419193503-321yr6x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220419193503-321yr6x",
+								"updated": "20220419193503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Body"
+								}
+							]
+						},
+						{
+							"ID": "20220419193442-wyxvsm2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220419193442-wyxvsm2",
+								"updated": "20220419193522"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anNvbg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "{\n    \"title\": \"A simple text title\",\n    \"content\": \"Content with **Markdown**.\"\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220419193618-gy6cfmb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220419193618-gy6cfmb",
+						"updated": "20220419193932"
+					},
+					"Children": [
+						{
+							"ID": "20220419193618-6con6jh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220419193618-6con6jh",
+								"updated": "20220419193932"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "鉴权方式为 HTTP 请求标头 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Authorization"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，值为 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "token {Your API Token}"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（注意大小写和空格），API Token 可以 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "设置 - 链滴"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://ld246.com/settings/account"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 中找到"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220419193546-kq7dd5i",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220414111353-afugmrj",
-				"updated": "20220414111356"
+				"id": "20220419193546-kq7dd5i",
+				"updated": "20220419193549"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "TBD。"
+					"Data": "请注意："
 				}
 			]
+		},
+		{
+			"ID": "20220414111353-afugmrj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220414111353-afugmrj",
+				"updated": "20220419193608"
+			},
+			"Children": [
+				{
+					"ID": "20220419193550-vhd8e0d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220419193550-vhd8e0d",
+						"updated": "20220419193608"
+					},
+					"Children": [
+						{
+							"ID": "20220419193550-9t3vvr3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220419193550-9t3vvr3",
+								"updated": "20220419193608"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "频率限制：每 24 小时最多插入 128 条"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220419112427-y1vuxbo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220419112427-y1vuxbo",
+				"updated": "20220419112427"
+			}
 		}
 	]
 }
