@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "数据同步",
-		"updated": "20220307094844"
+		"updated": "20220420100248"
 	},
 	"Children": [
 		{
@@ -1075,9 +1075,37 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210721105956-5brxg8n",
-				"updated": "20210930212733"
+				"updated": "20220420100248"
 			},
 			"Children": [
+				{
+					"ID": "20220420100023-wvmrdt7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220420100023-wvmrdt7",
+						"updated": "20220420100248"
+					},
+					"Children": [
+						{
+							"ID": "20220420100023-3aq4zux",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220420100023-3aq4zux",
+								"updated": "20220420100248"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "睡眠或关机等突然断网的情况下不会触发同步，请手动点击同步按钮进行同步"
+								}
+							]
+						}
+					]
+				},
 				{
 					"ID": "20210721195711-c0ljv7q",
 					"Type": "NodeListItem",
@@ -1100,7 +1128,15 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "重命名或删除云端目录前，请在所有设备上关闭同步后再修改或删除"
+									"Data": "重命名或删除"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "云端"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "目录前，请在所有设备上关闭同步后再修改或删除"
 								}
 							]
 						}
