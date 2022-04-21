@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "常见问题",
 		"type": "doc",
-		"updated": "20220329160344"
+		"updated": "20220421192442"
 	},
 	"Children": [
 		{
@@ -1070,12 +1070,154 @@
 			]
 		},
 		{
+			"ID": "20220421192119-8yqvcpc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220421192119-8yqvcpc",
+				"updated": "20220421192442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何搜索包含符号的内容？"
+				}
+			]
+		},
+		{
+			"ID": "20220421192133-zpcg7vt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220421192133-zpcg7vt",
+				"updated": "20220421192331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果需要搜索包含符号（ "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "-"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "*"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 等）的内容，需要使用 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\""
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 包裹关键字，比如 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\"-siyuan\""
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。具体细节请参考"
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220415190432-r3xqn3r"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefText",
+							"Data": "查询语法"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
 			"ID": "20210918114843-6xo7hmr",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20210918114843-6xo7hmr",
-				"updated": "20210918114854"
+				"updated": "20220421192258"
 			},
 			"Children": [
 				{
