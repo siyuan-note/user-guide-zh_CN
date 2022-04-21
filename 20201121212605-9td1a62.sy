@@ -6,7 +6,7 @@
 		"id": "20201121212605-9td1a62",
 		"title": "致谢",
 		"type": "doc",
-		"updated": "20220326094719"
+		"updated": "20220326092700"
 	},
 	"Children": [
 		{
@@ -29,7 +29,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220326092700-41a0zw1",
-				"updated": "20220326094719"
+				"updated": "20220326092700"
 			},
 			"Children": [
 				{
@@ -1742,14 +1742,16 @@
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220326092700-qss13el"
+						"id": "20220326092700-qss13el",
+						"updated": "20220326092700"
 					},
 					"Children": [
 						{
 							"ID": "20220326092700-9orbx1f",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220326092700-9orbx1f"
+								"id": "20220326092700-9orbx1f",
+								"updated": "20220326092700"
 							},
 							"Children": [
 								{
@@ -1792,74 +1794,6 @@
 										{
 											"Type": "NodeCodeSpanContent",
 											"Data": "MIT License"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220326092700-g0ladwh",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20220326092700-g0ladwh"
-					},
-					"Children": [
-						{
-							"ID": "20220326092700-y8ogo2f",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220326092700-y8ogo2f"
-							},
-							"Children": [
-								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://github.com/jackpal/gateway"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/jackpal/gateway"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
-								},
-								{
-									"Type": "NodeText",
-									"Data": " "
-								},
-								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "BSD-3-Clause License"
 										},
 										{
 											"Type": "NodeCodeSpanCloseMarker"
