@@ -7,7 +7,7 @@
 		"title": "请从这里开始",
 		"title-img": "background-color:#556;background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);background-size:80px 140px;background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;",
 		"type": "doc",
-		"updated": "20220421001904"
+		"updated": "20220426104415"
 	},
 	"Children": [
 		{
@@ -505,7 +505,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20210528115259-ifi35e9",
-				"updated": "20220421001904"
+				"updated": "20220426104415"
 			},
 			"Children": [
 				{
@@ -521,7 +521,7 @@
 					"Properties": {
 						"id": "20210528115306-kftajae",
 						"style": "width: 70%; flex: 0 0 auto;",
-						"updated": "20211223213352"
+						"updated": "20220426104415"
 					},
 					"Children": [
 						{
@@ -553,7 +553,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20210428231856-0ej7uyw",
-								"updated": "20211223213352"
+								"updated": "20220426104415"
 							},
 							"Children": [
 								{
@@ -564,7 +564,8 @@
 										"Marker": "Kg=="
 									},
 									"Properties": {
-										"id": "20210428231846-le8qn62"
+										"id": "20210428231846-le8qn62",
+										"updated": "20210601234211"
 									},
 									"Children": [
 										{
@@ -595,56 +596,6 @@
 														{
 															"Type": "NodeLinkDest",
 															"Data": "https://ld246.com/domain/siyuan"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20210601234224-2pnkiwm",
-									"Type": "NodeListItem",
-									"ListData": {
-										"BulletChar": 42,
-										"Marker": "Kg=="
-									},
-									"Properties": {
-										"id": "20210601234224-2pnkiwm",
-										"updated": "20210601234224"
-									},
-									"Children": [
-										{
-											"ID": "20210601234224-vpcifmk",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20210601234224-vpcifmk",
-												"updated": "20210601234224"
-											},
-											"Children": [
-												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "GitHub Issues"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/siyuan-note/siyuan/issues"
 														},
 														{
 															"Type": "NodeCloseParen"
@@ -714,7 +665,7 @@
 									},
 									"Properties": {
 										"id": "20210428231846-czvayxd",
-										"updated": "20211223213053"
+										"updated": "20220426104415"
 									},
 									"Children": [
 										{
@@ -722,7 +673,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20210428231846-9h72l8i",
-												"updated": "20211223213053"
+												"updated": "20220426104415"
 											},
 											"Children": [
 												{
@@ -734,7 +685,7 @@
 														},
 														{
 															"Type": "NodeLinkText",
-															"Data": "用户社群汇总"
+															"Data": "用户社区汇总"
 														},
 														{
 															"Type": "NodeCloseBracket"
@@ -767,7 +718,7 @@
 					"Type": "NodeSuperBlock",
 					"Properties": {
 						"id": "20210528115302-oa09t9p",
-						"updated": "20220421001904"
+						"updated": "20211222095347"
 					},
 					"Children": [
 						{
@@ -798,7 +749,7 @@
 							"ListData": {},
 							"Properties": {
 								"id": "20210131160231-t1cr21p",
-								"updated": "20220421001904"
+								"updated": "20211222095347"
 							},
 							"Children": [
 								{
@@ -1024,14 +975,6 @@
 					"Type": "NodeSuperBlockCloseMarker"
 				}
 			]
-		},
-		{
-			"ID": "20211117110704-ypfd2ze",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20211117110704-ypfd2ze",
-				"updated": "20211117110704"
-			}
 		}
 	]
 }
