@@ -5,7 +5,7 @@
 		"id": "20201222093044-rx4zjoy",
 		"title": "数据库表",
 		"type": "doc",
-		"updated": "20220419111004"
+		"updated": "20220427104619"
 	},
 	"Children": [
 		{
@@ -765,7 +765,7 @@
 			},
 			"Properties": {
 				"id": "20201224120447-ij3ivd5",
-				"updated": "20220312005741"
+				"updated": "20220427104619"
 			},
 			"Children": [
 				{
@@ -779,14 +779,16 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20201224120447-u4tbyb3"
+						"id": "20201224120447-u4tbyb3",
+						"updated": "20220427104619"
 					},
 					"Children": [
 						{
 							"ID": "20210210103236-n6gscfx",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210210103236-n6gscfx"
+								"id": "20210210103236-n6gscfx",
+								"updated": "20220427104619"
 							},
 							"Children": [
 								{
@@ -795,25 +797,83 @@
 								},
 								{
 									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Data": "code",
 									"Children": [
 										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`"
+											"Type": "NodeCodeSpanOpenMarker"
 										},
 										{
 											"Type": "NodeCodeSpanContent",
 											"Data": "LIMIT"
 										},
 										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`"
+											"Type": "NodeCodeSpanCloseMarker"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "，则最多只返回前 32 条结果"
+									"Data": "，则最多只返回前 64 条结果，可以在 "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "设置"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " - "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "搜索"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " - "
+								},
+								{
+									"Type": "NodeKbd",
+									"Data": "kbd",
+									"Children": [
+										{
+											"Type": "NodeKbdOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "搜索结果显示数"
+										},
+										{
+											"Type": "NodeKbdCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 进行调整"
 								}
 							]
 						}
