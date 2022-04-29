@@ -5,7 +5,7 @@
 		"id": "20200905090211-2vixtlf",
 		"title": "内容块类型",
 		"type": "doc",
-		"updated": "20211223192439"
+		"updated": "20220429115850"
 	},
 	"Children": [
 		{
@@ -43,24 +43,28 @@
 		{
 			"ID": "20210104090624-c5bu25o",
 			"Type": "NodeTable",
-			"Data": "| 标识                                                                    | 类型       | ((20200925095848-aon4lem \"元类型\")) |\n| ------------------------------------------------------------------------- | ------------ | ------------------------------ |\n| ![paragraph.svg](assets/paragraph-20210512165953-ag1nib4.svg)           | 段落块     | 叶子块                       |\n| ![heading.svg](assets/heading-20210512170006-7ugwxnm.svg)               | 标题块     | 叶子块                       |\n| ![math-block.svg](assets/math-block-20210512170015-9v28ii5.svg)         | 数学公式块 | 叶子块                       |\n| ![code-block.svg](assets/code-block-20210512170024-qgn18hs.svg)         | 代码块     | 叶子块                       |\n| ![table.svg](assets/table-20210512170035-432ty41.svg)                   | 表格块     | 叶子块                       |\n| ![unordered-list.svg](assets/unordered-list-20210512170043-8dzzwai.svg) | 无序列表块 | 容器块                       |\n| ![ordered-list.svg](assets/ordered-list-20210512170847-z5581gd.svg)     | 有序列表块 | 容器块                       |\n| ![task-list.svg](assets/task-list-20210512170054-a0a7p2u.svg)           | 任务列表块 | 容器块                       |\n| ![list-item.svg](assets/list-item-20210512170630-gqje0vb.svg)           | 列表项块   | 容器块                       |\n| ![blockquote.svg](assets/blockquote-20210512170136-ls06uyh.svg)         | 引述块     | 容器块                       |\n| ![super-block.svg](assets/super-block-20210512170142-uewen14.svg)       | 超级块     | 容器块                       |\n| ![doc.svg](assets/doc-20210512170149-zsm2gsu.svg)                       | 文档块     | 容器块                       |",
 			"TableAligns": [
 				0,
 				0,
 				0
 			],
 			"Properties": {
-				"id": "20210104090624-c5bu25o"
+				"colgroup": "||",
+				"id": "20210104090624-c5bu25o",
+				"updated": "20220429115850"
 			},
 			"Children": [
 				{
 					"Type": "NodeTableHead",
+					"Data": "thead",
 					"Children": [
 						{
 							"Type": "NodeTableRow",
+							"Data": "tr",
 							"Children": [
 								{
 									"Type": "NodeTableCell",
+									"Data": "th",
 									"Children": [
 										{
 											"Type": "NodeText",
@@ -70,6 +74,7 @@
 								},
 								{
 									"Type": "NodeTableCell",
+									"Data": "th",
 									"Children": [
 										{
 											"Type": "NodeText",
@@ -79,9 +84,11 @@
 								},
 								{
 									"Type": "NodeTableCell",
+									"Data": "th",
 									"Children": [
 										{
 											"Type": "NodeBlockRef",
+											"Data": "span",
 											"Children": [
 												{
 													"Type": "NodeOpenParen"
@@ -116,45 +123,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "paragraph.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/paragraph-20210512165953-ag1nib4.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -162,6 +162,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -171,6 +172,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -182,45 +184,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "heading.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/heading-20210512170006-7ugwxnm.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -228,6 +223,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -237,6 +233,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -248,45 +245,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "math-block.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/math-block-20210512170015-9v28ii5.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -294,6 +284,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -303,6 +294,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -314,45 +306,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "code-block.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/code-block-20210512170024-qgn18hs.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -360,6 +345,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -369,6 +355,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -380,45 +367,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "table.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/table-20210512170035-432ty41.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -426,6 +406,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -435,6 +416,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -446,45 +428,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
-											"Data": "unordered-list.svg"
+											"Data": "html-block-20220429115636-e80k6ty.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "assets/unordered-list-20210512170043-8dzzwai.svg"
+											"Data": "assets/html-block-20220429115636-e80k6ty.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -492,6 +467,68 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTML 块"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "叶子块"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "unordered-list.svg"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/unordered-list-20210512170043-8dzzwai.svg"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -501,6 +538,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -512,45 +550,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "ordered-list.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/ordered-list-20210512170847-z5581gd.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -558,6 +589,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -567,6 +599,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -578,45 +611,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "task-list.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/task-list-20210512170054-a0a7p2u.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -624,6 +650,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -633,6 +660,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -644,45 +672,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "list-item.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/list-item-20210512170630-gqje0vb.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -690,6 +711,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -699,6 +721,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -710,45 +733,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "blockquote.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/blockquote-20210512170136-ls06uyh.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -756,6 +772,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -765,6 +782,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -776,45 +794,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "super-block.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/super-block-20210512170142-uewen14.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -822,6 +833,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -831,6 +843,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -842,45 +855,38 @@
 				},
 				{
 					"Type": "NodeTableRow",
-					"TableAligns": [
-						0,
-						0,
-						0
-					],
+					"Data": "tr",
 					"Children": [
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!"
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "["
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
 											"Data": "doc.svg"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]"
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "("
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
 											"Data": "assets/doc-20210512170149-zsm2gsu.svg"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")"
+											"Type": "NodeCloseParen"
 										}
 									]
 								}
@@ -888,6 +894,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -897,6 +904,7 @@
 						},
 						{
 							"Type": "NodeTableCell",
+							"Data": "td",
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -1457,7 +1465,8 @@
 			"ID": "20210104090624-8z2zryf",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20210104090624-8z2zryf"
+				"id": "20210104090624-8z2zryf",
+				"updated": "20210104090624"
 			},
 			"Children": [
 				{
@@ -1466,19 +1475,17 @@
 				},
 				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
 							"Data": "|"
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				},
@@ -1488,19 +1495,17 @@
 				},
 				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
 							"Data": "\\"
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				},
@@ -1510,25 +1515,116 @@
 				},
 				{
 					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Data": "code",
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanOpenMarker"
 						},
 						{
 							"Type": "NodeCodeSpanContent",
 							"Data": "\\|"
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`"
+							"Type": "NodeCodeSpanCloseMarker"
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
 					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220429115141-c7omuyq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220429115141-c7omuyq",
+				"updated": "20220429115145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HTML 块"
+				}
+			]
+		},
+		{
+			"ID": "20220429115715-xbwsbnc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220429115715-xbwsbnc",
+				"updated": "20220429115736"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "html-block-20220429115636-e80k6ty.svg"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/html-block-20220429115636-e80k6ty.svg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220429115137-wr4okkr",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cruby\u003e\n你\u003crt\u003enǐ\u003c/rt\u003e\n　好\u003crt\u003e　hǎo\u003c/rt\u003e\n　世\u003crt\u003e　shì\u003c/rt\u003e\n　界\u003crt\u003e　jiè\u003c/rt\u003e\n\u003c/ruby\u003e\u003cbr\u003e\nHello World",
+			"Properties": {
+				"id": "20220429115137-wr4okkr",
+				"updated": "20220429115137"
+			}
+		},
+		{
+			"ID": "20220429115137-qys9mvv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220429115137-qys9mvv",
+				"updated": "20220429115310"
+			},
+			"Children": [
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：使用 HTML 块时不会对其中的代码进行安全过滤，请确认代码安全后再使用，以免遭遇跨站脚本攻击（XSS）。"
 				}
 			]
 		},
