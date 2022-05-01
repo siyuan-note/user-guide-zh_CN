@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "常见问题",
 		"type": "doc",
-		"updated": "20220421192442"
+		"updated": "20220501231314"
 	},
 	"Children": [
 		{
@@ -979,12 +979,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210710111150-ruz44ar",
-				"updated": "20210710111209"
+				"updated": "20220501230219"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "将标题折叠以后再移动。"
+					"Data": "将标题折叠以后再移动。请注意是移动，不是剪切，折叠标题剪切不会带下方块。"
 				}
 			]
 		},
@@ -1066,6 +1066,55 @@
 				{
 					"Type": "NodeText",
 					"Data": "表格块的块标菜单中有操作入口。"
+				}
+			]
+		},
+		{
+			"ID": "20220501230739-whydmx1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220501230739-whydmx1",
+				"updated": "20220501231230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有的块（比如在列表项中的段落块）找不到块标怎么办？"
+				}
+			]
+		},
+		{
+			"ID": "20220501230748-wvrcnzu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220501230748-wvrcnzu",
+				"updated": "20220501231314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在列表项下的第一个子块是省略块标的。可以将光标移到这个块中，然后通过 "
+				},
+				{
+					"Type": "NodeKbd",
+					"Data": "kbd",
+					"Children": [
+						{
+							"Type": "NodeKbdOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Ctrl+/"
+						},
+						{
+							"Type": "NodeKbdCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 触发它的块标菜单。"
 				}
 			]
 		},
@@ -1297,6 +1346,7 @@
 							"ID": "20210918115445-1caj1co",
 							"Type": "NodeParagraph",
 							"Properties": {
+								"fold": "0",
 								"id": "20210918115445-1caj1co",
 								"updated": "20210918115558"
 							},
