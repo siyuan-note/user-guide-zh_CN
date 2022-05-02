@@ -3,9 +3,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20210127202655-2334vvv",
-		"title": "PDF 标注双链",
+		"title": "PDF 标注",
 		"type": "doc",
-		"updated": "20210923104220"
+		"updated": "20220502141008"
 	},
 	"Children": [
 		{
@@ -135,12 +135,12 @@
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20210923103628-oif5bk8",
-				"updated": "20210923103722"
+				"updated": "20220502141000"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "标注双链"
+					"Data": "标注"
 				}
 			]
 		},
@@ -149,12 +149,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210923103723-8fz5i0j",
-				"updated": "20210923104112"
+				"updated": "20220502141008"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "PDF 预览时可使用划选进行标注，标注可复制到文档中形成双向链接："
+					"Data": "PDF 预览时可使用划选进行标注，标注可复制到文档中形成链接："
 				}
 			]
 		},
