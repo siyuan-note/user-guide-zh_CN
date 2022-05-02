@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "常见问题",
 		"type": "doc",
-		"updated": "20220501231314"
+		"updated": "20220502163327"
 	},
 	"Children": [
 		{
@@ -865,7 +865,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210323173015-i71ug1u",
-				"updated": "20211009092408"
+				"updated": "20220502163327"
 			},
 			"Children": [
 				{
@@ -891,7 +891,7 @@
 						},
 						{
 							"Type": "NodeBlockRefText",
-							"Data": "编辑历史"
+							"Data": "数据历史"
 						},
 						{
 							"Type": "NodeCloseParen"

@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220415190432-r3xqn3r",
 		"title": "查询语法",
-		"updated": "20220415234700"
+		"updated": "20220502163531"
 	},
 	"Children": [
 		{
@@ -1239,7 +1239,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20220415212235-jon9dnr",
-				"updated": "20220415225626"
+				"updated": "20220502163519"
 			},
 			"Children": [
 				{
@@ -1252,7 +1252,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "-- 匹配包含 \"one\" 或者 \"two\" 的块，不匹配包含 \"three\" 的块\n... MATCH 'one OR two NOT three'\n\n-- 匹配包含 \"one\" 或者包含 \"two\" 且不包含 \"three\" 的块\n... MATCH 'one OR (two NOT three)'\n"
+					"Data": "-- 匹配包含 \"one\" 或者 \"two\" 的块，不匹配包含 \"three\" 的块\n'one OR two NOT three'\n\n-- 匹配包含 \"one\" 或者包含 \"two\" 且不包含 \"three\" 的块\n'one OR (two NOT three)'\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -1300,7 +1300,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20220415225927-10jqrs9",
-				"updated": "20220415230010"
+				"updated": "20220502163531"
 			},
 			"Children": [
 				{
@@ -1313,7 +1313,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "... MATCH 'one two three'         -- 'one AND two AND three'\n... MATCH 'three \"one two\"'       -- 'three AND \"one two\"'\n... MATCH 'one OR two three'      -- 'one OR two AND three'\n\n... MATCH '(one OR two) three'    -- 语法错误！\n... MATCH 'func(one two)'         -- 语法错误！\n"
+					"Data": "'one two three'         -- 'one AND two AND three'\n'three \"one two\"'       -- 'three AND \"one two\"'\n'one OR two three'      -- 'one OR two AND three'\n\n'(one OR two) three'    -- 语法错误！\n'func(one two)'         -- 语法错误！\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
