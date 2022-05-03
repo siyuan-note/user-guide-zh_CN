@@ -5,7 +5,7 @@
 		"id": "20200915214115-42b8zma",
 		"title": "资源文件",
 		"type": "doc",
-		"updated": "20210626153454"
+		"updated": "20220503121834"
 	},
 	"Children": [
 		{
@@ -498,12 +498,12 @@
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20210615102657-kampx8a",
-				"updated": "20210615102702"
+				"updated": "20220503121605"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "笔记本 assets"
+					"Data": "笔记本级资源文件"
 				}
 			]
 		},
@@ -518,6 +518,87 @@
 				{
 					"Type": "NodeText",
 					"Data": "如果需要默认将插入的资源文件放置在文档同级 assets 文件夹下，则需要先手动创建名为 assets 的文件夹，这样思源会优先选择该 assets 文件夹来存放资源文件。"
+				}
+			]
+		},
+		{
+			"ID": "20220503120950-4e9vwxq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220503120950-4e9vwxq",
+				"updated": "20220503121613"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "建议尽量不要使用笔记本级资源文件，因为这会带来一些副作用："
+				}
+			]
+		},
+		{
+			"ID": "20220503121213-afjyt05",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220503121213-afjyt05",
+				"updated": "20220503121834"
+			},
+			"Children": [
+				{
+					"ID": "20220503121214-haxyvyt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220503121214-haxyvyt",
+						"updated": "20220503121401"
+					},
+					"Children": [
+						{
+							"ID": "20220503121214-cmqtvby",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220503121214-cmqtvby",
+								"updated": "20220503121401"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除该笔记本时，为保证跨笔记本资源文件引用正常工作，该笔记本下的资源文件会被批量复制到全局 assets 中"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220503121359-3hqko22",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220503121359-3hqko22",
+						"updated": "20220503121834"
+					},
+					"Children": [
+						{
+							"ID": "20220503121359-amc47nl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220503121359-amc47nl",
+								"updated": "20220503121834"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不支持在数据历史中查看笔记本级资源文件历史"
+								}
+							]
+						}
+					]
 				}
 			]
 		}
