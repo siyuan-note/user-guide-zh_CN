@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20210721103420-vn6g2yy",
 		"title": "数据同步",
-		"updated": "20220420100248"
+		"updated": "20220510104801"
 	},
 	"Children": [
 		{
@@ -420,12 +420,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20210721103726-sbnev8w",
-				"updated": "20220307092200"
+				"updated": "20220510104539"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "每隔一段时间，思源会自动比较一次云端和本地数据版本，根据版本进行相应操作："
+					"Data": "思源通过对比云端数据版本和本地数据版本进行相应操作："
 				}
 			]
 		},
@@ -435,7 +435,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210721105306-biv12a6",
-				"updated": "20210901163421"
+				"updated": "20220510104208"
 			},
 			"Children": [
 				{
@@ -475,7 +475,7 @@
 					},
 					"Properties": {
 						"id": "20210721105305-dt1ritx",
-						"updated": "20210901163411"
+						"updated": "20220510104208"
 					},
 					"Children": [
 						{
@@ -483,7 +483,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210721105305-kx4c8fj",
-								"updated": "20210901163411"
+								"updated": "20220510104208"
 							},
 							"Children": [
 								{
@@ -519,7 +519,7 @@
 										},
 										{
 											"Type": "NodeCodeSpanContent",
-											"Data": "工作空间/.siyuan/history/"
+											"Data": "工作空间/history/"
 										},
 										{
 											"Type": "NodeCodeSpanCloseMarker"
@@ -556,7 +556,15 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果云端版本小于本地，则扫描 "
+									"Data": "如果"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "云端"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "版本小于本地，则扫描 "
 								},
 								{
 									"Type": "NodeCodeSpan",
@@ -596,7 +604,96 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": " 文件夹下，最后进行上传并覆盖云端数据"
+									"Data": " 文件夹下，最后进行上传并覆盖"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "云端"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "数据"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220510104118-7cotqs7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220510104118-7cotqs7",
+				"updated": "20220510104547"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "版本对比每隔一段时间自动进行，时间间隔算法描述如下："
+				}
+			]
+		},
+		{
+			"ID": "20220510104432-nqhh77i",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220510104432-nqhh77i",
+				"updated": "20220510104801"
+			},
+			"Children": [
+				{
+					"ID": "20220510104432-99v4mql",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220510104432-99v4mql",
+						"updated": "20220510104612"
+					},
+					"Children": [
+						{
+							"ID": "20220510104432-x4d9mha",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220510104432-x4d9mha",
+								"updated": "20220510104612"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据变动后 30 秒如果不再发生变动则进行一次对比，如果继续发生变动则顺延 30 秒"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220510104612-j7d18m3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220510104612-j7d18m3",
+						"updated": "20220510104801"
+					},
+					"Children": [
+						{
+							"ID": "20220510104612-r3dj61v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220510104612-r3dj61v",
+								"updated": "20220510104801"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "没有数据变动则按 5 分钟、8 分钟、16 分钟、32 分钟……递增间隔"
 								}
 							]
 						}
