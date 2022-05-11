@@ -6,7 +6,7 @@
 		"id": "20200813163359-v04n73b",
 		"title": "隐私政策和用户协议",
 		"type": "doc",
-		"updated": "20220227105616"
+		"updated": "20220511113654"
 	},
 	"Children": [
 		{
@@ -4166,6 +4166,73 @@
 			]
 		},
 		{
+			"ID": "20220511113456-gcc1dea",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220511113456-gcc1dea",
+				"updated": "20220511113501"
+			},
+			"Children": [
+				{
+					"ID": "20220511113456-1a2qrm8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220511113456-1a2qrm8",
+						"updated": "20220511113456"
+					},
+					"Children": [
+						{
+							"ID": "20220511113456-hagx7tt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220511113456-hagx7tt",
+								"updated": "20220511113456"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发布日期：2022 年 2 月 11 日"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220511113456-u7wd33k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220511113456-u7wd33k",
+						"updated": "20220511113501"
+					},
+					"Children": [
+						{
+							"ID": "20220511113456-p9wsd8q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220511113456-p9wsd8q",
+								"updated": "20220511113501"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最新日期：2022 年 5 月 11 日"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"ID": "20210104090915-a04zhlh",
 			"Type": "NodeParagraph",
 			"Properties": {
@@ -4327,40 +4394,33 @@
 			"ID": "20210104090915-0ax0fha",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1,
-				"Tight": true,
-				"Start": 1,
-				"Delimiter": 46,
-				"Padding": 3,
-				"Marker": "MQ==",
-				"Num": 1
+				"Typ": 1
 			},
 			"Properties": {
-				"id": "20210104090915-0ax0fha"
+				"id": "20210104090915-0ax0fha",
+				"updated": "20220511113654"
 			},
 			"Children": [
 				{
 					"ID": "20210104090915-fsygbeb",
 					"Type": "NodeListItem",
-					"Data": "1",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 1,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "MQ==",
+						"Marker": "MS4=",
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20210104090915-fsygbeb"
+						"id": "20210104090915-fsygbeb",
+						"updated": "20210302223426"
 					},
 					"Children": [
 						{
 							"ID": "20210302223426-3q23bq2",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210302223426-3q23bq2"
+								"id": "20210302223426-3q23bq2",
+								"updated": "20210302223426"
 							},
 							"Children": [
 								{
@@ -4372,27 +4432,55 @@
 					]
 				},
 				{
-					"ID": "20210104090915-q19dcjt",
+					"ID": "20220511113528-mrrcm2w",
 					"Type": "NodeListItem",
-					"Data": "2",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 2,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "Mg==",
+						"Marker": "Mi4=",
 						"Num": 2
 					},
 					"Properties": {
-						"id": "20210104090915-q19dcjt"
+						"id": "20220511113528-mrrcm2w",
+						"updated": "20220511113654"
+					},
+					"Children": [
+						{
+							"ID": "20220511113528-yf5id9c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220511113528-yf5id9c",
+								"updated": "20220511113654"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "禁止共享用户账号使用本软件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20210104090915-q19dcjt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20210104090915-q19dcjt",
+						"updated": "20210302223426"
 					},
 					"Children": [
 						{
 							"ID": "20210302223426-h2ew654",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20210302223426-h2ew654"
+								"id": "20210302223426-h2ew654",
+								"updated": "20210302223426"
 							},
 							"Children": [
 								{
