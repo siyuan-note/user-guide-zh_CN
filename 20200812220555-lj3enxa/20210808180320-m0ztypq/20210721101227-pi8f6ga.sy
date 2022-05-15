@@ -135,40 +135,6 @@
 					]
 				}
 			]
-		},
-		{
-			"ID": "20210721102901-k4cs79p",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20210721102901-k4cs79p",
-				"updated": "20210721154411"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "空间大小可通过推荐新的付费订阅用户进行扩容，每推荐一个新订阅用户，则双方都奖励 500M 存储空间以及延长 7 天使用。每个账号的推荐上限次数为 32 次，也就是说理论上可以免费扩容到 "
-				},
-				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "24G"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "。"
-				}
-			]
 		}
 	]
 }
