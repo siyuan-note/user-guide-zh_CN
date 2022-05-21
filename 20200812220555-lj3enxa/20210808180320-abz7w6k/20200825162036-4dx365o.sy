@@ -6,7 +6,7 @@
 		"title": "排版元素",
 		"title-img": "background-color: hsl(2, 57%, 40%);background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);",
 		"type": "doc",
-		"updated": "20210608113914"
+		"updated": "20220521234027"
 	},
 	"Children": [
 		{
@@ -30,7 +30,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20210104091228-ttcj9nm",
-				"updated": "20220115193648"
+				"updated": "20220521234027"
 			},
 			"Children": [
 				{
@@ -593,7 +593,7 @@
 					},
 					"Properties": {
 						"id": "20210604221118-nprm47c",
-						"updated": "20220115192916"
+						"updated": "20220521234027"
 					},
 					"Children": [
 						{
@@ -601,7 +601,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20210604221118-w4uhyi1",
-								"updated": "20210604221620"
+								"updated": "20220521234027"
 							},
 							"Children": [
 								{
@@ -869,7 +869,7 @@
 									"Type": "NodeStrong",
 									"Data": "strong",
 									"Properties": {
-										"style": "color: var(--b3-font-color11); background-color: var(--b3-font-background11);"
+										"style": "color: var(--b3-font-color10); background-color: var(--b3-font-background10);"
 									},
 									"Children": [
 										{
@@ -879,6 +879,35 @@
 										{
 											"Type": "NodeText",
 											"Data": "颜色 10"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color10); background-color: var(--b3-font-background10);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Properties": {
+										"style": "color: var(--b3-font-color11); background-color: var(--b3-font-background11);"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "颜色 11"
 										},
 										{
 											"Type": "NodeStrongA6kCloseMarker",
@@ -907,7 +936,7 @@
 										},
 										{
 											"Type": "NodeText",
-											"Data": "颜色 11"
+											"Data": "颜色 12"
 										},
 										{
 											"Type": "NodeStrongA6kCloseMarker",
@@ -936,35 +965,6 @@
 										},
 										{
 											"Type": "NodeText",
-											"Data": "颜色 12"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeKramdownSpanIAL",
-									"Data": "{: style=\"color: var(--b3-font-color13); background-color: var(--b3-font-background13);\"}"
-								},
-								{
-									"Type": "NodeText",
-									"Data": " "
-								},
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Properties": {
-										"style": "color: var(--b3-font-color10); background-color: var(--b3-font-background10);"
-									},
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
 											"Data": "颜色 13"
 										},
 										{
@@ -975,7 +975,7 @@
 								},
 								{
 									"Type": "NodeKramdownSpanIAL",
-									"Data": "{: style=\"color: var(--b3-font-color10); background-color: var(--b3-font-background10);\"}"
+									"Data": "{: style=\"color: var(--b3-font-color13); background-color: var(--b3-font-background13);\"}"
 								},
 								{
 									"Type": "NodeText",
