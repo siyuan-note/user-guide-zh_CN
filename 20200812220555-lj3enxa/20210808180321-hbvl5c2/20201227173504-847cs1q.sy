@@ -24,36 +24,121 @@
 			]
 		},
 		{
-			"ID": "20201227173504-opkavin",
+			"ID": "20220521230037-88non27",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20201227173504-opkavin",
-				"updated": "20220518212923"
+				"id": "20220521230037-88non27",
+				"updated": "20220521230037"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "在服务器上伺服思源最简单的方案是通过 Docker 部署，镜像名称是 "
-				},
+					"Data": "在服务器上伺服思源最简单的方案是通过 Docker 部署。"
+				}
+			]
+		},
+		{
+			"ID": "20220521230037-om41ir0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220521230037-om41ir0",
+				"updated": "20220521230037"
+			},
+			"Children": [
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
+					"ID": "20220521230037-eywv3c8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220521230037-eywv3c8",
+						"updated": "20220521230037"
+					},
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "b3log/siyuan"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
+							"ID": "20220521230037-gbdcmqs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220521230037-gbdcmqs",
+								"updated": "20220521230037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "镜像名称 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "b3log/siyuan"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
 						}
 					]
 				},
 				{
-					"Type": "NodeText",
-					"Data": "。"
+					"ID": "20220521230037-cgc39jg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220521230037-cgc39jg",
+						"updated": "20220521230037"
+					},
+					"Children": [
+						{
+							"ID": "20220521230037-ssjdnm5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220521230037-ssjdnm5",
+								"updated": "20220521230037"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "镜像地址"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://hub.docker.com/r/b3log/siyuan"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
 				}
 			]
 		},
