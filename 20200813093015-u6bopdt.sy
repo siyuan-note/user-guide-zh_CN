@@ -6,7 +6,7 @@
 		"id": "20200813093015-u6bopdt",
 		"title": "常见问题",
 		"type": "doc",
-		"updated": "20220502163327"
+		"updated": "20220526112824"
 	},
 	"Children": [
 		{
@@ -417,44 +417,96 @@
 			]
 		},
 		{
-			"ID": "20220208224358-1a90xot",
+			"ID": "20220526112824-pwyh65i",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220208224358-1a90xot",
-				"updated": "20220208224358"
+				"id": "20220526112824-pwyh65i",
+				"updated": "20220526112824"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "目前并没有完全开源，但已开源部分组件和应用端，欢迎参与贡献。"
+					"Data": "思源笔记是完全开源的，欢迎参与贡献："
 				}
 			]
 		},
 		{
-			"ID": "20220208224358-mvqvv61",
+			"ID": "20220526112824-mw30a1z",
 			"Type": "NodeList",
 			"ListData": {},
 			"Properties": {
-				"id": "20220208224358-mvqvv61",
-				"updated": "20220208224358"
+				"id": "20220526112824-mw30a1z",
+				"updated": "20220526112824"
 			},
 			"Children": [
 				{
-					"ID": "20220208224358-owvehd5",
+					"ID": "20220526112824-wdib9l3",
 					"Type": "NodeListItem",
 					"ListData": {
 						"BulletChar": 42,
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220208224358-owvehd5"
+						"id": "20220526112824-wdib9l3",
+						"updated": "20220526112824"
 					},
 					"Children": [
 						{
-							"ID": "20220208224358-xmopz1k",
+							"ID": "20220526112824-1s97hgn",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220208224358-xmopz1k"
+								"id": "20220526112824-1s97hgn",
+								"updated": "20220526112824"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "界面和内核"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://github.com/siyuan-note/siyuan"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220526112824-r9uu71u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220526112824-r9uu71u",
+						"updated": "20220526112824"
+					},
+					"Children": [
+						{
+							"ID": "20220526112824-fxlsr6k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220526112824-fxlsr6k",
+								"updated": "20220526112824"
 							},
 							"Children": [
 								{
@@ -488,21 +540,23 @@
 					]
 				},
 				{
-					"ID": "20220208224358-ylpvpa7",
+					"ID": "20220526112824-laytsux",
 					"Type": "NodeListItem",
 					"ListData": {
 						"BulletChar": 42,
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220208224358-ylpvpa7"
+						"id": "20220526112824-laytsux",
+						"updated": "20220526112824"
 					},
 					"Children": [
 						{
-							"ID": "20220208224358-8cbah55",
+							"ID": "20220526112824-steff8d",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220208224358-8cbah55"
+								"id": "20220526112824-steff8d",
+								"updated": "20220526112824"
 							},
 							"Children": [
 								{
@@ -536,21 +590,23 @@
 					]
 				},
 				{
-					"ID": "20220208224358-balzhrq",
+					"ID": "20220526112824-w23ystc",
 					"Type": "NodeListItem",
 					"ListData": {
 						"BulletChar": 42,
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220208224358-balzhrq"
+						"id": "20220526112824-w23ystc",
+						"updated": "20220526112824"
 					},
 					"Children": [
 						{
-							"ID": "20220208224358-h43b744",
+							"ID": "20220526112824-8p1ws46",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220208224358-h43b744"
+								"id": "20220526112824-8p1ws46",
+								"updated": "20220526112824"
 							},
 							"Children": [
 								{
@@ -584,21 +640,23 @@
 					]
 				},
 				{
-					"ID": "20220208224358-ulgqe7f",
+					"ID": "20220526112824-7j84l70",
 					"Type": "NodeListItem",
 					"ListData": {
 						"BulletChar": 42,
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220208224358-ulgqe7f"
+						"id": "20220526112824-7j84l70",
+						"updated": "20220526112824"
 					},
 					"Children": [
 						{
-							"ID": "20220208224358-ie99gbx",
+							"ID": "20220526112824-liqewqo",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220208224358-ie99gbx"
+								"id": "20220526112824-liqewqo",
+								"updated": "20220526112824"
 							},
 							"Children": [
 								{
@@ -632,21 +690,23 @@
 					]
 				},
 				{
-					"ID": "20220208224358-7tmz40j",
+					"ID": "20220526112824-2s9lzl6",
 					"Type": "NodeListItem",
 					"ListData": {
 						"BulletChar": 42,
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220208224358-7tmz40j"
+						"id": "20220526112824-2s9lzl6",
+						"updated": "20220526112824"
 					},
 					"Children": [
 						{
-							"ID": "20220208224358-ggpq7o8",
+							"ID": "20220526112824-ib9nppy",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220208224358-ggpq7o8"
+								"id": "20220526112824-ib9nppy",
+								"updated": "20220526112824"
 							},
 							"Children": [
 								{
@@ -680,21 +740,23 @@
 					]
 				},
 				{
-					"ID": "20220208224358-weehvly",
+					"ID": "20220526112824-me0cl0l",
 					"Type": "NodeListItem",
 					"ListData": {
 						"BulletChar": 42,
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220208224358-weehvly"
+						"id": "20220526112824-me0cl0l",
+						"updated": "20220526112824"
 					},
 					"Children": [
 						{
-							"ID": "20220208224358-2c9jqfm",
+							"ID": "20220526112824-rpzg6td",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220208224358-2c9jqfm"
+								"id": "20220526112824-rpzg6td",
+								"updated": "20220526112824"
 							},
 							"Children": [
 								{
@@ -728,21 +790,23 @@
 					]
 				},
 				{
-					"ID": "20220208224358-jz3qkw8",
+					"ID": "20220526112824-zp2o0bd",
 					"Type": "NodeListItem",
 					"ListData": {
 						"BulletChar": 42,
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220208224358-jz3qkw8"
+						"id": "20220526112824-zp2o0bd",
+						"updated": "20220526112824"
 					},
 					"Children": [
 						{
-							"ID": "20220208224358-i1wvgkb",
+							"ID": "20220526112824-f3e6e6n",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220208224358-i1wvgkb"
+								"id": "20220526112824-f3e6e6n",
+								"updated": "20220526112824"
 							},
 							"Children": [
 								{
@@ -776,21 +840,23 @@
 					]
 				},
 				{
-					"ID": "20220208224358-aliydbh",
+					"ID": "20220526112824-2mtov7k",
 					"Type": "NodeListItem",
 					"ListData": {
 						"BulletChar": 42,
 						"Marker": "Kg=="
 					},
 					"Properties": {
-						"id": "20220208224358-aliydbh"
+						"id": "20220526112824-2mtov7k",
+						"updated": "20220526112824"
 					},
 					"Children": [
 						{
-							"ID": "20220208224358-m1dm4hg",
+							"ID": "20220526112824-gabagvr",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220208224358-m1dm4hg"
+								"id": "20220526112824-gabagvr",
+								"updated": "20220526112824"
 							},
 							"Children": [
 								{
@@ -822,6 +888,50 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20220526112824-zm96ym7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526112824-zm96ym7",
+				"updated": "20220526112824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更多细节请参考"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "开发指南"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/siyuan-note/siyuan/blob/master/DEV_zh_CN.md"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
 				}
 			]
 		},
